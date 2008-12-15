@@ -76,7 +76,7 @@ a:hover {
 }
 
 div h1 + p:first-letter {
-	font-size: 42px;
+	font-size: 48px;
 	padding: 0 0.1em 0 0;
 	margin: 0.15em 0 0 0;
 	line-height: 0.85em;
@@ -181,6 +181,19 @@ code {
 
 
 /* @group js-kit */
+h2#comments {
+	margin-top: 4.5em;
+}
+div.js-CreateCommentBg {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+div.js-commentFieldSubject {
+		font-family: 'lucida sans', sans-serif;	
+	font-size: 100%;
+}
 div.js-CommentsArea {
 	margin-top: 1.5em;
 }
@@ -188,24 +201,33 @@ div.js-CommentsArea {
 div.js-singleComment {
 	font-size: 100%;
 	border: none;
-	margin-bottom: 1em;
+	margin-bottom: 3em;
 	font-family: Palatino, georgia, serif;
+}
+div.js-singleCommentText {
+	padding: 0;
+	margin: 0;
 }
 div.js-singleCommentBg {
 	padding: 0;
 }
+div.js-singleCommentDepth0 {
+}
 div.js-singleCommentDepth1 {
-	margin-left: 1em !important;
-	border-left: 1px dashed grey;
-	padding-left: 0.5em;
+	margin-left: 0 !important;
 }
 div.js-singleCommentName {
 	text-decoration: none !important;
 }
 div.js-singleCommentCtls {
+	padding: 0;
+	line-height: 1.2em;
+	color: grey;
 	font-size: smaller;
 }
-
+div.js-singleCommentCtls a {
+	color: grey;
+}
 div.js-poweredBy {
 	display: none;
 }
