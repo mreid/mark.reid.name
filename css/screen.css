@@ -1,192 +1,213 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
+/* @override http://mark.reid.dev/css/screen.css */
 
-/* Global Reset */
+/* screen.css
+ *
+ * A clean, simple stylesheet that aims for
+ * a consistent vertical rhythm.
+ *
+ * Base font height: 16px
+ * Base line lenght: 24px
+ * 
+ */
 
-* {
-  margin: 0;
-  padding: 0;
+/* @group Reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td,abbr {
+	margin:0;
+	padding:0;
 }
-
-html, body {
-  height: 100%;
-}
+/* @end */
 
 body {
-  background-color: white;
-  font: 13.34px helvetica, arial, clean, sans-serif;
-  *font-size: small;
-  text-align: center;
+	margin:3em 6em;
+	font-family: palatino, georgia, "times new roman", serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
+/* IE6 ignores this and uses default size of 16pt */
+html>body {
+	font-size:16px;
 }
-
-h1 {
-  margin-bottom: 1em;
-}
-
 p {
-  margin: 1em 0;
+	margin:1.5em 0 0 0;
+	text-align: justify;
 }
 
 a {
-  color: #00a;
+	text-decoration: none;
+	color: #339;
 }
-
 a:hover {
-  color: black;
+	text-decoration: underline;
+	color: #33f;
 }
-
-a:visited {
-  color: #a0a;
+#title {
+	float: right;
+	height: 100%;
+	right: 1em;
+	top: 1em;
+	font-variant: small-caps;
+	line-height: 1.5em;
+	text-align: right;
 }
-
-table {
-  font-size: inherit;
-  font: 100%;
+#title a { text-decoration: none; }
+#title a:hover { text-shadow: 2px ; }
+#title .extra {
+	display: block;
+	color: grey;
+	font-size: small;
+	text-align: right;
 }
-
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-  ul.posts li {
-    line-height: 1.75em;
-  }
-
-  ul.posts span {
-    color: #aaa;
-    font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
-  }
-
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-
-.site {
-  font-size: 110%;
-  text-align: justify;
-  width: 40em;
-  margin: 3em auto 2em auto;
-  line-height: 1.5em;
-}
-
-.title {
-  color: #a00;
-  font-weight: bold;
-  margin-bottom: 2em;
-}
-
-  .site .title a {
-    color: #a00;
-    text-decoration: none;
-  }
-  
-  .site .title a:hover {
-    color: black;
-  }
-
-  .site .title a.extra {
-    color: #aaa;
-    text-decoration: none;
-    margin-left: 1em;
-  }
-  
-  .site .title a.extra:hover {
-    color: black;
-  }
-
-  .site .meta {
-    color: #aaa;
-  }
-
-  .site .footer {
-    font-size: 80%;
-    color: #666;
-    border-top: 4px solid #eee;
-    margin-top: 2em;
-    overflow: hidden;
-  }
-  
-    .site .footer .contact {
-      float: left;
-      margin-right: 3em;
-    }
-    
-      .site .footer .contact a {
-        color: #8085C1;
-      }
-    
-    .site .footer .rss {
-      margin-top: 1.1em;
-      margin-right: -.2em;
-      float: right;
-    }
-    
-      .site .footer .rss img {
-        border: 0;
-      }
-    
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
 #post {
-  
+	font-size:1em;
+	line-height:1.5em;
+
+	max-width: 550px;
+	padding: 0 2em 2em 0;
+}
+#post address {
+	margin-top: 3em;
+	text-align: right;
+}
+#footer {
+	color: grey;
+}
+#footer a {
+	color: grey;
+	text-decoration: none;
 }
 
-  /* standard */
-  
-  #post pre {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    padding: 0 .4em;
-  }
-  
-  #post code {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    font-size: 95%;
-    padding: 0 .2em;
-  }
-  
-    #post pre code {
-      border: none;
-    }
-    
-  /* terminal */
-  
-  #post pre.terminal {
-    border: 1px solid black;
-    background-color: #333;
-    color: white;
-  }
-  
-  #post pre.terminal code {
-    background-color: #333;
-  }
-
-#related {
-  margin-top: 2em;
+div h1 + p:first-letter {
+	font-size: 42px;
+	padding: 0 0.1em 0 0;
+	margin: 0.15em 0 0 0;
+	line-height: 0.85em;
+	float: left;
+}
+div h1 + p:first-line {
+	font-variant: small-caps;
+	font-size: larger;
 }
 
-  #related h2 {
-    margin-bottom: 1em;
-  }
+blockquote {
+	margin: 1.72em 1.42em 1.72em 1.42em;
+	font-size: 0.875em;
+	line-height: 1.42em;
+}
+
+/* @group Figures and images */
+dl.figure {
+	margin-top: 1.5em;
+	text-align: center;
+}
+
+dl.figure dd {
+	color: #333;
+	font-size: 0.875em;
+	margin: 0.875em auto 0 auto;
+	line-height: 1.14em;
+	text-align: justify;
+	width: 85%;
+}
+/* @end */
+
+/* @group Equations */
+/* displayeqN will provide spacing for N times the vertical rhythm */
+div.maruku-equation { display: block ;text-align: center; }
+div.maruku-equation img.maruku-png { position: relative; top: 0.75em;}
+span.maruku-inline { }
+img.maruku-png { }
+/* @end */
+
+h1, h2, h3, h4 {
+	font-family: 'lucida sans', sans-serif;	
+}
+h1,h2,h3,h4 {
+	line-height:1em;
+	font-size:1.5em;
+	font-weight:normal;
+	margin:2em 0 0em 0;
+}
+
+hr {
+	border-top: 1px solid grey;
+	border-bottom: none;
+	padding: 0;
+	margin: 20px 0 0 0;
+}
+
+h2 {
+	font-size:1em;
+	line-height: 1.5em;
+	margin:1.5em 0 0.5em 0;
+	font-weight:bold;
+}
+center {
+	margin: 1em 0 1em 0;
+}
+.banner, #blog-description,abbr {
+	display: none;
+}
+
+/* @group Lists */
+ul {
+	margin-top: 1.5em;
+	line-height: 1.5em;
+	padding-left: 1.5em;
+}
+li {
+	list-style-type: square;
+	list-style-position: outside;
+}
+/* @end */
+
+/* @group Code */
+pre {
+	line-height: 1.5em;	
+	color: #111;
+	border-left: 16px solid #ddd;
+	border-right: 1px solid #ddd;
+	margin: 1.5em 0 1.5em 0;
+	padding: 0 0 0 1em;
+	overflow: hidden;
+}
+pre:hover {
+	border-right: none;
+	overflow: visible;
+}
+code {
+	font-size: 0.9em; /* Hack to make code look same size as body font */  
+	line-height: 1.5em;
+}
+/* @end */
+
+
+/* @group js-kit */
+div.js-CommentsArea {
+	margin-top: 1.5em;
+}
+
+div.js-singleComment {
+	font-size: 100%;
+	border: none;
+	margin-bottom: 1em;
+	font-family: Palatino, georgia, serif;
+}
+div.js-singleCommentBg {
+	padding: 0;
+}
+div.js-singleCommentDepth1 {
+	margin-left: 1em !important;
+	border-left: 1px dashed grey;
+	padding-left: 0.5em;
+}
+div.js-singleCommentName {
+	text-decoration: none !important;
+}
+div.js-singleCommentCtls {
+	font-size: smaller;
+}
+
+div.js-poweredBy {
+	display: none;
+}
+/* @end */
+
