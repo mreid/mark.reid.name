@@ -40,27 +40,32 @@ a:hover {
 	color: #33f;
 }
 #title {
+	font-variant: small-caps;
 	float: right;
 	height: 100%;
 	right: 1em;
 	top: 1em;
-	font-variant: small-caps;
 	line-height: 1.5em;
 	text-align: right;
 }
-#title a { text-decoration: none; }
-#title a:hover { text-shadow: 2px ; }
-#title .extra {
+#title a { 
+	text-decoration: none; 
 	display: block;
+}
+#title a:hover { 
+	text-shadow: silver 2px 2px 1px; 
+	color: black;
+}
+#title .extra {
 	color: grey;
-	font-size: small;
 	text-align: right;
 }
+
 #post {
 	font-size:1em;
 	line-height:1.5em;
 
-	max-width: 550px;
+	max-width: 36em;
 	padding: 0 2em 2em 0;
 }
 #post address {
@@ -77,9 +82,9 @@ a:hover {
 
 div h1 + p:first-letter {
 	font-size: 48px;
-	padding: 0 0.1em 0 0;
-	margin: 0.15em 0 0 0;
-	line-height: 0.85em;
+	padding: 0 0.15em 0 0;
+	margin:  0.05em 0 -0.15em 0;
+	line-height: 1em;
 	float: left;
 }
 div h1 + p:first-line {
@@ -110,7 +115,6 @@ dl.figure dd {
 /* @end */
 
 /* @group Equations */
-/* displayeqN will provide spacing for N times the vertical rhythm */
 div.maruku-equation { display: block ;text-align: center; }
 div.maruku-equation img.maruku-png { position: relative; top: 0.75em;}
 span.maruku-inline { }
@@ -125,6 +129,9 @@ h1,h2,h3,h4 {
 	font-size:1.5em;
 	font-weight:normal;
 	margin:2em 0 0em 0;
+}
+h2#comments {
+	margin-top: 4.5em;
 }
 
 hr {
@@ -176,60 +183,6 @@ pre:hover {
 code {
 	font-size: 0.9em; /* Hack to make code look same size as body font */  
 	line-height: 1.5em;
-}
-/* @end */
-
-
-/* @group js-kit */
-h2#comments {
-	margin-top: 4.5em;
-}
-div.js-CreateCommentBg {
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	border: none;
-}
-div.js-commentFieldSubject {
-		font-family: 'lucida sans', sans-serif;	
-	font-size: 100%;
-}
-div.js-CommentsArea {
-	margin-top: 1.5em;
-}
-
-div.js-singleComment {
-	font-size: 100%;
-	border: none;
-	margin-bottom: 3em;
-	font-family: Palatino, georgia, serif;
-}
-div.js-singleCommentText {
-	padding: 0;
-	margin: 0;
-}
-div.js-singleCommentBg {
-	padding: 0;
-}
-div.js-singleCommentDepth0 {
-}
-div.js-singleCommentDepth1 {
-	margin-left: 0 !important;
-}
-div.js-singleCommentName {
-	text-decoration: none !important;
-}
-div.js-singleCommentCtls {
-	padding: 0;
-	line-height: 1.2em;
-	color: grey;
-	font-size: smaller;
-}
-div.js-singleCommentCtls a {
-	color: grey;
-}
-div.js-poweredBy {
-	display: none;
 }
 /* @end */
 

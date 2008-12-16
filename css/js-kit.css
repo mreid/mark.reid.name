@@ -1,0 +1,91 @@
+/* @override http://mark.reid.dev/css/js-kit.css */
+/**
+ * Simple, clean styling for js-kit comments.
+ * 
+ * AUTHOR: 	Mark Reid <mark@reid.name>
+ * CREATED:	15 Dec 2008
+ */
+div.js-kit-comments {
+	padding: 0;
+}
+div.js-CreateComment {
+	margin-bottom: 1.5em;
+}
+div.js-CreateCommentBg {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+div.js-commentFieldSubject {
+	font-family: 'lucida sans', sans-serif;	
+	font-size: 100%;
+}
+div.js-CommentsArea {
+	margin-top: 1.5em;
+}
+
+div.js-singleComment {
+	text-align: justify;
+	font-size: 100%;
+	border: none;
+	margin-bottom: 2em;
+	font-family: Palatino, georgia, serif;
+}
+div.js-singleCommentText {
+	padding: 0;
+	margin: 0;
+}
+div.js-singleCommentBg {
+	padding: 0;
+}
+div.js-singleCommentDepth0 {
+}
+div.js-singleCommentDepth1 {
+	margin-left: 0 !important;
+}
+div.js-singleCommentName {
+	text-decoration: none !important;
+}
+div.js-singleCommentINFO {
+	float: none;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+div.js-singleCommentName:hover { 
+	color: blue; 
+}
+div.js-singleCommentName {
+	display: inline;
+	width: 50%;
+}
+div.js-singleCommentDate {
+	font-size: 75%;
+	line-height: 2em;
+	display: inline;
+	right: 0em;
+	position: absolute;
+}
+div.js-singleCommentCtls {
+	margin-top: 0em;
+	padding: 0;
+	line-height: 1.4em;
+	color: grey;
+	font-size: 75%;
+	float: none;
+	text-align: right;
+}
+a.js-singleCommentReply:hover { color: blue; }
+div.js-commentTool font {
+	display: none;
+}
+div.js-singleCommentCtls a {
+	color: grey;
+}
+div.js-poweredBy {
+	display: none;
+}
+div.js-commentFieldSubject {
+	margin-bottom: 0;
+}
