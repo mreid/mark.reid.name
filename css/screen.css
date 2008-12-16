@@ -18,7 +18,8 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,t
 /* @end */
 
 body {
-	margin:3em 6em;
+	background: #fefef8;
+	margin:3em 3em 2em 5em;
 	font-family: palatino, georgia, "times new roman", serif;
 }
 
@@ -39,26 +40,37 @@ a:hover {
 	text-decoration: underline;
 	color: #33f;
 }
-#title {
-	font-variant: small-caps;
+#sidebar {
 	float: right;
-	height: 100%;
-	right: 1em;
-	top: 1em;
+	margin-left: 1em;
+}
+#title {
+	font-family: 'lucida sans', sans-serif;
+	display: block;
 	line-height: 1.5em;
 	text-align: right;
 }
-#title a { 
+#title a {
+	color: #444;
 	text-decoration: none; 
+}
+#nav a {
+	text-decoration: none;
 	display: block;
 }
-#title a:hover { 
+#nav a:hover { 
 	text-shadow: silver 2px 2px 1px; 
 	color: black;
+	margin-right: -2.6ex;
 }
-#title .extra {
+#nav a:hover:after {
+	content: ' ☜';
+}
+#nav {
+	font-variant: small-caps;
 	color: grey;
 	text-align: right;
+	line-height: 1.5em;
 }
 
 #post {
@@ -71,6 +83,12 @@ a:hover {
 #post address {
 	margin-top: 3em;
 	text-align: right;
+}
+ul.posts li {
+	list-style: none;
+}
+ul.posts li span {
+	color:  grey;
 }
 #footer {
 	color: grey;
