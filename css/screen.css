@@ -84,12 +84,21 @@ a:hover {
 	margin-top: 3em;
 	text-align: right;
 }
-ul.posts li {
-	list-style: none;
+
+ul.posts { margin: 1em 0 1em 0; }
+ul.posts li { color:  grey; }
+ul.posts li span { }
+ul.posts li a { margin-left: 1em; }
+ul.posts li a:hover { text-decoration: none; }
+ul.posts li a:hover:after { content:' ☞'; color: black;}
+
+#post h1:before {
+	font-size: smaller;
+	margin-left: -1.8em;
+	margin-right: 0.5em;
+	content: '☞ ';
 }
-ul.posts li span {
-	color:  grey;
-}
+
 #footer {
 	color: grey;
 }
@@ -165,9 +174,7 @@ h2 {
 	margin:1.5em 0 0.5em 0;
 	font-weight:bold;
 }
-center {
-	margin: 1em 0 1em 0;
-}
+
 .banner, #blog-description,abbr {
 	display: none;
 }
