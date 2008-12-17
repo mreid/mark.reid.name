@@ -19,8 +19,10 @@ body {
 	font-family: Palatino, georgia, "times new roman", serif;
 }
 /* A little hack to aid debugging the grid
-body:hover { background-image: url(grid); }
- */
+body:hover {
+	background: url(grid) 0 0.5em;
+}
+*/
 
 /* IE6 ignores this and uses default size of 16pt */
 html>body { font-size:16px; }
@@ -84,20 +86,30 @@ code {
 }
 
 #header, #header a { color: silver; }
-#header .hover { color: transparent; }
+#header .hover { color: #fefef8; }
 #header:hover { color: black; }
 #header:hover a { color: #339; }
 #header:hover a:hover { color: #33f; text-decoration: none;}
-#header:hover .hover { color: silver; }
+#header:hover .hover { color: grey; }
 #header {
 	position: relative;
 	font-variant: small-caps;
 	line-height: 1em;
+	margin-top: .5em;
 	margin-bottom: 1.5em;
 }
+#header a:after {
+	color: #fefef8;
+	content: '.\00a0';
+}
+#header:hover a:after {
+	color: grey;
+	content: '.\00a0';
+}
 #header h1 {
+	border-bottom: 1px solid silver;
 	font-family: palatino, georgia, serif;
-	display: inline;
+	display: block;
 }
 #header p {  margin: 0; font-size: 75%; line-height: 2em ;}
 #header p:first-line { font-variant: normal; }
@@ -112,15 +124,16 @@ code {
 	position: absolute;
 	top: 0;
 	right: 0;
-	float: right;
 	font-size: 100%;
 	line-height: 1.74em;
-	display: inline;
+	display: block;
 	margin: 0;
+	width: 50%;
+	text-align: right;
 }
 #header ul li {
-	margin: 0 0 0 1em;
-	padding: 0;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
 	display: inline;
 }
 
