@@ -11,93 +11,142 @@
  */
 
 /* @group Reset */
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td,abbr {
-	margin:0;
-	padding:0;
-}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td,abbr { margin:0; padding:0;}
 /* @end */
 
 body {
 	background: #fefef8;
-	margin:3em 3em 2em 5em;
-	font-family: palatino, georgia, "times new roman", serif;
+	font-family: Palatino, georgia, "times new roman", serif;
 }
+/* A little hack to aid debugging the grid
+body:hover { background-image: url(grid); }
+ */
 
 /* IE6 ignores this and uses default size of 16pt */
-html>body {
-	font-size:16px;
-}
-p {
-	margin:1.5em 0 0 0;
-	text-align: justify;
+html>body { font-size:16px; }
+p { margin:1.5em 0 0 0; text-align: justify; }
+
+a { text-decoration: none; color: #339; }
+a:hover { text-decoration: underline; color: #33f; }
+
+h1,h2,h3,h4 { font-family: 'lucida sans', sans-serif; }
+h1,h2,h3,h4 { line-height:1em; font-size:1.5em; font-weight:normal; }
+h2 {
+	font-size: 100%;
+	line-height: 1.5em;
+	margin:1.5em 0 0.5em 0;
+	font-weight:bold;
 }
 
-a {
-	text-decoration: none;
-	color: #339;
-}
-a:hover {
-	text-decoration: underline;
-	color: #33f;
-}
-#sidebar {
-	float: right;
-	margin-left: 1em;
-}
-#title {
-	font-family: 'lucida sans', sans-serif;
-	display: block;
-	line-height: 1.5em;
-	text-align: right;
-}
-#title a {
-	color: #444;
-	text-decoration: none; 
-}
-#nav a {
-	text-decoration: none;
-	display: block;
-}
-#nav a:hover { 
-	text-shadow: silver 2px 2px 1px; 
-	color: black;
-	margin-right: -2.6ex;
-}
-#nav a:hover:after {
-	content: ' ☜';
-}
-#nav {
-	font-variant: small-caps;
-	color: grey;
-	text-align: right;
-	line-height: 1.5em;
+hr { 
+	border-top: 1px solid grey;
+	border-bottom: none;
+	padding: 0;
+	margin: 20px 0 0 0;
 }
 
-#post {
-	font-size:1em;
+/* @group Lists */
+ul {
+	margin-top: 1.5em;
+	line-height: 1.5em;
+	padding-left: 1.5em;
+}
+li {
+	list-style-type: none;
+	list-style-position: outside;
+}
+/* @end */
+
+/* @group Code */
+pre {
+	line-height: 1.5em;	
+	color: #111;
+	border-left: 16px solid #ddd;
+	border-right: 1px solid #ddd;
+	margin: 1.5em 0 1.5em 0;
+	padding: 0 0 0 1em;
+	overflow: hidden;
+}
+pre:hover {
+	border-right: none;
+	overflow: visible;
+}
+code {
+	font-size: 0.9em; /* Hack to make code look same size as body font */  
+	line-height: 1.5em;
+}
+/* @end */
+
+#site {
+	max-width: 39em;;
+	margin: 0 3em 3em 3em;
 	line-height:1.5em;
-
-	max-width: 36em;
-	padding: 0 2em 2em 0;
 }
+
+#header, #header a { color: silver; }
+#header .hover { color: transparent; }
+#header:hover { color: black; }
+#header:hover a { color: #339; }
+#header:hover a:hover { color: #33f; text-decoration: none;}
+#header:hover .hover { color: silver; }
+#header {
+	position: relative;
+	font-variant: small-caps;
+	line-height: 1em;
+	margin-bottom: 1.5em;
+}
+#header h1 {
+	font-family: palatino, georgia, serif;
+	display: inline;
+}
+#header p {  margin: 0; font-size: 75%; line-height: 2em ;}
+#header p:first-line { font-variant: normal; }
+#header p:first-letter { 
+	font-size: 100%; 
+	margin: 0; padding: 0; 
+	line-height: 1em; 
+	float: none; 
+}
+
+#header ul {
+	position: absolute;
+	top: 0;
+	right: 0;
+	float: right;
+	font-size: 100%;
+	line-height: 1.74em;
+	display: inline;
+	margin: 0;
+}
+#header ul li {
+	margin: 0 0 0 1em;
+	padding: 0;
+	display: inline;
+}
+
+.section {
+	margin-top: 1.5em;
+}
+.section h1 {
+	max-width: 4.5em;
+	font-size: 100%;
+	margin-top: 0;
+	line-height: 1.5em;
+}
+.section p {
+	max-width: 36em;
+	margin: -1.5em 0 3em 6em;
+}
+
 #post address {
 	margin-top: 3em;
-	text-align: right;
 }
 
-ul.posts { margin: 1em 0 1em 0; }
-ul.posts li { color:  grey; }
-ul.posts li span { }
-ul.posts li a { margin-left: 1em; }
-ul.posts li a:hover { text-decoration: none; }
-ul.posts li a:hover:after { content:' ☞'; color: black;}
-
-#post h1:before {
-	font-size: smaller;
-	margin-left: -1.8em;
-	margin-right: 0.5em;
-	content: '☞ ';
+#post #content {
+	margin: 0 0 2em 0;
+	padding: 0;
 }
+#post h2#comments { margin-top: 4.5em;}
 
 #footer {
 	color: grey;
@@ -107,14 +156,14 @@ ul.posts li a:hover:after { content:' ☞'; color: black;}
 	text-decoration: none;
 }
 
-div h1 + p:first-letter {
+h1 + p:first-letter {
 	font-size: 48px;
 	padding: 0 0.15em 0 0;
 	margin:  0.05em 0 -0.15em 0;
 	line-height: 1em;
 	float: left;
 }
-div h1 + p:first-line {
+h1 + p:first-line {
 	font-variant: small-caps;
 	font-size: larger;
 }
@@ -148,66 +197,4 @@ span.maruku-inline { }
 img.maruku-png { }
 /* @end */
 
-h1, h2, h3, h4 {
-	font-family: 'lucida sans', sans-serif;	
-}
-h1,h2,h3,h4 {
-	line-height:1em;
-	font-size:1.5em;
-	font-weight:normal;
-	margin:2em 0 0em 0;
-}
-h2#comments {
-	margin-top: 4.5em;
-}
-
-hr {
-	border-top: 1px solid grey;
-	border-bottom: none;
-	padding: 0;
-	margin: 20px 0 0 0;
-}
-
-h2 {
-	font-size:1em;
-	line-height: 1.5em;
-	margin:1.5em 0 0.5em 0;
-	font-weight:bold;
-}
-
-.banner, #blog-description,abbr {
-	display: none;
-}
-
-/* @group Lists */
-ul {
-	margin-top: 1.5em;
-	line-height: 1.5em;
-	padding-left: 1.5em;
-}
-li {
-	list-style-type: square;
-	list-style-position: outside;
-}
-/* @end */
-
-/* @group Code */
-pre {
-	line-height: 1.5em;	
-	color: #111;
-	border-left: 16px solid #ddd;
-	border-right: 1px solid #ddd;
-	margin: 1.5em 0 1.5em 0;
-	padding: 0 0 0 1em;
-	overflow: hidden;
-}
-pre:hover {
-	border-right: none;
-	overflow: visible;
-}
-code {
-	font-size: 0.9em; /* Hack to make code look same size as body font */  
-	line-height: 1.5em;
-}
-/* @end */
 
