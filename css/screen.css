@@ -18,11 +18,13 @@ body {
 	background: #fefef8;
 	font-family: Palatino, georgia, "times new roman", serif;
 }
-/* A little hack to aid debugging the grid
+/* A little hack to aid debugging the grid */
+/*
 body:hover {
 	background: url(grid) 0 0.5em;
 }
 */
+
 
 /* IE6 ignores this and uses default size of 16pt */
 html>body { font-size:16px; }
@@ -31,8 +33,7 @@ p { margin:1.5em 0 0 0; text-align: justify; }
 a { text-decoration: none; color: #339; }
 a:hover { text-decoration: underline; color: #33f; }
 
-h1,h2,h3,h4 { font-family: 'lucida sans', sans-serif; }
-h1,h2,h3,h4 { line-height:1em; font-size:1.5em; font-weight:normal; }
+h1,h2,h3,h4 { line-height:1em; font-size:1.5em; font-weight: bold; }
 h2 {
 	font-size: 100%;
 	line-height: 1.5em;
@@ -108,8 +109,8 @@ code {
 }
 #header h1 {
 	border-bottom: 1px solid silver;
-	font-family: palatino, georgia, serif;
 	display: block;
+	font-weight: normal;
 }
 #header p {  margin: 0; font-size: 75%; line-height: 2em ;}
 #header p:first-line { font-variant: normal; }
@@ -137,6 +138,14 @@ code {
 	display: inline;
 }
 
+.footnotes ol li {
+	list-style-type: decimal;
+	list-style-position: inside;
+	font-size: 75%;
+	line-height: 1.5em;
+	color: grey;
+}
+
 .section {
 	margin-top: 1.5em;
 }
@@ -161,8 +170,19 @@ code {
 }
 #post h2#comments { margin-top: 4.5em;}
 
+#disqus_thread {
+	margin-top: 3em;
+	border-top: 1px solid silver;
+}
+
 #footer {
+	margin-top: 3em;
+	border-top: 1px solid silver;
 	color: grey;
+}
+#footer address {
+	margin: 0;
+	text-align: right;
 }
 #footer a {
 	color: grey;
