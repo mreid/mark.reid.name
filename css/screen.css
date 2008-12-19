@@ -19,12 +19,12 @@ body {
 	font-family: Palatino, georgia, "times new roman", serif;
 }
 /* A little hack to aid debugging the grid */
+
 /*
 body{
 	background: url(grid) 0 0.5em;
 }
 */
-
 
 
 /* IE6 ignores this and uses default size of 16pt */
@@ -35,18 +35,21 @@ a { text-decoration: none; color: #339; }
 a:hover { text-decoration: underline; color: #33f; }
 
 h1,h2,h3,h4 { line-height:1em; font-size:1.5em; font-weight: bold; }
+#post h1 {
+	margin-bottom: 1em;
+}
 h2 {
 	font-size: 100%;
 	line-height: 1.5em;
-	margin:1.5em 0 0.5em 0;
+	margin:1.5em 0 0 0;
 	font-weight:bold;
 }
 
 hr { 
-	border-top: 1px solid grey;
+	border-top: 1px solid silver;
 	border-bottom: none;
 	padding: 0;
-	margin: 20px 0 0 0;
+	margin: 1.46em 0 0 0;
 }
 
 /* @group Lists */
@@ -140,20 +143,23 @@ code {
 	display: inline;
 }
 
+.footnotes { color: grey; }
+.footnotes:hover { color: black; }
 .footnotes ol li {
 	list-style-type: decimal;
 	list-style-position: inside;
 	font-size: 75%;
 	line-height: 1.5em;
-	color: grey;
 }
+.footnotes ol li > a { display: none; }
 
-.section {
-	margin-top: 1.5em;
-}
+/* @group Sections */
+
+.section { margin-top: 1.5em; }
 .section h1 {
 	max-width: 4.5em;
 	font-size: 100%;
+	font-style: italic;
 	margin-top: 0;
 	line-height: 1.5em;
 }
@@ -162,9 +168,39 @@ code {
 	margin: -1.5em 0 3em 6em;
 }
 
-#post address {
-	margin-top: 3em;
+/* @end */
+
+/* @group Signature */
+.signature { 
+	margin-top: 3em; 
+	position: relative;
 }
+.signature .author { 
+	font-variant: small-caps; 
+	font-style: normal; 
+	color: black;
+	display: block;
+	margin-bottom: 1.5em;
+}
+.signature .date { 
+	font-size: 87.5%;
+	line-height: 1.5em;
+	display: block; 
+	font-variant: small-caps; 
+	font-style: normal; 
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.signature .location { 
+	display: block; 
+	font-size: 87.5%;
+	line-height: 1.5em;
+	position: absolute;
+	right: 0;
+	top: 1.5em;
+}
+/* @end */
 
 #post #content {
 	margin: 0 0 2em 0;
@@ -212,19 +248,26 @@ code {
 }
 /* @end */
 
+/* @group Footer */
+
 #footer {
 	margin-top: 3em;
 	border-top: 1px solid silver;
 	color: grey;
+	font-size: 87.5%;
+	line-height: 1.3em;
 }
 #footer address {
 	margin: 0;
 	text-align: right;
 }
 #footer a {
-	color: grey;
+	font-variant: small-caps;
+	font-style: normal;
+	color: #559;
 	text-decoration: none;
 }
+/* @end */
 
 h1 + p:first-letter {
 	font-size: 48px;

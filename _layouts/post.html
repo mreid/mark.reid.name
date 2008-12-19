@@ -5,9 +5,16 @@ layout: iem
 <div id="post">
 	
 <h1>{{ page.title }}</h1>
-{{ content }}
-<address>Mark Reid<br/>{{ page.location }}</address>
 
+{{ content }}
+
+<address class="signature">
+	<a class="author" href="http://mark.reid.name">Mark Reid</a> 
+	<span class="date">{{ page.date | date_to_long_string }}</span>
+	<span class="location">{{ page.location }}</span>
+</address>
+
+<!-- Discus Comments -->
 <div id="disqus_thread"></div>
 <script type="text/javascript" src="http://disqus.com/forums/markreid/embed.js"></script>
 <noscript>
