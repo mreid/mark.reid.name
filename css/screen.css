@@ -20,10 +20,11 @@ body {
 }
 /* A little hack to aid debugging the grid */
 /*
-body:hover {
+body{
 	background: url(grid) 0 0.5em;
 }
 */
+
 
 
 /* IE6 ignores this and uses default size of 16pt */
@@ -109,6 +110,7 @@ code {
 }
 #header h1 {
 	border-bottom: 1px solid silver;
+	line-height: 0.96em;
 	display: block;
 	font-weight: normal;
 }
@@ -168,10 +170,9 @@ code {
 	margin: 0 0 2em 0;
 	padding: 0;
 }
-#post h2#comments { margin-top: 4.5em;}
 
 #disqus_thread {
-	margin-top: 3em;
+	margin-top: 2.93em;
 	border-top: 1px solid silver;
 }
 
@@ -204,7 +205,7 @@ h1 + p:first-line {
 blockquote {
 	margin: 1.72em 1.42em 1.72em 1.42em;
 	font-size: 0.875em;
-	line-height: 1.42em;
+	line-height: 1.29em;
 }
 
 /* @group Figures and images */
