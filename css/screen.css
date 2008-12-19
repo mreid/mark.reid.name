@@ -26,17 +26,16 @@ body{
 }
 */
 
-
 /* IE6 ignores this and uses default size of 16pt */
 html>body { font-size:16px; }
-p { margin:1.5em 0 0 0; text-align: justify; }
+p { margin: 0 0 1.5em 0; text-align: justify; }
 
 a { text-decoration: none; color: #339; }
 a:hover { text-decoration: underline; color: #33f; }
 
-h1,h2,h3,h4 { line-height:1em; font-size:1.5em; font-weight: bold; }
-#post h1 {
-	margin-bottom: 1em;
+h1,h2,h3,h4 { line-height:1em; font-size:1.5em; font-weight: bold; clear: left; }
+h1 {
+	margin-bottom: .5em;
 }
 h2 {
 	font-size: 100%;
@@ -52,6 +51,43 @@ hr {
 	margin: 1.46em 0 0 0;
 }
 
+#site {
+	max-width: 39em;;
+	margin: 0 3em 3em 3em;
+	line-height:1.5em;
+}
+
+/* @group FancyFirst */
+ .emphnext + p:first-letter {
+	font-size: 48px;
+	padding: 0 0.15em 0 0;
+	margin:  0.05em 0 -0.15em 0;
+	line-height: 1em;
+	float: left;
+}
+
+.emphnext + p:first-line {
+	font-variant: small-caps;
+	font-size: larger;
+}
+/* @end */
+
+.right { float: right; clear: left; }
+.left { float: left; clear: right; }
+.inset { 
+	border: 1px solid silver; 
+	padding: 2px;
+	margin: 0 1em 1em 1em;
+}
+.right.inset { margin-right: 0 !important; }
+.left.inset { margin-left: 0 !important; }
+
+blockquote {
+	margin: 1.72em 1.42em 1.72em 1.42em;
+	font-size: 0.875em;
+	line-height: 1.29em;
+}
+
 /* @group Lists */
 ul {
 	margin-top: 1.5em;
@@ -62,34 +98,11 @@ li {
 	list-style-type: none;
 	list-style-position: outside;
 }
+dt { font-weight: bold;}
+dd { margin: 0 0 1.5em 0; }
 /* @end */
 
-/* @group Code */
-pre {
-	line-height: 1.5em;	
-	color: #111;
-	border-left: 16px solid #ddd;
-	border-right: 1px solid #ddd;
-	margin: 1.5em 0 1.5em 0;
-	padding: 0 0 0 1em;
-	overflow: hidden;
-}
-pre:hover {
-	border-right: none;
-	overflow: visible;
-}
-code {
-	font-size: 0.9em; /* Hack to make code look same size as body font */  
-	line-height: 1.5em;
-}
-/* @end */
-
-#site {
-	max-width: 39em;;
-	margin: 0 3em 3em 3em;
-	line-height:1.5em;
-}
-
+/* @group Header */
 #header, #header a { color: silver; }
 #header .hover { color: #fefef8; }
 #header:hover { color: black; }
@@ -103,16 +116,17 @@ code {
 	margin-top: .5em;
 	margin-bottom: 1.5em;
 }
-#header a:after {
+#header ul li a:after {
 	color: #fefef8;
 	content: '.\00a0';
 }
-#header:hover a:after {
+#header:hover ul li a:after {
 	color: grey;
 	content: '.\00a0';
 }
 #header h1 {
 	border-bottom: 1px solid silver;
+	margin-bottom: 0;
 	line-height: 0.96em;
 	display: block;
 	font-weight: normal;
@@ -142,7 +156,9 @@ code {
 	padding: 0 0 0 0;
 	display: inline;
 }
+/* @end */
 
+/* @group Footnotes */
 .footnotes { color: grey; }
 .footnotes:hover { color: black; }
 .footnotes ol li {
@@ -153,19 +169,24 @@ code {
 }
 .footnotes ol li > a { display: none; }
 
-/* @group Sections */
+/* @end */
 
-.section { margin-top: 1.5em; }
+/* @group Sections */
+.section {  }
 .section h1 {
-	max-width: 4.5em;
+	position: absolute;
+	width: 6em;
+	max-width: 6em;
+	margin-left: -7.5em;
 	font-size: 100%;
-	font-style: italic;
-	margin-top: 0;
-	line-height: 1.5em;
+	font-weight: bold;
+	font-variant: small-caps;
+	line-height: 1.5em;	
 }
-.section p {
-	max-width: 36em;
-	margin: -1.5em 0 3em 6em;
+.section {
+	margin-top: 1.5em; position: relative;
+	max-width: 34.5em;
+	margin-left: 7.5em;
 }
 
 /* @end */
@@ -202,10 +223,26 @@ code {
 }
 /* @end */
 
-#post #content {
-	margin: 0 0 2em 0;
-	padding: 0;
+/* @group Code */
+pre {
+	line-height: 1.5em;	
+	color: #111;
+	border-left: 16px solid #ddd;
+	border-right: 1px solid #ddd;
+	margin: 1.5em 0 1.5em 0;
+	padding: 0 0 0 1em;
+	overflow: hidden;
 }
+pre:hover {
+	border-right: none;
+	overflow: visible;
+}
+code {
+	font-size: 0.9em; /* Hack to make code look same size as body font */  
+	line-height: 1.5em;
+}
+/* @end */
+
 
 /* @group Disqus */
 #disqus_thread {
@@ -226,13 +263,12 @@ code {
 	border-top: 1px solid silver !important;
 	border-bottom: 1px solid silver !important;
 }
-.dsq-comment-header cite {
+.dsq-header-time { margin-left: 0 !important; }
+.dsq-comment-header cite { 
 	font-variant: small-caps;
 	margin-left: 0 !important;
 }
-.dsq-header-time {
-	margin-left: 0 !important;	
-}
+.dsq-comment-footer { text-align: right; }
 #dsq-options {
 	background: whitesmoke;
 	border-bottom: 1px solid silver;
@@ -240,12 +276,8 @@ code {
 	padding: 0 0 0 1em;
 	margin-top:;
 }
-#dsq-extra-links {
-	padding-left: 0 !important;
-}
-#dsq-extra-links li img {
-	display:  none;
-}
+#dsq-extra-links { padding-left: 0 !important; }
+#dsq-extra-links li img { display: none; }
 /* @end */
 
 /* @group Footer */
@@ -269,23 +301,6 @@ code {
 }
 /* @end */
 
-h1 + p:first-letter {
-	font-size: 48px;
-	padding: 0 0.15em 0 0;
-	margin:  0.05em 0 -0.15em 0;
-	line-height: 1em;
-	float: left;
-}
-h1 + p:first-line {
-	font-variant: small-caps;
-	font-size: larger;
-}
-
-blockquote {
-	margin: 1.72em 1.42em 1.72em 1.42em;
-	font-size: 0.875em;
-	line-height: 1.29em;
-}
 
 /* @group Figures and images */
 dl.figure {
