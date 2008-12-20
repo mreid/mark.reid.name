@@ -24,8 +24,14 @@ Research
 My current [research][] is into representations of machine
 learning problems. I have [published][] papers on topics
 such as transfer learning, inductive logic programming (ILP), text mining, and
-feature extraction.
+feature extraction. 
 
+I also keep a blog on machine learning and statistical inference called _[inductio ex machina](/work/blog/)_
+</div>
+
+<div class="section" markdown="1">
+Code
+====
 I enjoy programming, both for research and as a hobby, and have made some of
 my [code][] available. More about me and my interests can be found
 in the [personal][] section of this site. 

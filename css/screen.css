@@ -15,16 +15,12 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,t
 /* @end */
 
 body {
-	background: #fefef8;
 	font-family: Palatino, georgia, "times new roman", serif;
+	background-color: #457;
+	background-image: url(vert_grad.png);
+	background-position: top center;
+    background-repeat: repeat-x; 
 }
-/* A little hack to aid debugging the grid */
-
-/*
-body{
-	background: url(grid) 0 0.5em;
-}
-*/
 
 /* IE6 ignores this and uses default size of 16pt */
 html>body { font-size:16px; }
@@ -35,7 +31,7 @@ a:hover { text-decoration: underline; color: #33f; }
 
 h1,h2,h3,h4 { line-height:1em; font-size:1.5em; font-weight: bold; clear: left; }
 h1 {
-	margin-bottom: .5em;
+	margin-bottom: 1em;
 }
 h2 {
 	font-size: 100%;
@@ -52,8 +48,11 @@ hr {
 }
 
 #site {
-	max-width: 39em;;
-	margin: 0 3em 3em 3em;
+	background: #f7f7f0;
+	max-width: 39em;
+	border: 1px outset silver;
+	margin: 1.5em 3em 3em 3em;
+	padding: 1.5em 3em;
 	line-height:1.5em;
 }
 
@@ -83,9 +82,9 @@ hr {
 .left.inset { margin-left: 0 !important; }
 
 blockquote {
-	margin: 1.72em 1.42em 1.72em 1.42em;
+	margin: 1.714em 1.42em 1.714em 1.42em;
 	font-size: 0.875em;
-	line-height: 1.29em;
+	line-height: 1.714em;
 }
 
 /* @group Lists */
@@ -172,19 +171,23 @@ dd { margin: 0 0 1.5em 0; }
 /* @end */
 
 /* @group Sections */
-.section {  }
+.section { font-size: 87.5%; line-height: 1.714em; }
 .section h1 {
+	font-size: 100%;
 	position: absolute;
 	width: 6em;
 	max-width: 6em;
 	margin-left: -7.5em;
-	font-size: 100%;
 	font-weight: bold;
 	font-variant: small-caps;
-	line-height: 1.5em;	
+	line-height: 1.714em;	
+}
+.section p {
+	margin-bottom: 1.714em;
 }
 .section {
-	margin-top: 1.5em; position: relative;
+	margin-bottom: 1.714em;
+	margin-top: 1.714em;
 	max-width: 34.5em;
 	margin-left: 7.5em;
 }
@@ -255,29 +258,55 @@ code {
 }
 .dsq-comment {
 	padding-top: 0 !important;
-	margin-bottom: 1.5em !important;
+	margin-top: 1.7em !important;
+	margin-bottom: 1.9em !important;
 	background-image: none !important;
+}
+.dsq-comment-message {
+	line-height: 1.714em;
 }
 .dsq-comment-header {
 	background-color: whitesmoke !important;
 	border-top: 1px solid silver !important;
 	border-bottom: 1px solid silver !important;
+	margin-bottom: 1.15em !important;
 }
 .dsq-header-time { margin-left: 0 !important; }
 .dsq-comment-header cite { 
 	font-variant: small-caps;
 	margin-left: 0 !important;
 }
-.dsq-comment-footer { text-align: right; }
+.dsq-comment-footer { 
+	text-align: right; 
+	font-size: 75% !important; 
+	margin-top: 1px !important;
+}
 #dsq-options {
 	background: whitesmoke;
 	border-bottom: 1px solid silver;
 	border-top: 1px solid silver;
 	padding: 0 0 0 1em;
-	margin-top:;
+}
+#dsq-comments-count {
+	margin-top: 0.8em !important;
+	margin-bottom: 1.2em !important;
 }
 #dsq-extra-links { padding-left: 0 !important; }
 #dsq-extra-links li img { display: none; }
+#dsq-options-toggle { color: silver; font-size: 75% !important;}
+#dsq-add-new-comment {
+	margin-top: 1.19em !important;
+	margin-bottom: 1.25em !important;
+}
+/* The following position, width and height ensure
+ * that none of the body in the iframe shows through.
+ */
+form#comment {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #f7f7f0 !important;
+}
 /* @end */
 
 /* @group Footer */
@@ -305,6 +334,7 @@ code {
 /* @group Figures and images */
 dl.figure {
 	margin-top: 1.5em;
+	margin-bottom: 1.5em;
 	text-align: center;
 }
 
@@ -320,7 +350,7 @@ dl.figure dd {
 
 /* @group Equations */
 div.maruku-equation { display: block ;text-align: center; }
-div.maruku-equation img.maruku-png { position: relative; top: 0.75em;}
+div.maruku-equation img.maruku-png { position: relative; top: -0.75em;}
 span.maruku-inline { }
 img.maruku-png { }
 /* @end */

@@ -2,6 +2,8 @@
 layout: name
 title: Publications
 ---
+Publications
+============
 
 Below are some of the papers I have had published. Clicking on the title will
 download a PDF copy of the paper.
@@ -9,45 +11,53 @@ download a PDF copy of the paper.
 <div class="section" markdown="1">
 Thesis
 ======
-[DEFT Guessing: Using Inductive Transfer to Improve Rule Evaluation from Limited Data][unsw07]{:.pdf .wiki:} (2007)   
-_Mark D. Reid_, School of Computer Science and Engineering, 
-The University of New South Wales, Sydney, Australia
+[DEFT Guessing: Using Inductive Transfer to Improve Rule Evaluation from Limited Data][unsw07]{:.pdf .wiki:}. 
+Mark D. Reid. 
+_School of Computer Science and Engineering, The University of New South Wales_, 
+Sydney, Australia. 
+**2007**  
 </div>
 
 <div class="section" markdown="1">
 Journal Articles
 ================
-[Cross-training and its Application to Skill-Mining][isj01]{:.pdf .wiki:} (2002)   
-_Daniel Oblinger, Mark Reid, Mark Brodie, Rodrigo de Salvo Braz_, 
-IBM Systems Journal (Vol. 41, No. 3), pp. 449-460
+[Cross-training and its Application to Skill-Mining][isj01]{:.pdf .wiki:}.
+Daniel Oblinger, Mark Reid, Mark Brodie, and Rodrigo de Salvo Braz.
+_IBM Systems Journal_ (Vol. 41, No. 3), pp. 449-460, 
+**2002**
 </div>
 
 <div class="section" markdown="1">
 Conference Papers
 =================
-[Improving Rule Evaluation Using Multitask Learning][ilp04]{:.pdf .wiki:} (2004)   
-_Mark D. Reid_, 
-Proc. of the 14th International Conference on ILP, pp. 252-269
+[Improving Rule Evaluation Using Multitask Learning][ilp04]{:.pdf .wiki:}.
+Mark D. Reid.
+_Proc. of the 14th International Conference on ILP_, pp. 252-269,
+**2004**
 
-[Using ILP to Improve Planning in Hierarchical Reinforcement Learning][ilp00]{:.pdf .wiki:} (2000)   
-_Mark Reid, Malcolm Ryan_,
-Proc. of the 10th International Conference on ILP, pp. 174-190.
+[Using ILP to Improve Planning in Hierarchical Reinforcement Learning][ilp00]{:.pdf .wiki:}.
+Mark Reid and Malcolm Ryan.
+_Proc. of the 10th International Conference on ILP_, pp. 174-190,
+**2000**
 
-[Learning to Fly: An Application of Hierarchical Reinforcement Learning][icml00]{:.pdf .wiki:} (2000)   
-_Malcolm Ryan, Mark Reid_,
-Proc. of the 17th International Conference on Machine Learning, pp. 807-814.
+[Learning to Fly: An Application of Hierarchical Reinforcement Learning][icml00]{:.pdf .wiki:}.
+Malcolm Ryan and Mark Reid.
+_Proc. of the 17th International Conference on Machine Learning_, pp. 807-814,
+**2000**
 
-[NRMIS: A Noise Resistant Model Inference System][ds99]{:.pdf .wiki:} (1999)   
-_Eric McCreath, Mark Reid_,
-Discovery Science, pp. 252-263.
+[NRMIS: A Noise Resistant Model Inference System][ds99]{:.pdf .wiki:}.
+Eric McCreath and Mark Reid.
+_Discovery Science_, pp. 252-263,
+**1999**
 </div>
 
 <div class="section" markdown="1">
 Patent Applications
 ===================
-[Determining Page Complexity][pat06] (2006)   
-_Barry James Drake and Mark Darren Reid_,
-Australian Application Number: 2006252174
+[Determining Page Complexity][pat06]
+Barry James Drake and Mark Darren Reid.
+_Australian Application Number: 2006252174_,
+**2006**
 </div>
 
 [unsw07]: /~mreid/files/pubs/unsw07.pdf
