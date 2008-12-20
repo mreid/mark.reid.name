@@ -49,15 +49,16 @@ hr {
 
 #site {
 	background: #f7f7f0;
+/*	background: url(grid) 0 0.5em; */
 	max-width: 39em;
 	border: 1px outset silver;
-	margin: 1.5em 3em 3em 3em;
+	margin: 1.5em auto 3em auto;
 	padding: 1.5em 3em;
 	line-height:1.5em;
 }
 
 /* @group FancyFirst */
- .emphnext + p:first-letter {
+.emphnext + p:first-letter {
 	font-size: 48px;
 	padding: 0 0.15em 0 0;
 	margin:  0.05em 0 -0.15em 0;
@@ -90,15 +91,16 @@ blockquote {
 /* @group Lists */
 ul {
 	margin-top: 1.5em;
+	margin-bottom: 1.5em;
 	line-height: 1.5em;
 	padding-left: 1.5em;
 }
 li {
-	list-style-type: none;
+	list-style-type: square;
 	list-style-position: outside;
 }
 dt { font-weight: bold;}
-dd { margin: 0 0 1.5em 0; }
+dd { margin: 0 0 1.5em 0; text-align: justify; }
 /* @end */
 
 /* @group Header */
@@ -171,25 +173,26 @@ dd { margin: 0 0 1.5em 0; }
 /* @end */
 
 /* @group Sections */
-.section { font-size: 87.5%; line-height: 1.714em; }
+.section { 
+	font-size: 87.5%; 
+	line-height: 1.43em; 
+	margin-bottom: 1.43em;
+	margin-top: 1.43em;
+	max-width: 34.5em;
+	margin-left: 7.5em;
+}
 .section h1 {
 	font-size: 100%;
+	line-height: 1.43em;
 	position: absolute;
 	width: 6em;
 	max-width: 6em;
 	margin-left: -7.5em;
 	font-weight: bold;
 	font-variant: small-caps;
-	line-height: 1.714em;	
 }
 .section p {
-	margin-bottom: 1.714em;
-}
-.section {
-	margin-bottom: 1.714em;
-	margin-top: 1.714em;
-	max-width: 34.5em;
-	margin-left: 7.5em;
+	margin-bottom: 1.43em;
 }
 
 /* @end */
