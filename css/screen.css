@@ -16,9 +16,10 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,t
 
 body {
 	font-family: Palatino, georgia, "times new roman", serif;
-	background-color: #457;
+/*	background-color: #457; */
+	background-color: #f0f0f0;
 	background-image: url(vert_grad.png);
-	background-position: top center;
+	background-position: center -18em;
     background-repeat: repeat-x; 
 }
 
@@ -32,7 +33,7 @@ a:hover { text-decoration: underline; color: #33f; }
 h1,h2,h3,h4 { 
 	line-height:1em; 
 	font-size:1.5em; 
-	font-weight: bold; 
+	font-weight: normal; 
 	clear: left; 	
 	font-family: 'lucida grande', sans-serif; 
 }
@@ -57,7 +58,7 @@ hr {
 	background: #f7f7f0;
 	/* background: url(grid) 0 0.5em; */ 
 	max-width: 39em;
-	border: 1px outset silver;
+	border: 1px solid silver; 
 	margin: 1.5em auto 3em auto;
 	padding: 1.5em 3em;
 	line-height:1.5em;
