@@ -1,5 +1,5 @@
 ---
-layout: name
+layout: page
 title: Code
 ---
 Eventually this page will contain links to most of the research and non-research

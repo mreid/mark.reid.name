@@ -29,14 +29,20 @@ p { margin: 0 0 1.5em 0; text-align: justify; }
 a { text-decoration: none; color: #339; }
 a:hover { text-decoration: underline; color: #33f; }
 
-h1,h2,h3,h4 { line-height:1em; font-size:1.5em; font-weight: bold; clear: left; }
+h1,h2,h3,h4 { 
+	line-height:1em; 
+	font-size:1.5em; 
+	font-weight: bold; 
+	clear: left; 	
+	font-family: 'lucida grande', sans-serif; 
+}
 h1 {
 	margin-bottom: 1em;
 }
 h2 {
 	font-size: 100%;
 	line-height: 1.5em;
-	margin:1.5em 0 0 0;
+	margin:1.5em 0 1.5em 0;
 	font-weight:bold;
 }
 
@@ -49,7 +55,7 @@ hr {
 
 #site {
 	background: #f7f7f0;
-/*	background: url(grid) 0 0.5em; */
+	/* background: url(grid) 0 0.5em; */ 
 	max-width: 39em;
 	border: 1px outset silver;
 	margin: 1.5em auto 3em auto;
@@ -88,6 +94,29 @@ blockquote {
 	line-height: 1.714em;
 }
 
+/* @group Table */
+table {
+	width: 80%;
+	margin: 1.5em auto 1.5em auto;
+	table-layout: fixed;
+	border-spacing: 0;
+}
+table tr { text-align: center; }
+table th { font-weight: normal; background-color: #eeeeee; }
+table td { background-color: white; }
+table th.title { border-bottom: 1px solid gray; border-top: 1px solid gray; vertical-align: bottom; background-color: lightgrey; }
+caption { 
+	color: #333;
+	font-size: 0.875em;
+	margin: 0.875em auto 0 auto;
+	line-height: 1.14em;
+	text-align: justify;
+}
+
+/* @end */
+
+
+
 /* @group Lists */
 ul {
 	margin-top: 1.5em;
@@ -105,7 +134,7 @@ dd { margin: 0 0 1.5em 0; text-align: justify; }
 
 /* @group Header */
 #header, #header a { color: silver; }
-#header .hover { color: #fefef8; }
+#header .hover { color: #f7f7f0; }
 #header:hover { color: black; }
 #header:hover a { color: #339; }
 #header:hover a:hover { color: #33f; text-decoration: none;}
@@ -126,6 +155,7 @@ dd { margin: 0 0 1.5em 0; text-align: justify; }
 	content: '.\00a0';
 }
 #header h1 {
+	font-family: Palatino, georgia, "times new roman", serif;
 	border-bottom: 1px solid silver;
 	margin-bottom: 0;
 	line-height: 0.96em;
@@ -182,6 +212,7 @@ dd { margin: 0 0 1.5em 0; text-align: justify; }
 	margin-left: 7.5em;
 }
 .section h1 {
+	font-family: Palatino, georgia, serif;
 	font-size: 100%;
 	line-height: 1.43em;
 	position: absolute;
@@ -233,8 +264,10 @@ dd { margin: 0 0 1.5em 0; text-align: justify; }
 pre {
 	line-height: 1.5em;	
 	color: #111;
-	border-left: 16px solid #ddd;
-	border-right: 1px solid #ddd;
+	background: white;
+	border: 2px solid silver;
+	border-right: none;
+	border-left: none;
 	margin: 1.5em 0 1.5em 0;
 	padding: 0 0 0 1em;
 	overflow: hidden;
@@ -322,7 +355,8 @@ form#comment {
 	line-height: 1.3em;
 }
 #footer address {
-	margin: 0;
+	position: relative;
+	margin: .5em 0 0 0;
 	text-align: right;
 }
 #footer a {
@@ -330,6 +364,18 @@ form#comment {
 	font-style: normal;
 	color: #559;
 	text-decoration: none;
+}
+#footer .copyright {
+	position: absolute;
+	left: 0;
+	text-align: left;
+	display: block;
+}
+#footer .engine {
+	position: absolute;
+	text-align: right;
+	display: block;
+	right: 0;
 }
 /* @end */
 

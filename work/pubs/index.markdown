@@ -1,10 +1,7 @@
 ---
-layout: name
+layout: page
 title: Publications
 ---
-Publications
-============
-
 Below are some of the papers I have had published. Clicking on the title will
 download a PDF copy of the paper.
 

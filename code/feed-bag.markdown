@@ -1,5 +1,5 @@
 ---
-layout: name
+layout: page
 title: Feed Bag - A Simple RSS Archiver
 ---
 
@@ -11,7 +11,7 @@ this sort.
 
 Fortunately, there are a number of libraries out there that make parsing feeds
 really easy. Couple these with some of the really nice ORM (object-relational 
-mapping) frameworks and presto! My very SQL database of RSS feeds.
+mapping) frameworks and presto! My very own SQL database of RSS feeds.
 
 If you need to do something similar, you are more than welcome to use my 
 scripts. All I ask is that if you build any interesting collection of RSS feeds
