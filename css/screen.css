@@ -16,12 +16,15 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,t
 
 body {
 	font-family: Palatino, georgia, "times new roman", serif;
-/*	background-color: #457; */
-	background-color: #f0f0f0;
+	background-color: #457;
+/*	background-color: #f0f0f0; */
 	background-image: url(vert_grad.png);
 	background-position: center -18em;
     background-repeat: repeat-x; 
 }
+
+/* Hack via Joel Spolsky to make image rescaling nicer in IE */
+img { -ms-interpolation-mode:bicubic; }
 
 /* IE6 ignores this and uses default size of 16pt */
 html>body { font-size:16px; }
@@ -56,7 +59,7 @@ hr {
 
 #site {
 	background: #f7f7f0;
-	/* background: url(grid) 0 0.5em; */ 
+/*	background: url(grid) 0 0.5em; */
 	max-width: 39em;
 	border: 1px solid silver; 
 	margin: 1.5em auto 3em auto;
@@ -89,8 +92,16 @@ hr {
 .right.inset { margin-right: 0 !important; }
 .left.inset { margin-left: 0 !important; }
 
+.excerpt {
+	color: grey;
+	font-size: smaller;
+}
+
 blockquote {
-	margin: 1.714em 1.42em 1.714em 1.42em;
+	padding: 0 2.8em;
+	margin: 1.714em 0;
+	background-color: white;
+	color: #444;
 	font-size: 0.875em;
 	line-height: 1.714em;
 }

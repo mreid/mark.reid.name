@@ -1,7 +1,12 @@
 ---
-layout: post
 title: Machine Learning Summer School 2009
+excerpt: A plug for the 2009 Machine Learning Summer School in Canberra, Australia. I will be giving a presentation there.
 location: Canberra, Australia
+
+wordpress_id: 164
+wordpress_url: http://conflate.net/inductio/?p=164
+
+layout: post
 ---
 The annual [Machine Learning Summer School][mlss] is being held in Canberra at the [Australian National University][anu] in January next year. It will be part of the joint [Summer Schools in Logic and Learning][ssll]. 
 

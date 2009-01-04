@@ -2,7 +2,9 @@
 layout: post
 title: Visualising 19th Century Reading in Australia
 location: Canberra, Australia
-
+excerpt: A description of a visualisation of some 19th century Australian borrowing records from the Australian Common Readers Project.
+wordpress_id: 40
+wordpress_url: http://conflate.net/inductio/?p=40
 ---
 
 _Update - 9 Dec 2008_: Julieanne and I presented a much improved version of this visualisation at the [Resourceful Reading][] conference held at the University of Sydney on the 5th of December. Those looking for the application I presented there: stay tuned, I will post the updated version here shortly.
