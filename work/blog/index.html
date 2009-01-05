@@ -1,9 +1,8 @@
 ---
-layout: iem
+layout: page
 title: Inductio Ex Machina
 ---
 
-  <h1>Recent Posts</h1>
   <ul class="posts">
     {% for post in site.categories.work %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a><br/>
