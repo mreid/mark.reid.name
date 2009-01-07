@@ -17,8 +17,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,t
 body {
 	font-family: Palatino, georgia, "times new roman", serif;
 	background-color: #457;
-/*	background-color: #f0f0f0; */
-	background-image: url(vert_grad.png);
+	background-image: url(vert_grad.png); 
 	background-position: center -18em;
     background-repeat: repeat-x; 
 }
@@ -65,6 +64,7 @@ hr {
 
 #post, #page, #disqus_thread {
 	background: #f7f7f0;
+/*	background-image: url(grid); */
 	padding: 3em 3em 1.5em 3em;
 }
 
@@ -150,40 +150,22 @@ dd { margin: 0 0 1.5em 0; text-align: justify; }
 /* @group Header */
 #header, #header a { color: silver; }
 #header .hover { color: transparent; }
-#header:hover { color: black; }
-#header:hover a { color: silver; }
-#header:hover a:hover { color: black; text-decoration: none;}
-#header:hover .hover { color: grey; }
+#header:hover a { color: whitesmoke; }
+#header:hover a:hover { text-decoration: none; }
+#header a:hover .hover { color: silver; }
 #header {
 	position: relative;
 	font-variant: small-caps;
 	line-height: 1em;
 	margin-top: .5em;
-	margin-bottom: -1.5em;
-}
-#header ul li a:after {
-	color: #fefef8;
-	content: '.\00a0';
-}
-#header:hover ul li a:after {
-	color: grey;
-	content: '.\00a0';
+	margin-bottom: 0;
 }
 #header h1 {
 	font-family: Palatino, georgia, "times new roman", serif;
-	border-bottom: 1px solid silver;
 	margin-bottom: 0;
-	line-height: 0.96em;
+	line-height: 0.9em;
 	display: block;
 	font-weight: normal;
-}
-#header p {  margin: 0; font-size: 75%; line-height: 2em ;}
-#header p:first-line { font-variant: normal; }
-#header p:first-letter { 
-	font-size: 100%; 
-	margin: 0; padding: 0; 
-	line-height: 1em; 
-	float: none; 
 }
 
 #header ul {
@@ -191,16 +173,20 @@ dd { margin: 0 0 1.5em 0; text-align: justify; }
 	top: 0;
 	right: 0;
 	font-size: 100%;
-	line-height: 1.74em;
+	line-height: 1.6em;
 	display: block;
 	margin: 0;
 	width: 50%;
 	text-align: right;
 }
-#header ul li {
-	margin: 0 0 0 0;
-	padding: 0 0 0 0;
+#header ul li { display: inline; }
+#header ul li a {
+	padding: 0.4em 0.3em 0 0.3em;
 	display: inline;
+}
+#header ul li a:hover {
+	background: #f7f7f0; 
+	color: black;
 }
 /* @end */
 
