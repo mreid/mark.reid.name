@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Work
+title: Researcher
 ---
 
 ![Mark Reid](/images/mark_reid.jpg){: .inset .right width=100} 

@@ -1,0 +1,3 @@
+<blahtex>
+<error><id>MissingOpenBraceBefore</id><arg>\sqrt</arg><message>Missing open brace "{" before "\sqrt"</message></error>
+</blahtex>
