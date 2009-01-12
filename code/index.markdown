@@ -2,6 +2,8 @@
 layout: page
 title: Code
 ---
+Code
+====
 Eventually this page will contain links to most of the research and non-research
 related programming I've done.
 

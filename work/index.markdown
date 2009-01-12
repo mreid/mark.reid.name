@@ -1,11 +1,10 @@
 ---
 layout: page
-title: Researcher
+title: Research
 ---
 
-![Mark Reid](/images/mark_reid.jpg){: .inset .right width=100} 
-{: .emphnext}
-
+Research
+========
 I'm a post-doctoral Research Fellow in the 
 [Research School of Information Sciences and Engineering][rsise] 
 at the [Australian National University][anu] in Canberra, Australia. 
@@ -25,8 +24,13 @@ My current [research][] is into representations of machine
 learning problems. I have [published][] papers on topics
 such as transfer learning, inductive logic programming (ILP), text mining, and
 feature extraction. 
+</div>
 
-I also keep a blog on machine learning and statistical inference called _[inductio ex machina](/work/blog/)_
+<div class="section" markdown="1">
+Blog
+====
+Since September 2007 I have kept a blog on machine learning and statistical 
+inference called _[inductio ex machina](/work/blog/)_. 
 </div>
 
 <div class="section" markdown="1">

@@ -66,6 +66,8 @@ hr {
 	background: #f7f7f0;
 /*	background-image: url(grid); */
 	padding: 3em 3em 1.5em 3em;
+	border-right: 4px groove grey;
+	border-bottom: 4px groove grey;
 }
 
 #disqus_thread { padding-top: 0; }
