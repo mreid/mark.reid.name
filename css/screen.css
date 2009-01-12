@@ -16,8 +16,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,t
 
 body {
 	font-family: Palatino, georgia, "times new roman", serif;
-	background-color: #457;
-	background-image: url(vert_grad.png); 
+	background-color: whitesmoke;
 	background-position: center -18em;
     background-repeat: repeat-x; 
 }
@@ -63,11 +62,10 @@ hr {
 }
 
 #post, #page, #disqus_thread {
-	background: #f7f7f0;
+	background: white;
 /*	background-image: url(grid); */
 	padding: 3em 3em 1.5em 3em;
-	border-right: 4px groove grey;
-	border-bottom: 4px groove grey;
+	border: 1px solid silver;
 }
 
 #disqus_thread { padding-top: 0; }
@@ -97,9 +95,8 @@ hr {
 .right.inset { margin-right: 0 !important; }
 .left.inset { margin-left: 0 !important; }
 
-.excerpt {
-	color: grey;
-}
+.list .title { font-weight: bold; }
+.excerpt { color: black; }
 
 blockquote {
 	padding: 0 2.8em;
@@ -151,7 +148,7 @@ dd { margin: 0 0 1.5em 0; text-align: justify; }
 /* @group Header */
 #header, #header a { color: silver; }
 #header .hover { color: transparent; }
-#header:hover a { color: whitesmoke; }
+#header:hover a { color: grey; }
 #header:hover a:hover { text-decoration: none; }
 #header a:hover .hover { color: silver; }
 #header {
@@ -186,7 +183,6 @@ dd { margin: 0 0 1.5em 0; text-align: justify; }
 	display: inline;
 }
 #header ul li a:hover {
-	background: #f7f7f0; 
 	color: black;
 }
 /* @end */
@@ -210,8 +206,8 @@ dd { margin: 0 0 1.5em 0; text-align: justify; }
 	line-height: 1.43em; 
 	margin-bottom: 1.43em;
 	margin-top: 1.43em;
-	max-width: 34.5em;
 	margin-left: 7.5em;
+	padding-right: 3em;
 }
 .section h1 {
 	font-family: Palatino, georgia, serif;
@@ -342,7 +338,7 @@ form#comment {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	background-color: #f7f7f0 !important;
+	background-color: white !important;
 }
 /* @end */
 

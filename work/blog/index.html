@@ -4,11 +4,20 @@ title: Inductio Ex Machina
 ---
 
 <div id="page">
-  <h1>Recent Posts</h1>
+  <p><i>Inductio Ex Machina</i> is <a href="/">Mark Reid</a>'s research blog on 
+	machine learning and statistical inference.
+  </p>
+
+  <p>
+     You can find out more about it <a href="info.html">here</a> or
+     browse through the archives <a href="past.html">here</a>.
+	An atom feed for this blog is also <a href="atom.xml">available</a>.
+  </p>
+
   {% for post in site.categories.work limit:5 %}
-  <div class="section">
+  <div class="section list">
 	<h1>{{ post.date | date_to_string }}</h1>
-	<p><a href="{{ post.url }}">{{ post.title }}</a><br/>
+	<p><a class="title" href="{{ post.url }}">{{ post.title }}</a><br/>
 	  <span class="excerpt">{{ post.excerpt }}</span>
 	</p>
   </div>

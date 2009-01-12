@@ -59,6 +59,15 @@ _Australian Application Number: 2006252174_,
 **2006**
 </div>
 
+<div class="section" markdown="1">
+Non-refereed Reports
+====================
+[Information, Divergence and Risk for Binary Experiments][arxiv09]
+Mark D. Reid and Robert C. Williamson.
+_arXiv:0901.0356v1 [stat.ML]_,
+**2009**
+</div>
+
 [unsw07]: /~mreid/files/pubs/unsw07.pdf
 [isj01]: /~mreid/files/pubs/isj02.pdf
 [ilp04]: /~mreid/files/pubs/ilp04.pdf
@@ -67,3 +76,5 @@ _Australian Application Number: 2006252174_,
 [ds99]: /~mreid/files/pubs/ds99.pdf
 
 [pat06]: http://pericles.ipaustralia.gov.au/ols/searching/patsearch/search_section.jsp?sectionCode=DTL&keyNo=2006252174&type=S
+
+[arxiv09]: http://arxiv.org/abs/0901.0356
