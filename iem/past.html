@@ -5,10 +5,10 @@ title: Inductio Ex Machina
 
 <div id="page">
   <h1>All Posts</h1>
-  {% for post in site.categories.work %}
-  <div class="section">
+  {% for post in site.categories.iem %}
+  <div class="section list">
 	<h1>{{ post.date | date_to_string }}</h1>
-	<p><a href="{{ post.url }}">{{ post.title }}</a><br/>
+	<p><a class="title" href="{{ post.url }}">{{ post.title }}</a><br/>
 	  <span class="excerpt">{{ post.excerpt }}</span>
 	</p>
   </div>

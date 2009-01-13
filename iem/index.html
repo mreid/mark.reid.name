@@ -14,7 +14,7 @@ title: Inductio Ex Machina
 	An atom feed for this blog is also <a href="atom.xml">available</a>.
   </p>
 
-  {% for post in site.categories.work limit:5 %}
+  {% for post in site.categories.iem limit:5 %}
   <div class="section list">
 	<h1>{{ post.date | date_to_string }}</h1>
 	<p><a class="title" href="{{ post.url }}">{{ post.title }}</a><br/>
