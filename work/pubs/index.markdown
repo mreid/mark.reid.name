@@ -64,7 +64,7 @@ Non-refereed Reports
 ====================
 [Information, Divergence and Risk for Binary Experiments][arxiv09]
 Mark D. Reid and Robert C. Williamson.
-_arXiv:0901.0356v1 [stat.ML]_,
+_arXiv:0901.0356v1 \[stat.ML\]_,
 **2009**
 </div>
 

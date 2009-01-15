@@ -17,14 +17,22 @@ group in the [Computer Sciences Lab][csl].
 [csl]: http://csl.rsise.anu.edu.au/
 
 
+My current [research][] is into representations of — and relationships between 
+— machine learning problems with [Bob Williamson][bob]. The most complete 
+summary of this work so far can be found in our technical report "[Information, 
+Divergence and Risk for Binary Experiments][infodiv]".
+
+[bob]: http://axiom.anu.edu.au/~williams/
+[infodiv]: http://arxiv.org/abs/0901.0356
+
 <div class="section" markdown="1">
-Research
-========
-My current [research][] is into representations of machine
-learning problems. I have [published][] papers on topics
+Publications
+============
+I have [published][] papers on topics
 such as transfer learning, inductive logic programming (ILP), text mining, and
-feature extraction. 
+feature extraction.
 </div>
+
 
 <div class="section" markdown="1">
 Blog
