@@ -3,17 +3,11 @@ layout: default
 top: Mark Reid
 ---
 
-  <div id="header">
-  <h1>
-	<a href="/" title="My Personal Site">Mark Reid</a>
-  </h1>
-  <ul class="nav">
-    <li><a class="home" href="/">Home</a></li>
-    <li><a class="info" href="/info">Info</a></li>
-    <li><a class="work" href="/work">Work</a></li>
-    <li><a class="play" href="/play">Play</a></li>
-  </ul>
-  </div>
+<div id="header">
+	{% include nav-name.html %}
+</div>
 
-  {{ content }}
+<div id="page">
+	{{ content }}
+</div>
 

@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: name
+section: Code
 title: Code
 ---
 Code

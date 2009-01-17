@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: name
 title: Research
+section: Work
 ---
 
 Research
@@ -10,6 +11,7 @@ I'm a post-doctoral Research Fellow in the
 at the [Australian National University][anu] in Canberra, Australia. 
 I work with other members of the [Statistical Machine Learning][sml] 
 group in the [Computer Sciences Lab][csl]. 
+{: .emphfirst :}
 
 [rsise]: http://rsise.anu.edu.au/
 [anu]: http://anu.edu.au/
@@ -38,7 +40,7 @@ feature extraction.
 Blog
 ====
 Since September 2007 I have kept a blog on machine learning and statistical 
-inference called _[inductio ex machina](/work/blog/)_. 
+inference called _[inductio ex machina](/iem/)_. 
 </div>
 
 <div class="section" markdown="1">

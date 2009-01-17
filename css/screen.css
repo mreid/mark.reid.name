@@ -61,7 +61,7 @@ hr {
 	line-height:1.5em;
 }
 
-#post, #page, #disqus_thread {
+#page, #disqus_thread {
 	background: white;
 /*	background-image: url(grid); */
 	padding: 3em 3em 1.5em 3em;
@@ -71,7 +71,7 @@ hr {
 #disqus_thread { padding-top: 0; }
 
 /* @group FancyFirst */
-.emphnext + p:first-letter {
+.emphnext + p:first-letter, p.emphfirst:first-letter {
 	font-size: 48px;
 	padding: 0 0.15em 0 0;
 	margin:  0.05em 0 -0.15em 0;
@@ -79,7 +79,7 @@ hr {
 	float: left;
 }
 
-.emphnext + p:first-line {
+.emphnext + p:first-line, p.emphfirst:first-line {
 	font-variant: small-caps;
 	font-size: larger;
 }
@@ -90,7 +90,7 @@ hr {
 .inset { 
 	border: 1px solid silver; 
 	padding: 2px;
-	margin: 0 1em 1em 1em;
+	margin: 0em 0.8em 0.8em 0.8em;
 }
 .right.inset { margin-right: 0 !important; }
 .left.inset { margin-left: 0 !important; }
@@ -148,7 +148,7 @@ dd { margin: 0 0 1.5em 0; text-align: justify; }
 /* @group Header */
 #header, #header a { color: silver; }
 #header .hover { color: transparent; }
-#header:hover a { color: grey; }
+#header:hover a { color: black; }
 #header:hover a:hover { text-decoration: none; }
 #header a:hover .hover { color: silver; }
 #header {
@@ -183,8 +183,19 @@ dd { margin: 0 0 1.5em 0; text-align: justify; }
 	display: inline;
 }
 #header ul li a:hover {
-	color: black;
+	color: blue;
+	border-bottom: 2px solid blue;
 }
+
+body#Work #header a.work, 
+body#Home #header a.home, 
+body#Play #header a.play,
+body#Info #header a.info,
+body#Past #header a.past
+{ 
+	border-bottom: 2px solid silver; 
+}
+
 /* @end */
 
 /* @group Footnotes */
@@ -346,7 +357,7 @@ form#comment {
 
 #footer {
 	margin-top: 0;
-	color: silver;
+	color: grey;
 	font-size: 87.5%;
 	line-height: 1.3em;
 }
@@ -358,7 +369,7 @@ form#comment {
 #footer a {
 	font-variant: small-caps;
 	font-style: normal;
-	color: #ccf;
+	color: #77d;
 	text-decoration: none;
 }
 #footer .copyright {

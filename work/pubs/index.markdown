@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: name
 title: Publications
+section: Work
 ---
 Publications
 ============

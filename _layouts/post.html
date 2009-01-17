@@ -1,8 +1,12 @@
 ---
-layout: iem
+layout: default
 ---
 
-<div id="post">
+<div id="header">
+	{% include nav-iem.html %}
+</div>
+
+<div id="page">
 	
   <h1 class="emphnext">{{ page.title }}</h1>
 
@@ -13,7 +17,7 @@ layout: iem
     <span class="date">{{ page.date | date_to_long_string }}</span>
     <span class="location">{{ page.location }}</span>
   </address>
-</div><!-- End Post -->
+</div><!-- End Page -->
 
 <!-- Delicious hits
 <script type="text/javascript">

@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: name
+section: Code
 title: Feed Bag - A Simple RSS Archiver
 ---
 
-Feed Bag - A Simple RSS Archiver
+Feed Bag - A Simple RSS Archiver {: .emphnext :}
 ================================
 RSS is a great format for communicating the _most recent_ stories, comments or
 changes on a site but does not usually go back further than the last 10 or 20
