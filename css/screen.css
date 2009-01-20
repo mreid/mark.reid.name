@@ -95,10 +95,6 @@ hr {
 .right.inset { margin-right: 0 !important; }
 .left.inset { margin-left: 0 !important; }
 
-.list .title { font-weight: bold; }
-.comments { font-size: smaller; display: block; float: right; color: silver;}
-.excerpt { color: black; }
-
 blockquote {
 	padding: 0 2.8em;
 	margin: 1.714em 0;
@@ -237,6 +233,13 @@ body#Past #header a.past
 }
 
 /* @end */
+
+.list .title { font-weight: bold; }
+p.line { position: relative; margin: 0; }
+p.excerpt { margin: 0; }
+.comments { font-size: smaller; position: absolute; color: silver; right: 0; top: 0; }
+.excerpt { color: black; }
+
 
 /* @group Signature */
 .signature { 
@@ -411,5 +414,4 @@ div.maruku-equation img.maruku-png { position: relative; top: -0.75em;}
 span.maruku-inline { }
 img.maruku-png { }
 /* @end */
-
 
