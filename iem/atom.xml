@@ -6,7 +6,7 @@ layout: nil
  
  <title>Inductio Ex Machina</title>
  <link href="http://mark.reid.name/iem/atom.xml" rel="self"/>
- <link href="http://mark.reid.name/"/>
+ <link href="http://mark.reid.name/iem/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://mark.reid.name/iem/</id>
  <author>
@@ -17,9 +17,9 @@ layout: nil
  {% for post in site.categories.iem  %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://mark.reid.name/iem/{{ post.url }}"/>
+   <link href="http://mark.reid.name{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://mark.reid.name/iem/{{ post.id }}</id>
+   <id>id:{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
