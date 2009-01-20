@@ -6,9 +6,9 @@ layout: nil
  
  <title>Inductio Ex Machina</title>
  <link href="http://mark.reid.name/iem/atom.xml" rel="self"/>
- <link href="http://mark.reid.name/iem/"/>
+ <link href="http://mark.reid.name/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://mark.reid.name/work/blog/</id>
+ <id>http://mark.reid.name/iem/</id>
  <author>
    <name>Mark Reid</name>
    <email>mark@reid.name</email>
