@@ -96,6 +96,7 @@ hr {
 .left.inset { margin-left: 0 !important; }
 
 .list .title { font-weight: bold; }
+.comments { font-size: smaller; display: block; float: right; color: silver;}
 .excerpt { color: black; }
 
 blockquote {

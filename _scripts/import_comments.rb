@@ -25,6 +25,8 @@ DISQUS = RestClient::Resource.new DISQUS_BASE
 DB_USER = 'root'
 DB_NAME = 'inductio'
 
+TARGET_URL = 'http://mark.reid.dev/iem/'
+
 # Gets the first forum key associated with USER_KEY
 def forum_key
   forum_list = get('get_forum_list', :user_api_key => USER_KEY)
@@ -53,37 +55,38 @@ def convert(row)
     }
 end
 
-def clean(comment)
-  comment.gsub!(/<\/?p>/,'')
-  comment
+# Remove extraneous paragraph separators. Disqus interprets double 
+# newline as paragraphs
+def clean(comment) 
+  comment.gsub(/<\/?p>/,'')
 end
 
+# Compute the URL for the given comment based on the DB entry
 def url(row)
   date_path = row[:comment_date_gmt].strftime("%Y/%m/%d")
-  "http://mark.reid.dev/iem/#{row[:post_name]}.html"
+  "#{TARGET_URL}#{row[:post_name]}.html"
 end
 
+# Get the Disqus thread ID for the comment in the DB row
 def thread(row) 
-  ident_str = "test-#{row[:post_name]}"
+  ident_str = "#{row[:post_name]}"
   data = { 
     :forum_api_key => FORUM_KEY,
     :title => row[:post_title], 
     :identifier => ident_str
   }
 
-  puts "Getting thread #{ident_str}..."
   response = JSON.parse( DISQUS['thread_by_identifier'].post(data) )
+  unless response['succeeded']
+    raise "Bad response to get thread ID for #{ident_str}"
+  end
 
-  # puts response.to_yaml
-  # puts "--- (end thread response)"
-  
-  raise "Bad response to get thread ID for #{ident_str}" unless response['succeeded']
-
-  puts "Thread [#{ident_str}] has title '#{response['message']['thread']['title']}'"
+  puts "Set thread [#{ident_str}] title to '#{response['message']['thread']['title']}'"
 
   response['message']['thread']['id']
 end
 
+# Set the URL of the Disqus thread to the given value
 def update(thread_id, url)
   data = {
     :forum_api_key => FORUM_KEY,
@@ -95,9 +98,11 @@ def update(thread_id, url)
   response = JSON.parse( DISQUS['update_thread'].post(data) )
 end
 
-# Converts and sends a comment from the DB to Disqus with the given thread ID
 @unconverted = []
 @threads = {}
+# Converts and sends a comment from the DB to Disqus with the given thread ID
+# Failed conversions are stored in @unconverted and the thread_id to URL mapping
+# in @threads is updated
 def post(row, thread_id)
   data = convert(row)
   data[:forum_api_key] = FORUM_KEY
@@ -111,28 +116,36 @@ def post(row, thread_id)
     @threads[thread_id] = url(row)
   else
     puts "\tWARNING: Could not post comment by #{data[:author_name]} on #{data[:created_at]}"
+    puts data.to_yaml + "\n---"
     @unconverted << data
   end
 end
 
 # Processing begins here...
 DB_PASS = ENV['DB_PASS']
-DB = Sequel.mysql(DB_NAME, :user=>DB_USER, :password=>DB_PASS, :host=>'localhost')
+DB = Sequel.mysql(DB_NAME, 
+  :user=>DB_USER, :password=>DB_PASS, :host=>'localhost', :encoding => 'utf8'
+)
 
 USER_KEY = ENV['DISQUS_KEY']
 FORUM_KEY = forum_key
 
-LIMIT = "limit 10"
-QUERY = "select * from wp_comments, wp_posts where wp_comments.comment_post_ID = wp_posts.ID and comment_type != 'pingback' #{LIMIT}"
+QUERY = "select * from wp_comments, wp_posts where wp_comments.comment_post_ID = wp_posts.ID and comment_type != 'pingback'"
 DB[QUERY].each do |row|
   puts "Processing #{row[:comment_type]} comment #{row[:comment_ID]}..."
   thread_id = thread(row)
   post(row, thread_id)
 end
 
-puts "Number of failures: #{@unconverted.length}"
-
+# Update all of the threads with the correct URL
 @threads.each do |tid,url| 
   update(tid,url)
 end
 
+# Print unconverted data to STDOUT as YAML
+puts "Number of failures: #{@unconverted.length}"
+puts "\n\n***UNCOVERTED POSTS***"
+@unconverted.each do |data|
+  puts data.to_yaml
+  puts "***"
+end
