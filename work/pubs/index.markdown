@@ -69,12 +69,12 @@ _arXiv:0901.0356v1 \[stat.ML\]_,
 **2009**
 </div>
 
-[unsw07]: /~mreid/files/pubs/unsw07.pdf
-[isj01]: /~mreid/files/pubs/isj02.pdf
-[ilp04]: /~mreid/files/pubs/ilp04.pdf
-[ilp00]: /~mreid/files/pubs/ilp00.pdf
-[icml00]: /~mreid/files/pubs/icml00.pdf
-[ds99]: /~mreid/files/pubs/ds99.pdf
+[unsw07]: /files/pubs/unsw07.pdf
+[isj01]: /files/pubs/isj02.pdf
+[ilp04]: /files/pubs/ilp04.pdf
+[ilp00]: /files/pubs/ilp00.pdf
+[icml00]: /files/pubs/icml00.pdf
+[ds99]: /files/pubs/ds99.pdf
 
 [pat06]: http://pericles.ipaustralia.gov.au/ols/searching/patsearch/search_section.jsp?sectionCode=DTL&keyNo=2006252174&type=S
 

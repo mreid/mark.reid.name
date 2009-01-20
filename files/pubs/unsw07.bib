@@ -1,0 +1,38 @@
+@phdthesis{Reid:2007,
+	Address = {Sydney NSW 2052 Australia},
+	Author = {Reid, Mark D.},
+	Keywords = {transfer learning, bias learning, evaluation, ILP, rule learning, limited data},
+	School = {School of Computer Science and Engineering, University of New South Wales},
+	Title = {{DEFT} Guessing: Using Inductive Transfer to Improve Rule Evaluation from Limited Data},
+	Url = {http://www.library.unsw.edu.au/~thesis/adt-NUN/public/adt-NUN20070512.173744/},
+	Year = {2007},
+	Abstract = {
+		Algorithms that learn sets of rules describing a concept from its examples have been
+        widely studied in machine learning and have been applied to problems in medicine,
+        molecular biology, planning and linguistics. Many of these algorithms used a
+        separate-and-conquer strategy, repeatedly searching for rules that explain different
+        parts of the example set. When examples are scarce, however, it is difficult for these
+        algorithms to evaluate the relative quality of two or more rules which fit the examples
+        equally well.
+
+		This dissertation proposes, implements and examines a general technique for modifying
+        rule evaluation in order to improve learning performance in these situations. This
+        approach, called Description-based Evaluation Function Transfer (DEFT), adjusts the way
+        rules are evaluated on a target concept by taking into account the performance of similar
+        rules on a related support task that is supplied by a domain expert. Central to this
+        approach is a novel theory of task similarity that is defined in terms of syntactic
+        properties of rules, called descriptions, which define what it means for rules to be
+        similar. Each description is associated with a prior distribution over classification
+        probabilities derived from the support examples and a rule's evaluation on a target task
+        is combined with the relevant prior using Bayes' rule. Given some natural conditions
+        regarding the similarity of the target and support task, it is shown that modifying rule
+        evaluation in this way is guaranteed to improve estimates of the true classification
+        probabilities.
+
+		Algorithms to efficiently implement Deft are described, analysed and used to measure the
+        effect these improvements have on the quality of induced theories. Empirical studies of
+        this implementation were carried out on two artificial and two real-world domains. The
+        results show that the inductive transfer of evaluation bias based on rule similarity is
+        an effective and practical way to improve learning when training examples are limited.
+	}
+}

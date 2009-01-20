@@ -59,7 +59,7 @@ Installing
 Once you have all of the above dependencies, download the [feedbag.zip][] file
 and unpack it. 
 
-[feedbag.zip]: /~mreid/files/code/feedbag.zip
+[feedbag.zip]: /files/code/feedbag.zip
 
 Inside you will find three files:
 
