@@ -53,7 +53,7 @@ in the [personal][] section of this site.
 
 [research]: /work/
 [published]: /work/pubs
-[personal]: /play/
+[personal]: /
 [code]: /code/
 
 [feed bag]: http://mark.reid.name/code/feed-bag/

@@ -1,24 +1,19 @@
 ---
 layout: iem
-title: Home
-section: Home
+title: Archives
+top: Inductio Ex Machina
+section: Past
 
 feed: atom.xml
 keywords: Machine Learning, Statistics, Blog, Research, Academia
 ---
 
-Thoughts on Machine Learning and Inference {: .emphnext :}
-==========================================
+This is the complete archive of posts from _[inductio ex machina](/iem)_
+in reverse chronological order.
+{: .emphfirst :}
 
-_Inductio Ex Machina_ is [Mark Reid](/)'s research blog on machine learning and 
-statistical inference.
-
-You can browse through the complete archives [here](past.html). 
-
-Recent Posts
-------------
-
-{% for post in site.categories.iem limit:5 %}
+<h1>All Posts</h1>
+{% for post in site.categories.iem %}
 <div class="section list">
   <h1>{{ post.date | date_to_string }}</h1>
   <a class="title" href="{{ post.url }}">{{ post.title }}</a>
@@ -27,20 +22,7 @@ Recent Posts
   <span class="excerpt">{{ post.excerpt }}</span>
 </div>
 {% endfor %}
-
-<p>
-<a href="past.html">Older Posts &rarr;</a>
-</p>
-<!--
-  <ul class="posts">
-    {% for post in site.categories.work %}	  
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a><br/>
-	  <span class="excerpt">{{ post.excerpt }}</span>
-	  </li>
-    {% endfor %}
-  </ul>
--->
-
+  
 <script type="text/javascript">
 //<![CDATA[
 (function() {

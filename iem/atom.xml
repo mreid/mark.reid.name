@@ -5,8 +5,8 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Inductio Ex Machina</title>
- <link href="http://mark.reid.name/work/blog/atom.xml" rel="self"/>
- <link href="http://mark.reid.name/work/blog/"/>
+ <link href="http://mark.reid.name/iem/atom.xml" rel="self"/>
+ <link href="http://mark.reid.name/iem/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://mark.reid.name/work/blog/</id>
  <author>
@@ -14,12 +14,12 @@ layout: nil
    <email>mark@reid.name</email>
  </author>
  
- {% for post in site.categories.work  %}
+ {% for post in site.categories.iem  %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://mark.reid.name/work/blog/{{ post.url }}"/>
+   <link href="http://mark.reid.name/iem/{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://mark.reid.name/work/blog/{{ post.id }}</id>
+   <id>http://mark.reid.name/iem/{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}

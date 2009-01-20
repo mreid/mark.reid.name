@@ -7,19 +7,17 @@ section: Home
 
 <img src="/images/mark_reid.jpg" alt="Photo of Mark Reid drinking coffee" title="Mark Reid" class="inset left" width="120px"/>
 
-This is the personal website of Mark Reid.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This is the personal website of Mark Reid. I'm currently in the process of 
+transferring over my old site to this new format so not all links may work 
+at present.
 {: .emphfirst :}
 
-Some more text in a second paragraph that will hopefull wrap underneath the image.
+Apologies. I expect to have the site fixed up by mid-February, 2009.
 
-<div class="section" markdown="1">
-  <h1>About</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
- 
-</div>
+Very briefly, I'm a happily married 30-something with a Ph.D. in machine 
+learning who has recently become a dad. 
 
+<!--
 <div class="section" markdown="1">
 Reading
 =======
@@ -32,10 +30,18 @@ Reading
   <h1>Listening</h1>
   <script type="text/javascript" src="http://last.aelabs.net/js/albums.js?u=mdreid&limit=10"></script>
   </div>
+-->
 
-  <div class="section">
-  <h1>Research</h1>
-  <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
- 
-  </div>
+<div class="section" markdown="1">
+Research
+========
+My day job is as a [Research Fellow](/work) in statistical machine learning at 
+the Australian National University's Research School of Information Sciences and
+Engineering.
+</div>
+
+<div class="section" markdown="1">
+Blog
+====
+I keep up a research blog called _[inductio ex machina](/iem)_.
+</div>
