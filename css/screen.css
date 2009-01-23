@@ -183,6 +183,31 @@ dd { margin: 0 0 1.5em 0; text-align: justify; }
 	color: blue;
 	border-bottom: 2px solid blue;
 }
+#header .byline {
+	color: silver;
+	font-size: 10pt;
+	line-height: 75%
+}
+#header .byline a { }
+
+/* @group Twitter */
+#twitter_div { background: #fafafa; margin: 0 1em 0 1em; font-size: 8pt; border: 1px solid #ddd; }
+#twitter_update_list { display: inline; margin: 0; }
+#twitter_update_list li {
+	display: inline;
+	margin: 0;
+}
+.twitter-title {
+	display: inline;
+	margin: 0;
+}
+.twitter-title a {
+	display: inline;
+}
+/* @end */
+
+
+#
 
 body#Work #header a.work, 
 body#Home #header a.home, 
