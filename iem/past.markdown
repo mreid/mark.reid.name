@@ -8,11 +8,13 @@ feed: atom.xml
 keywords: Machine Learning, Statistics, Blog, Research, Academia
 ---
 
+Archives
+========
+
 This is the complete archive of posts from _[inductio ex machina](/iem)_
 in reverse chronological order.
 {: .emphfirst :}
 
-<h1>All Posts</h1>
 {% for post in site.categories.iem %}
 <div class="section list">
   <h1>{{ post.date | date_to_string }}</h1>

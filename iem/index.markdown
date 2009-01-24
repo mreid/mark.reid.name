@@ -10,8 +10,8 @@ keywords: Machine Learning, Statistics, Blog, Research, Academia
 Thoughts on Machine Learning and Inference {: .emphnext :}
 ==========================================
 
-_Inductio Ex Machina_ is [Mark Reid](/)'s research blog on machine learning and 
-statistical inference.
+This is _Inductio Ex Machina_, [Mark Reid](/)'s research blog on machine 
+learning and statistical inference.
 
 You can browse through the complete archives [here](past.html). 
 

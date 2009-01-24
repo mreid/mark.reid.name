@@ -5,11 +5,11 @@ top: Mark Reid
 section: Home
 ---
 
-<img src="/images/mark_reid.jpg" alt="Photo of Mark Reid drinking coffee" title="Mark Reid" class="inset left" width="120px"/>
+<img src="/images/mark_reid.jpg" alt="Photo of Mark Reid drinking coffee" title="Mark Reid" class="inset right" width="120px"/>
 
-This is the personal website of Mark Reid. I'm currently in the process of 
-transferring over my old site to this new format so not all links may work 
-at present.
+Welcome to my personal website. 
+I'm currently in the process of transferring over my old site to this new format 
+so not all links may work at present.
 {: .emphfirst :}
 
 Apologies. I expect to have the site fixed up by mid-February, 2009.
@@ -40,8 +40,26 @@ the Australian National University's Research School of Information Sciences and
 Engineering.
 </div>
 
-<div class="section" markdown="1">
-Blog
-====
-I keep up a research blog called _[inductio ex machina](/iem)_.
+<div class="section">
+<h1>Blog</h1>
+<p>
+I keep a research blog 	called <i><a href="/iem">inductio ex machina</a></i> on 
+machine learning and statistics.
+Recent posts include:
+{% for post in site.categories.iem limit:3 %}
+<ul class="compact">
+<li>
+	<span class="date">{{ post.date | date_to_string }}</span> 
+	&nbsp;&mdash;&nbsp;
+	<a href="{{ post.url }}" title="{{ post.excerpt }}">{{ post.title }}</a>
+</li>
+</ul>
+{% endfor %}
+</p>
 </div>
+
+<div class="section" id="twitter_div">
+  <h1 class="twitter-title"><a href="http://twitter.com/mdreid/">Twitter</a></h1>
+  <p>&ldquo;<span id="twitter_update_list">Contacting Twitter...</span>&rdquo;</p>
+</div>
+

@@ -68,7 +68,7 @@ Contact
 =======
 I can be reached at work by phone on (+61) 2 6267 6297, 
 by email at [mark.reid@anu.edu.au](mailto:mark.reid@anu.edu.au),
-or you could drop by our building which is located [here][map].
+or you could drop by [my building][map].
 </div>
 
 [map]: http://maps.google.com/maps?f=q&hl=en&geocode=&time=&date=&ttype=&q=RSISE+ANU+Canberra&ie=UTF8&t=h&mrt=kmlkmz&ll=-35.273758,149.120092&spn=0.033354,0.025535&z=15&om=1
