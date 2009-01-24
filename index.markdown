@@ -59,7 +59,12 @@ Recent posts include:
 </div>
 
 <div class="section" id="twitter_div">
-  <h1 class="twitter-title"><a href="http://twitter.com/mdreid/">Twitter</a></h1>
-  <p>&ldquo;<span id="twitter_update_list">Contacting Twitter...</span>&rdquo;</p>
+  <h1 class="twitter-title"><a  href="http://twitter.com/mdreid/">Twitter</a></h1>
+  <p>
+	I am <a href="http://twitter.com/mdreid">mdreid</a> at Twitter.
+  </p>
+  <p>
+	My last tweet was: 
+	&ldquo;<span id="twitter_update_list">Contacting Twitter...</span>&rdquo;</p>
 </div>
 
