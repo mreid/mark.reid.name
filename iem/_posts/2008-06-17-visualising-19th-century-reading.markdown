@@ -7,10 +7,6 @@ wordpress_id: 40
 wordpress_url: http://conflate.net/inductio/?p=40
 ---
 
-_Update - 9 Dec 2008_: Julieanne and I presented a much improved version of this visualisation at the [Resourceful Reading][] conference held at the University of Sydney on the 5th of December. Those looking for the application I presented there: stay tuned, I will post the updated version here shortly.
-
-[Resourceful Reading]: http://conferences.arts.usyd.edu.au/index.php?cf=20
-
 I've recently spent a bit of time collaborating with my wife on a research project. Research collaboration by couples is not new but given that Julieanne is a [lecturer in the English program][j] and I'm part of the [computer sciences laboratory][csl], this piece of joint research is a little unusual. 
 
 The rest of this post describes the intersection of our interests --- data from the Australian Common Reader Project --- and the visualisation tool I wrote to explore it. The tool itself is based on a simple application of linear Principal Component Analysis (PCA). I'll attempt to explain it here in such a way that readers who have not studied this technique might still be able to make use of the tool.
@@ -102,13 +98,10 @@ Figure 1 shows a plot of the PCA reduced book data. Each circle represents one o
 
 [^2]: A book can belong to more than one library. In this case one library is chosen at random to determine a circle's colour.
 
-<dl class="figure">
-<dt>
-<img src="http://conflate.net/inductio/wp-content/uploads/2008/06/all_libraries.png" alt="Plot of the books across all libraries in the ACRP database" width="550" class="aligncenter wp-image-43" />
-</dt><dd>
-	<strong>Figure 1</strong>: A PCA plot of all the books in the ACRP database coloured according to which library they belong to. The size of each circle indicates the number of borrowers of the corresponding book.
-</dd>
-</dl>
+![Plot of the books across all libraries in the ACRP database](/images/figures/all_libraries.png){: width=550 }
+:	**Figure 1**: A PCA plot of all the books in the ACRP database coloured according to which library they belong to. The size of each circle indicates the number of borrowers of the corresponding book.
+
+{: .figure }
 
 One immediate observation is that books are clustered according to which library they belong to. This is not too surprising since the books in a library limit what borrowers from that library can read. This means it is likely that two voracious readers that frequent the same library will read the same books. This, in turn, will mean the similarity of two books from a library will be higher than books from different libraries as there are very few borrowers that use more than one library.
 
@@ -122,17 +115,15 @@ There are a total of 789 books in the Lambton institute and 469 borrowers of tho
 
 To make it easier to explore this data, I wrote a simple tool that allows a viewer to interact with the PCA plot. A screenshot from this tool is shown in Figure 2. Once again, larger circles represent books with a larger number of borrowers. 
 
-Clicking on the figure will open a new window and, after a short delay, the tool will run. The same page can also be accessed from [this link][applet]. 
+Clicking on [this link][applet] will open a new window and, after a short delay, the tool will run.
 
 [applet]: /inductio/wp-content/public/acrp/
 
-<dl class="figure">
-<dt>
-<a href='http://conflate.net/inductio/wp-content/public/acrp/' target="_"><img src="http://conflate.net/inductio/wp-content/uploads/2008/06/acrp.png" alt="Click to open visualisation applet" width="550" class="aligncenter wp-image-41" /></a>
-</dt><dd>
-	<strong>Figure 2</strong>: A screenshot of the ACRP visualisation tool showing books from the Lambton Institute. Click the image to run the tool in a new window.
-</dd>
-</dl>
+![Screenshot of the visualisation applet](/images/figures/acrp.png){: width=550 }
+:	 **Figure 2**: A screenshot of the ACRP visualisation tool showing books 
+	from the Lambton Institute. Click the image to run the tool in a new window.
+
+{: .figure }
 
 Instructions describing how to use the tool can be found below it. 
 In a nutshell: hovering over a circle will reveal the title of the book corresponding to that circle; clicking on a circle will draw lines to its most similar neighbours; altering the "Borrowers" bar will only show books with at least that many borrowers; and altering the "Similarity" bar will only draw lines to books with at least that proportion of books in common.
@@ -159,4 +150,10 @@ For the technically minded, I have made the code I used to do the visualisation 
 Access to the data that the code acts upon is not mine to give, so the code is primarily to show how I did the visualisation rather than a way to let others analyse the data. If the founders of the [ACRP][] project decide to release the data to the public at a later date I will link to it from here.
 
 [acrp]: http://www.api-network.com/hosted/acrp/
+
+Updates
+-------
+* _9 December 2008_: Julieanne and I presented a much improved version of this visualisation at the [Resourceful Reading][] conference held at the University of Sydney on the 5th of December. Those looking for the application I presented there: stay tuned, I will post the updated version here shortly.
+
+[Resourceful Reading]: http://conferences.arts.usyd.edu.au/index.php?cf=20
 

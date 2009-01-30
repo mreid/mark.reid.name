@@ -14,6 +14,9 @@ We had our official release on the 26th of October and even though she's been he
 
 We refer to her as "Ada Molly Reid".
 
-<center>
-<a href="http://conflate.net/inductio/wp-content/uploads/2008/11/ada.jpg"><img src="http://conflate.net/inductio/wp-content/uploads/2008/11/ada.jpg" alt="An Artificial AI, completed on the 26th of October, 2008." title="Ada Molly Reid" width="170" height="130" class="size-full wp-image-141" /></a></center>
+![Ada Molly Reid](/images/ada.jpg)
+:	&nbsp;
+
+{:.figure }
+
 

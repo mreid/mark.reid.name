@@ -25,22 +25,11 @@ My ability to intuitively grasp this duality relationship was not that great so 
 
 The left plot, entitled "Cost Space" shows the (cost,loss) duals of both the black and grey curves from the right-hand plot. The grey diagonal on the right corresponds to a "tent" on the left that represents the best performance of a classifier that constantly predicts a single class.
 
-<object classid="java:siroc.class" class="applet" style="border: 1px solid gray; margin-left: -50px; padding: 1ex 0;"
-           type="application/x-java-applet" 
-archive="/downloads/siroc/siroc.jar,/downloads/siroc/controlP5.jar,/downloads/siroc/batikfont.jar,/downloads/siroc/geomerative.jar,/downloads/siroc/geovex.jar,/downloads/siroc/core.jar" 
-           width="700" height="400" standby="Loading Processing software...">
-  <param name="archive" value="/downloads/siroc/siroc.jar,/downloads/siroc/controlP5.jar,/downloads/siroc/batikfont.jar,/downloads/siroc/geomerative.jar,/downloads/siroc/geovex.jar,/downloads/siroc/core.jar" />
-  <param name="mayscript" value="true" />
-  <param name="scriptable" value="true" />
-  <param name="image" value="/downloads/siroc/loading.gif" />
-  <param name="boxmessage" value="Loading Processing software..." />
-  <param name="boxbgcolor" value="#FFFFFF" />
-  <param name="test_string" value="outer" />
-<p>
-<strong>This browser does not have a Java Plug-in.<br />
-<a href="http://java.sun.com/products/plugin/downloads/index.html" title="Download Java Plug-in">Get the latest Java Plug-in here.</a></strong>
-</p>
-</object>
+![Screenshot of Cost/ROC Curve Duality](/images/figures/siroc-screenshot.png){: width=650 }
+:	**Figure 1**: Screenshot of the cost/ROC visualisation applet. Click 
+	[here](http://github.com/mreid/siroc/raw/ffa914ae474f007f05e673222c4252f95008399b/applet/index.html) to open the applet and interact with it.
+
+{:.figure :}
 
 If you click in the applet area you can get a feel for the relationship between these two representations. When you move your mouse over ROC space you will see the corresponding line in cost space. Conversely, when you move your mouse over the cost space plot you will see the dual line in ROC space.
 
@@ -49,5 +38,10 @@ The bar at the bottom of the two plots controls the prior probability $\pi$. You
 The code for this applet is available through [GitHub](http://github.com). The visualisation aspects are written in [Processing](http://processing.org) and are [available here](http://github.com/mreid/siroc/). This relies on some [Java code](http://github.com/mreid/geovex/) I also wrote that does the point-line conversions.
 
 [Chris Drummond](http://www.site.uottawa.ca/~cdrummon/) has also created an [applet](http://www.site.uottawa.ca/~cdrummon/rocconversion.html) to do the same kind of conversion. The one here can be seen as complementary since his version allows the user to add data points and construct curves whereas mine just aims to make the key relationship interactive.   
+
+Updates
+-------
+* _30 January 2009_: Replaced inline applet with a screenshot and link to page
+  hosted on GitHub.
 
 [^1]: My description here differs slightly from Drummond and Holte's in that I am keeping priors and costs separate and not normalising the loss. 
