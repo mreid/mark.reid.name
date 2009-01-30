@@ -1,3 +1,0 @@
-<blahtex>
-<error><id>UnrecognisedCommand</id><arg>\begin{array}</arg><message>Unrecognised command "\begin{array}"</message></error>
-</blahtex>
