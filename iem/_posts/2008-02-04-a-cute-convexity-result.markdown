@@ -13,7 +13,7 @@ Just when I thought I was starting to get my head around the multitudinous uses 
 > A function f over the interval (a,b) is convex if, for all choices of {x,y,z} 
 > satisfying a < x < y < z < b the determinant 
 >
-> \[ \left| \begin{array}{ccc} 1 & 1 & 1 \\ x & y & z \\ f(x) & f(y) & f(z) \end{array}\right|\]
+> \[ \left| \begin{matrix} 1 & 1 & 1 \\ x & y & z \\ f(x) & f(y) & f(z) \end{matrix}\right|\]
 >
 > is non-negative.
 
@@ -26,14 +26,14 @@ which, after noticing that (z-y) + (y-x) = (z-x), of course is the more traditio
 What's neat about this determinant representation is that it extends nicely to what are known as k<sup>th</sup>-order convex functions (ones whose derivatives up to order k are convex). Specifically, f is k-convex whenever $\{x_i\}_{i=0}^{k+1}$ satisfy $a < x_0 < \ldots < x_{k+1} < b$ and 
 \[
 \left| 
-       \begin{array}{ccc} 
+       \begin{matrix}
           1    & \cdots & 1 \\ 
           x_0 & \cdots & x_{k+1} \\ 
           x_0^2 & \cdots & x_{k+1}^2 \\
           \vdots & \ddots & \vdots \\
           x_0^k & \cdots & x_{k+1}^k \\
           f(x_1) &  \cdots & f(x_{k+1}) 
-     \end{array} \right| \geq 0.
+     \end{matrix} \right| \geq 0.
 \]
 
 While it is arguably less transparent than explicitly writing out all the convexity inequalities for each of the derivatives of f it certainly makes up for it with compactness.
