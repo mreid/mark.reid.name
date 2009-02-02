@@ -373,6 +373,14 @@ form#comment {
 }
 /* @end */
 
+/* @group LibraryThing */
+span.LTtitle { display: none; }
+div.LTitem { display: inline; margin-right: 1em; }
+div.LTprovided { display: none; }
+/* @end */
+
+
+
 /* @group Footer */
 
 #footer {

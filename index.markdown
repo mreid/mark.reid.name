@@ -17,21 +17,6 @@ Apologies. I expect to have the site fixed up by mid-February, 2009.
 Very briefly, I'm a happily married 30-something with a Ph.D. in machine 
 learning who has recently become a dad. 
 
-<!--
-<div class="section" markdown="1">
-Reading
-=======
-
-<script type="text/javascript" src="http://www.librarything.com/jswidget.php?reporton=mdreid&show=recent&header=&num=10&covers=small&text=title&tag=show&css=0&style=2&version=1" ></script>
-
-</div>
-
-  <div class="section">
-  <h1>Listening</h1>
-  <script type="text/javascript" src="http://last.aelabs.net/js/albums.js?u=mdreid&limit=10"></script>
-  </div>
--->
-
 <div class="section" markdown="1">
 Research
 ========
@@ -56,6 +41,21 @@ Recent posts include:
 </ul>
 {% endfor %}
 </p>
+</div>
+
+<div class="section" markdown="1">
+[Reading](http://librarything.com/home/mdreid)
+==============================================
+
+<script type="text/javascript" src="http://www.librarything.com/jswidget.php?reporton=mdreid&show=recent&header=&num=8&covers=small&text=title&tag=show&css=0&style=2&version=1" ></script>
+
+</div>
+
+<div class="section lastfm" markdown="1">
+[Listening](http://last.fm/user/mdreid)
+=======================================
+
+  <script type="text/javascript" src="http://last.aelabs.net/js/albums.js?u=mdreid&limit=8"></script>
 </div>
 
 <div class="section" id="twitter_div">

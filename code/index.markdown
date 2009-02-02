@@ -58,8 +58,13 @@ Other Hacking
 	[BibDesk][] I wrote a small amount of AppleScript to push selected 
 	citations in the latter to the former.
 
+[Jekyll][]
+:	I have contributed some minor improvements (Maruku markup, categories,
+	permalink options) to the static blog engine [Jekyll][] which,
+	coincidentally, I use to run this site.
+
 [Instiki][]
-:	I am one of the contributors to the [Instiki][] codebase. I helped
+:	I was one of the contributors to the [Instiki][] codebase. I helped
 	streamline and extend the parser that handles the wiki markup.
 </div>
 
@@ -71,3 +76,4 @@ Other Hacking
 [Instiki]: http://instiki.org
 [bibdesktolyx]: http://threewordslong.com/projects/bibdesk_to_lyx
 [bibdesk]: http://bibdesk.sourceforge.net/
+[Jekyll]: http://github.com/mojombo/jekyll/tree/master
