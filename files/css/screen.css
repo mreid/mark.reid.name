@@ -375,11 +375,13 @@ form#comment {
 
 /* @group LibraryThing */
 span.LTtitle { display: none; }
-div.LTitem { display: inline; margin-right: 1em; }
+div.LTitem { display: inline; margin-right: 0.7em; }
 div.LTprovided { display: none; }
 /* @end */
 
-
+/* @group Last.fm */
+.lastfm a { margin-right: 0.7em; }
+/* @end */
 
 /* @group Footer */
 

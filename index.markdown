@@ -43,6 +43,13 @@ Recent posts include:
 </p>
 </div>
 
+<div class="section" id="twitter_div">
+  <h1 class="twitter-title"><a  href="http://twitter.com/mdreid/">Twitter</a></h1>
+  <p>
+	<span id="twitter_update_list">Contacting Twitter...</span>
+  </p>
+</div>
+
 <div class="section" markdown="1">
 [Reading](http://librarything.com/home/mdreid)
 ==============================================
@@ -51,20 +58,15 @@ Recent posts include:
 
 </div>
 
-<div class="section lastfm" markdown="1">
-[Listening](http://last.fm/user/mdreid)
-=======================================
+<div class="section lastfm">
+<h1><a href="http://last.fm/user/mdreid">Listening</a></h1>
 
-  <script type="text/javascript" src="http://last.aelabs.net/js/albums.js?u=mdreid&limit=8"></script>
+<div id="lastfm">
 </div>
 
-<div class="section" id="twitter_div">
-  <h1 class="twitter-title"><a  href="http://twitter.com/mdreid/">Twitter</a></h1>
-  <p>
-	I am <a href="http://twitter.com/mdreid">mdreid</a> at Twitter.
-  </p>
-  <p>
-	My last tweet was: 
-	&ldquo;<span id="twitter_update_list">Contacting Twitter...</span>&rdquo;</p>
+<script type="text/javascript" src="/files/js/jquery.js"></script>          
+<script type="text/javascript" src="/files/js/lastfm.js"></script>
+
 </div>
+
 
