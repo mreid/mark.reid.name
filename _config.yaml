@@ -1,0 +1,16 @@
+---
+destination : /Users/mreid/Sites/mark.reid.name
+auto        : true
+lsi         : false
+pygments    : false
+permalink   : none
+markdown    : maruku
+
+maruku:
+    use_divs: true
+    use_tex: true
+    png_engine : blahtex
+    png_dir    : images/latex
+    png_url    : /images/latex
+
+    
