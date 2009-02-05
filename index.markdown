@@ -7,12 +7,6 @@ section: Home
 
 <img class='inset right' src='/images/mark_reid.jpg' title='Mark Reid' alt='Photo of Mark Reid drinking a coffee' width='120px' />
 
-Welcome to my personal website. Very briefly, I'm a post-doctoral researcher in statistical machine learning who moonlights as a happily married 30-something 
-and dad. 
-{: .emphfirst :}
-
-This site is a collection of my activities, interests, and writings.
-
 +--	{.section}
 Research
 ========

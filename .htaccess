@@ -6,3 +6,5 @@ RedirectMatch 301 /iem/visualising-reading.html /iem/visualising-19th-century-re
 RewriteRule ^/iem/(.*)/(.*)/(.*)/(.*)$ http://mark.reid.name/iem/$4.html [R=301,L]
 RewriteRule ^/iem/(.*)/(.*)/(.*)$ http://mark.reid.name/iem/$3.html [R=301,L]
 </IfModule>
+
+ErrorDocument 404 http://mark.reid.name/404.html
