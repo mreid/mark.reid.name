@@ -7,13 +7,15 @@ feed: atom.xml
 keywords: Machine Learning, Statistics, Blog, Research, Academia
 ---
 
-Thoughts on Machine Learning and Inference {: .emphnext :}
+Thoughts on Machine Learning and Inference
 ==========================================
 
-This is _Inductio Ex Machina_, [Mark Reid](/)'s research blog on machine 
-learning and statistical inference.
+_Inductio Ex Machina_ is [Mark Reid](/)'s research blog on machine 
+learning and statistical inference. 
 
-You can browse through the complete archives [here](past.html). 
+More [information](info.html) about this blog, its [kith](kith.html) (blogroll, 
+bookmarks, _etc._), and a complete archive of [past](past.html) posts, are 
+available via links at the top of the page.
 
 Recent Posts
 ------------
@@ -32,15 +34,6 @@ Recent Posts
 <p>
 <a href="past.html">Older Posts &rarr;</a>
 </p>
-<!--
-  <ul class="posts">
-    {% for post in site.categories.work %}	  
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a><br/>
-	  <span class="excerpt">{{ post.excerpt }}</span>
-	  </li>
-    {% endfor %}
-  </ul>
--->
 
 <script type="text/javascript">
 //<![CDATA[

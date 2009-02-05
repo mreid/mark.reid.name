@@ -1,7 +1,6 @@
 ---
 layout: iem
 title: Archives
-top: Inductio Ex Machina
 section: Past
 
 feed: atom.xml
@@ -13,7 +12,6 @@ Archives
 
 This is the complete archive of posts from _[inductio ex machina](/iem)_
 in reverse chronological order.
-{: .emphfirst :}
 
 {% for post in site.categories.iem %}
 <div class="section list">

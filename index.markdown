@@ -5,17 +5,13 @@ title: Home
 section: Home
 ---
 
-![Photo of Mark Reid drikning coffee](/images/mark_reid.jpg){:.inset .right width="120px" :}
+<img class='inset right' src='/images/mark_reid.jpg' title='Mark Reid' alt='Photo of Mark Reid drinking a coffee' width='120px' />
 
-Welcome to my personal website. 
-I'm currently in the process of transferring over my old site to this new format 
-so not all links may work at present.
+Welcome to my personal website. Very briefly, I'm a post-doctoral researcher in statistical machine learning who moonlights as a happily married 30-something 
+and dad. 
 {: .emphfirst :}
 
-Apologies. I expect to have the site fixed up by mid-February, 2009.
-
-Very briefly, I'm a happily married 30-something with a Ph.D. in machine 
-learning who has recently become a dad. 
+This site is a collection of my activities, interests, and writings.
 
 +--	{.section}
 Research
@@ -48,16 +44,6 @@ Recent posts include:
 ==============================================
 
 <script type="text/javascript" src="http://www.librarything.com/jswidget.php?reporton=mdreid&show=recent&header=&num=8&covers=small&text=title&tag=show&css=0&style=2&version=1" ></script>
-=--
-
-+-- {.section}
-[Listening](http://last.fm/user/mdreid)
-=======================================
-<div id="lastfm"><img height="50" width="0" /></div>
-
-<script type="text/javascript" src="/files/js/jquery.js"></script>
-<script type="text/javascript" src="/files/js/lastfm.js"></script>
-
 =--
 
 +-- {.section}

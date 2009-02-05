@@ -1,3 +1,5 @@
+/* @override http://mark.reid.dev/files/css/screen.css */
+
 /* @override http://mark.reid.dev/css/screen.css */
 
 /* screen.css
@@ -98,12 +100,17 @@ hr {
 blockquote {
 	padding: 0 2.8em;
 	margin: 1.714em 0;
-	background-color: white;
 	color: #444;
 	font-size: 0.875em;
 	line-height: 1.714em;
 }
 
+.note {
+	padding-top: 0.5em; 
+	background-color: #fafaff;
+	border-top: 1px solid silver;
+	border-bottom: 1px solid silver;
+}
 /* @group Table */
 table {
 	width: 80%;
@@ -134,9 +141,13 @@ ul {
 	line-height: 1.5em;
 	padding-left: 1.5em;
 }
-li {
+ul li {
 	list-style-type: square;
 	list-style-position: outside;
+}
+ol li {
+	list-style-type: decimal;
+	list-style-position: inside;
 }
 dt { font-weight: bold;}
 dd { margin: 0 0 1.5em 0; text-align: justify; }
@@ -204,7 +215,8 @@ body#Work #header a.work,
 body#Home #header a.home, 
 body#Play #header a.play,
 body#Info #header a.info,
-body#Past #header a.past
+body#Past #header a.past,
+body#Kith #header a.kith
 { 
 	border-bottom: 2px solid silver; 
 }
@@ -380,11 +392,25 @@ div.LTprovided { display: none; }
 /* @end */
 
 /* @group Last.fm */
-.lastfm a { margin-right: 0.7em; }
+#lastfm a { margin-right: 0.7em; }
 /* @end */
 
-/* @group Footer */
+/* @group Delicious */
+.delicious-posts { }
+.delicious-posts ul, .delicious-posts li, .delicious-banner { margin: 0; padding: 0 }
+.delicious-posts li { list-style-position: outside; margin-bottom: 1em; margin-left: 1em; text-align: justify; }
+.delicious-post { }
+.delicious-banner { display: none; }
+.delicious-posts a:hover { }
+.delicious-posts a { }
+.delicious-post a { font-weight: bold; }
+p.delicious-extended { font-size: 100%; display: inline; }
+p.delicious-extended:before { content: ' — '; }
+/* @end */
 
+
+
+/* @group Footer */
 #footer {
 	margin-top: 0;
 	color: grey;

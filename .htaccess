@@ -1,8 +1,8 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /inductio/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RedirectMatch 301 /inductio/(.*)/(.*)/ http://mark.reid.name/iem/$2.html
-RedirectMatch 301 /inductio/ http://mark.reid.name/iem/
+RedirectMatch 301 /iem/visualising-reading.html /iem/visualising-19th-century-reading.html
+RewriteRule ^/iem/(.*)/(.*)/(.*)/(.*)$ http://mark.reid.name/iem/$4.html [R=301,L]
+RewriteRule ^/iem/(.*)/(.*)/(.*)$ http://mark.reid.name/iem/$3.html [R=301,L]
 </IfModule>
