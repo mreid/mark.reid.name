@@ -12,3 +12,6 @@ Overall I think they went well. I probably aimed the level of the material a
 little too high. I could have spent more time explaining what a Bayes risk was 
 and why it is so important. Some of the later material was rushed over.
 
+Slides are [available](http://cecs.anu.edu.au/~mreid/files/slides/MLSS2009Refs.pdf)
+
+Warning: 14Mb
