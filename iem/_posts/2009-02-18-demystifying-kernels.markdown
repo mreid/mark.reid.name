@@ -1,7 +1,7 @@
 ---
-title: Demystifying Kernels 
+title: 'Demystifying Kernels: Positive Definiteness'
 
-excerpt: Kernel methods are an important set of techniques in modern machine learning but some of the mathematics make them intimidating. Here I try to dispel some of their mystery.
+excerpt: Kernel methods are an important set of techniques in modern machine learning but some of the mathematics make them intimidating. In Part 1, I try to explain positive definiteness.
 
 location: Canberra, Australia
 layout: post
@@ -16,16 +16,28 @@ applicability and strong theoretical guarantees.
 
 Much of the theory of kernels relies on a mixture of concepts from linear 
 algebra, functional analysis and statistics. 
-The aim of this post is sketch some of the more important 
-ones---[positive definiteness](#positive-definiteness), 
-[reproducing kernel Hilbert spaces](#reproducing-kernel-hilbert-spaces), and the 
-[representer theorem](#the-representer-theorem)---and try to provide an 
-intuition for them.
-Hopefully this will make comprehensive technical overviews, such as the recent 
-_[Kernel Methods in Machine Learning][arXiv]_ \[1\] more approachable.
+The aim of this series of posts is to explain some of the more important 
+ones---positive definiteness, 
+reproducing kernel Hilbert spaces, and the 
+representer theorem. 
+As these were the ones I had difficulty understanding I 
+hope my attempt to provide an intuition for them will make it easier for others
+to approach this material, including more technical overviews such as the 
+recent _[Kernel Methods in Machine Learning][arXiv]_.
 
 [kms]: http://en.wikipedia.org/wiki/Kernel_methods
 [svm]: http://en.wikipedia.org/wiki/Support_vector_machine
+
+Kernels and Similarity
+----------------------
+One way of thinking about kernels that I find useful is that they are a
+measure of similarity between objects. 
+
+We will use $\mathcal{X}$ to denote the
+complete set of instances we are interested in. These could be documents, 
+images, graphs, whatever. 
+To measure the similarity between two instances $x_1, x_2 \in \mathcal{X}$
+we will use a function $k(x_1, x_2)$.
 
 Implicit Representation
 -----------------------
@@ -95,18 +107,6 @@ for $\Phi(x) = Lx$)
 the analogy with positive numbers)
 
 [cholesky]: http://en.wikipedia.org/wiki/Cholesky_decomposition
-
-Reproducing Kernel Hilbert Spaces
----------------------------------
-
-Given a kernel, there is a natural mapping to a Hilbert space for that kernel 
-called the _Reproducing Kernel Hilbert Space_. This is a space of functions
-
-(Functions as a natural generalisation of vectors, vector spaces work the same
-way)
-
-The Representer Theorem
------------------------
 
 References
 ----------
