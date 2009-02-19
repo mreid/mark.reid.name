@@ -7,6 +7,12 @@ section: Home
 
 <img class='inset right' src='/images/mark_reid.jpg' title='Mark Reid' alt='Photo of Mark Reid drinking a coffee' width='120px' />
 
+Welcome
+=======
+
+I'm Mark Reid, a 30-something academic, husband, programmer, father, 
+snowboarder, web-nerd, ... Anyway, you can find out more about be by poking around the links above and below.
+
 +--	{.section}
 Research
 ========

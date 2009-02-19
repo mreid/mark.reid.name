@@ -37,6 +37,7 @@ on a semi-regular basis:
 *  David Pennock's [Oddhead Blog](http://blog.oddhead.com)
 *  Shane Legg's [vetta project](http://www.vetta.org/)
 *  Neal Richter's [aicoder](http://aicoder.blogspot.com/) blog
+*  Fernando Pereira's [Earning My Turns](http://earningmyturns.blogspot.com/)
 
 Papers
 ------
