@@ -70,6 +70,16 @@ hr {
 	border: 1px solid silver;
 }
 
+/* More experimental CSS3 features */
+#page, #disqus_thread {
+	box-shadow: 3px 3px 10px #888;
+	-webkit-box-shadow: 3px 3px 10px #555;
+	-moz-box-shadow: 3px 3px 10px #888;
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
 #disqus_thread { padding-top: 0; }
 
 /* @group FancyFirst */
@@ -159,7 +169,7 @@ ul.compact li { list-style: none; }
 /* @group Header */
 #header, #header a { color: silver; }
 #header .hover { color: transparent; }
-#header:hover a { color: black; }
+#header:hover a { color: black; text-shadow: grey 2px 2px 3px;}
 #header:hover a:hover { text-decoration: none; }
 #header a:hover .hover { color: silver; }
 #header {
