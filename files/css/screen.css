@@ -67,6 +67,7 @@ hr {
 	background: white;
 /*	background-image: url(grid); */
 	padding: 3em 3em 1.5em 3em;
+	border: 1px solid #ccc;
 }
 
 /* More experimental CSS3 features */
