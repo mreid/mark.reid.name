@@ -11,7 +11,6 @@ I'm a post-doctoral Research Fellow in the
 at the [Australian National University][anu] in Canberra, Australia. 
 I work with other members of the [Statistical Machine Learning][sml] 
 group in the [Computer Sciences Lab][csl]. 
-{: .emphfirst :}
 
 [rsise]: http://rsise.anu.edu.au/
 [anu]: http://anu.edu.au/

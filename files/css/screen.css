@@ -209,7 +209,8 @@ ul.compact li { list-style: none; }
 	font-size: 10pt;
 	line-height: 75%
 }
-#header .byline a { }
+#header:hover .byline a { color: silver; text-shadow: none; }
+#header:hover .byline a:hover { color: black; text-shadow: #aaa 1px 1px 2px;}
 
 /* @group Twitter */
 #twitter_update_list { display: inline; margin: 0; }
@@ -222,6 +223,7 @@ body#Work #header a.work,
 body#Home #header a.home, 
 body#Play #header a.play,
 body#Info #header a.info,
+body#Code #header a.code,
 body#Past #header a.past,
 body#Kith #header a.kith
 { 

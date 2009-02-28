@@ -3,6 +3,7 @@ layout: name
 
 title: Colophon
 top: Mark Reid
+section: Info
 
 ---
 
