@@ -1,15 +1,12 @@
-/* @override http://mark.reid.dev/files/css/screen.css */
-
-/* @override http://mark.reid.dev/css/screen.css */
-
 /* screen.css
  *
  * A clean, simple stylesheet that aims for
  * a consistent vertical rhythm.
  *
  * Base font height: 16px
- * Base line lenght: 24px
+ * Base line length: 24px
  * 
+ * AUTHOR: Mark Reid <mark@reid.name>
  */
 
 /* @group Reset */
@@ -20,7 +17,7 @@ body {
 	font-family: Palatino, georgia, "times new roman", serif;
 	background-color: whitesmoke;
 	background-position: center -18em;
-    background-repeat: repeat-x; 
+	background-repeat: repeat-x; 
 }
 
 /* Hack via Joel Spolsky to make image rescaling nicer in IE */
@@ -40,9 +37,7 @@ h1,h2,h3,h4 {
 	clear: left; 	
 	font-family: 'lucida grande', sans-serif; 
 }
-h1 {
-	margin-bottom: 1em;
-}
+h1 { margin-bottom: 1em; }
 h2 {
 	font-size: 100%;
 	line-height: 1.5em;
@@ -65,7 +60,6 @@ hr {
 
 #page, #disqus_thread {
 	background: white;
-/*	background-image: url(grid); */
 	padding: 3em 3em 1.5em 3em;
 	border: 1px solid #ccc;
 }
@@ -138,8 +132,6 @@ caption {
 }
 
 /* @end */
-
-
 
 /* @group Lists */
 ul {
@@ -242,7 +234,6 @@ body#Kith #header a.kith
 	line-height: 1.5em;
 }
 .footnotes ol li > a { display: none; }
-
 /* @end */
 
 /* @group Sections */
@@ -265,9 +256,7 @@ body#Kith #header a.kith
 	font-weight: bold;
 	font-variant: small-caps;
 }
-.section p {
-	margin-bottom: 1.43em;
-}
+.section p { margin-bottom: 1.43em; }
 
 /* @end */
 
@@ -276,7 +265,6 @@ p.line { position: relative; margin: 0; }
 p.excerpt { margin: 0; }
 .comments { font-size: smaller; position: absolute; color: silver; right: 0; top: 0; }
 .excerpt { color: black; }
-
 
 /* @group Signature */
 .signature { 
@@ -416,8 +404,6 @@ div.LTprovided { display: none; }
 p.delicious-extended { font-size: 100%; display: inline; }
 p.delicious-extended:before { content: ' — '; }
 /* @end */
-
-
 
 /* @group Footer */
 #footer {

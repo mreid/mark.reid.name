@@ -37,7 +37,7 @@ We will use $\mathcal{X}$ to denote the
 complete set of instances we are interested in. These could be documents, 
 images, graphs, whatever. 
 To measure the similarity between two instances $x_1, x_2 \in \mathcal{X}$
-we will use a function $k(x_1, x_2)$.
+we will use a function $k(x_1, x_2)$. Large values of 
 
 Implicit Representation
 -----------------------
