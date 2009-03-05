@@ -1,3 +1,0 @@
-<blahtex>
-<error><id>UnrecognisedCommand</id><arg>\begin{displaystyle}</arg><message>Unrecognised command "\begin{displaystyle}"</message></error>
-</blahtex>
