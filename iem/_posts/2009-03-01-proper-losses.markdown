@@ -42,7 +42,7 @@ when the label is $y$ to be
 \[	\displaystyle
 	\ell_{01}(y,p) = 
 	\begin{cases}
-		1, &	y = p \\
+		1, &	y \ne p \\
 		0, &	\text{otherwise}.
 	\end{cases}
 \]
