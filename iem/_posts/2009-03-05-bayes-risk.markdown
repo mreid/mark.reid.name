@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: "Probability Estimation: Bayes Risk and Regret"
+title: "Probability Estimation: Bayes Risk"
 
 excerpt: An overview of some properties of conditional, or point-wise, Bayes risks for proper losses.
 
@@ -59,13 +59,32 @@ One useful property of point-wise Bayes risk functions for proper losses is that
 they are necessarily [concave][]. That is, a line joining any two points on 
 the graph of $L^*$ lies entirely below $L^*$.
 
-As we will see in later posts, the point-wise Bayes risk functions are, in some 
-sense, more fundamental than the proper losses they are derived from. 
+The quickest way to establish this is via a well-known result regarding concave 
+functions is that the point-wise minimum of a set of concave functions is 
+concave.[^1] Then, for note that for any fixed $p\in[0,1]$ the function 
+$L(\eta,p)$ is linear in $\eta$ since the terms $\ell(1,p)$ and $\ell(0,p)$ are 
+constant. Since linear functions are concave and, by definition, $L^*$
+is their point-wise minimum we see that $L^*$ must also be concave.
 
+Concave functions have many useful properties that have implications for the
+study of point-wise risks. Firstly, they are necessarily continuous, and 
+secondly, if they are twice differentiable, their second derivatives are
+are non-positive. That is, for all $\eta$,
+\[
+	(L^*)''(\eta) \leq 0
+\]
+which also implies that their first derivatives are monotonically 
+decreasing.[^2]
 
-
-Regret
-------
+As we will see in the next post, the converse of this holds too. That is, each 
+concave function on $[0,1]$ can be interpreted as the point-wise Bayes risk for 
+some proper loss.
 
 [concave]: http://en.wikipedia.org/wiki/Concave_function
 [p1]: /iem/proper-losses.html
+[convex optimization]: http://www.stanford.edu/~boyd/cvxbook/
+[hugo]: http://www.maths.qmul.ac.uk/~ht/archive/convex1.pdf
+
+[^1]: See, for example, §3.2.3 of Boyd & Vandenberghe's freely available 
+book [Convex Optimization][].
+[^2]: You can easily check this is the case for the log- and square-losses.
