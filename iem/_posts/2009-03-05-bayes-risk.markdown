@@ -5,6 +5,8 @@ title: "Probability Estimation: Bayes Risk"
 
 excerpt: An overview of some properties of conditional, or point-wise, Bayes risks for proper losses.
 
+location: Canberra, Australia
+
 ---
 
 In my previous post on [probability estimation][p1], I introduced the notion of
@@ -69,7 +71,7 @@ is their point-wise minimum we see that $L^*$ must also be concave.
 Concave functions have many useful properties that have implications for the
 study of point-wise risks. Firstly, they are necessarily continuous, and 
 secondly, if they are twice differentiable, their second derivatives are
-are non-positive. That is, for all $\eta$,
+non-positive. That is, for all $\eta$,
 \[
 	(L^*)''(\eta) \leq 0
 \]

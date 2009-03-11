@@ -1,0 +1,78 @@
+---
+title: A Koan On Bias
+
+excerpt: In machine learning, bias is what allows for generalisation beyond observations. Without it, learning is not possible, regardless of how much data is available and what certain Wired reporters believe.
+
+location: Canberra, Australia
+
+layout: post
+
+---
+
+Wired ran a controversial article last year on the "[End of Theory][]" in which Chris Anderson argued that simply throwing statistical algorithms at the sheer quantity of data now available renders models obsolete. In doing so he misquotes Google's research director Peter Norvig as saying "All models are wrong, and increasingly you can suceed without them."
+
+[End of Theory]: http://www.wired.com/science/discoveries/magazine/16-07/pb_theory
+
+In his [correction and lament][norvig], Norvig recounts an old [AI koan][] that highlights the subtle but important difference between not knowing what the right model is and not assuming one at all:
+
+> In the days when [Sussman][] was a novice, [Minsky][] once came to him as 
+> he sat hacking at the PDP-6.   
+> 
+> "What are you doing?", asked Minsky.   
+> "I am training a randomly wired neural net to play Tic-Tac-Toe," Sussman 
+> replied.   
+> "Why is the net wired randomly?", asked Minsky.   
+> "I do not want it to have any preconceptions of how to play", Sussman said.   
+>
+> Minsky shut his eyes.   
+>
+> "Why do you close your eyes?", Sussman asked his teacher.   
+> "So that the room will be empty."   
+> 
+> At that moment, Sussman was enlightened.
+
+[norvig]: http://norvig.com/fact-check.html
+
+[AI koan]: http://catb.org/jargon/html/koans.html
+[Sussman]: http://en.wikipedia.org/wiki/Gerald_Jay_Sussman
+[Minsky]: http://en.wikipedia.org/wiki/Marvin_Minsky
+
+The point being that _all_ learning algorithms have a bias. Even if you don't understand exactly what it is.[^1]
+
+[^1]: It is always prudent to note that this type of [inductive bias][] is different to a [statistical bias][].
+
+[inductive bias]: http://en.wikipedia.org/wiki/Inductive_bias
+[statistical bias]: http://en.wikipedia.org/wiki/Bias_of_an_estimator
+
+This is an important point. A student who first applies the latest Deep-Bayes-Vector-Network-Boost algorithm to a data set given in class can be seduced by its seemingly amazing performance and assume that (given enough data) it will always do wonderfully on any problem.
+
+However, there is [no free lunch][]. Each algorithm brings its own bias to bear on a problem. In some cases it will be appropriate for the task at hand while in others it can be misleading. 
+
+[no free lunch]: http://www.no-free-lunch.org/
+
+Moreover, there is no getting around this either. Tom Mitchell in his now classic textbook, [Machine Learning][], states that a bias is a necessary condition for learning:
+
+> A learner that makes no a priori assumptions regarding the identity of the 
+> target concept has no rational basis for classifying any unseen instances.
+
+[machine learning]: http://www.cs.cmu.edu/~tom/mlbook.html
+
+This is essentially an update of David Hume's [problem of induction][] and an algorithm's bias could be seen as the _in silico_ version of his "general habitual principle" of mind.
+
+[problem of induction]: http://en.wikipedia.org/wiki/Problem_of_induction#David_Hume
+
+In a clever twist, Mitchell goes on to _define_ bias to be any minimal set of assumptions that makes the behaviour of a learning algorithm on a set of training examples purely deductive. That is, whatever else is required to turn an ill-posed generalisation from examples into a turn-the-crank computation such as a search _is_ the bias of the learning algorithm.[^2]
+
+[^2]: Of course, there are subtleties surrounding non-deterministic algorithms. However, these usually require a seed for their random number generator which can be viewed as part of the algorithm's bias.
+
+This view of biases for machine learning algorithms has had a significant impact on the discipline. These days, biases are often formalised as regularisation terms. These are penalties against overly complex models which prevent overfitting of examples that would otherwise occur if a loss was naïvely minimised. Results such as the [representer theorem][] then guarantee that a solution to the learning problem under this bias can be found by solving a deterministic optimisation problem derived from the training examples.
+
+[representer theorem]: http://axiom.anu.edu.au/~williams/papers/P139.pdf
+
+Even though it is certain that we will have more and more data to throw at our problems and that our inference techniques are getting more and more sophisticated it is not the case that, as Chris Anderson put it, that
+
+> Correlation supersedes causation, and science can advance even 
+> without coherent models, unified theories, or really any 
+> mechanistic explanation at all. 
+
+Without a bias, the only inference you can make from a mountain of data is that you have a mountain of data.
