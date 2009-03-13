@@ -1,0 +1,59 @@
+---
+title: "ML: AI or IA?"
+excerpt: Some Friday afternoon philosophising on the place of machine learning within the larger disciplines of Artificial Intelligence and Intelligence Amplification.
+
+location: Canberra, Australia
+
+layout: post
+
+---
+
+[According to Wikipedia][ml], machine learning is regarded as "the subfield of artificial intelligence that is concerned with the design and development of algorithms that allow computers to improve their performance over time based on data".
+
+Artificial intelligence (AI) arguably has its roots in Turing's seminal paper _[Computing Machinery and Intellience][cmi]_ ([PDF][cmipdf]), in which he asks the question, "Can machines think?" and in the [final section][cmis7] even considers the possibility of "Learning Machines"[^1].
+
+[^1]: One curious analogy he makes is between a learning machine and [Helen Keller][hk], arguing that just because a machine isn't embodied in the same way as humans does not preclude it from learning in some other way.
+
+From these early beginnings, popular notions about AI have been saddled with the expectation that all research in this area is focused on producing human equivalent AI---that is, a machine that can pass the Turing test[^2]. A lot of early work in AI was in this vein. However, thanks to many grand and unmet expectations, the emphasis in AI research has shifted from trying to emulate all of human intelligence to merely solving problems in autonomous or semi-autonomous ways. As it turned out, solving the [Strong AI][] problem and completely leaving humans out of the loop was far too ambitious a goal. 
+
+[^2]: Or [start a nuclear war][wargames], [help save the human race][t101],  [jeopardise a space mission][hal], ...
+
+These days, most AI research and application---include all of machine learning---strongly resembles what [W. Ross Ashby][ashby] dubbed [Intellegence Amplification][ia] (IA) almost contemporaneously to Turing's AI [in 1951][ashby1951] and later expanded on in his 1956 _[An Introduction to Cybernetics][ashby1956]_. He defines through analogy to other forms of amplification:
+> It seems to follow that intellectual power, like physical power, can 
+> be amplified. Let no one say that it cannot be done, for the gene-patterns 
+> do it every time they form a brain that grows up to be something better 
+> than the gene-pattern could have specified in detail. What is new is that 
+> we can now do it synthetically, consciously, deliberately.
+
+Think about how Google search, route finders, spam filters, and spell checkers all amplify our intellectual ability by automating responses to tasks that would otherwise require a considerable amount of tedious, low-level human intelligence to perform. By having these tasks taken off our hands we are able to provide a small amount of high-level decision making (e.g., remembering some keywords for a article) and have it amplified by a machine (finding the article in a massive index).
+
+There is a general acceptance in machine learning today that choosing the right representation and [bias][] for, and applying the most appropriate technique to a learning problem is at least half the battle. That is, a human must do much of the high-level decision making before the automated tools can be brought to bear on a problem. Although there are a few researchers working on learning as part of a new push for [Artificial General Intelligence][agi], it will be a while before human guidance is not required.
+
+In the meantime we will need to heed the advice of another early cybernetics researcher, Douglas Engelbart, who in his _[Augmenting Human Intellect: A Conceptual Framework][engelbart62]_ argued:
+> Just as the mechanic must know what his tools can do and how to use them, 
+> so to the intellectual worker must know the capabilities of his tools and 
+> have good methods, strategies, and rules of thumb for making use of them.
+
+[engelbart62]: http://www.bootstrap.org/augdocs/friedewald030402/augmentinghumanintellect/ahi62index.html
+
+[ml]: http://en.wikipedia.org/wiki/Machine_learning
+
+[cmi]: http://www.abelard.org/turpap/turpap.php
+[cmipdf]: http://www.alice.id.tue.nl/references/turing-1950.pdf
+[cmis7]: http://www.abelard.org/turpap/turpap.php#learning_machines
+
+[hk]: http://en.wikipedia.org/wiki/Helen_Keller
+
+[wargames]: http://en.wikipedia.org/wiki/WarGames
+[t101]: http://en.wikipedia.org/wiki/Terminator_(character)
+[hal]: http://en.wikipedia.org/wiki/HAL_9000
+
+[strong ai]: http://en.wikipedia.org/wiki/Strong_AI
+
+[ia]: http://en.wikipedia.org/wiki/Intelligence_amplification
+[ashby]: http://en.wikipedia.org/wiki/William_Ross_Ashby
+[ashby1951]: http://www.rossashby.info/journal/page/3609.html
+[ashby1956]: http://pcp.vub.ac.be/ASHBBOOK.html
+
+[agi]: http://www.agiri.org/wiki/index.php?title=Artificial_General_Intelligence
+[bias]: http://mark.reid.dev/iem/on-biases.html
