@@ -7,7 +7,7 @@ layout: post
 
 ---
 
-March 24 has been declared [Ada Lovelace day][ald] in honour of [the woman][adal] that many people regard to be the first computer programmer. In 1843 she wrote a program to compute Bernoulli numbers for Charles Babbage's yet-to-be-built [Analytical Engine][ae]. The day is intended to be "an international day of blogging to draw attention to women excelling in technology." To do my bit, I thought I would highlight some women in machine learning who I believe fit the description.
+March 24 has been declared [Ada Lovelace day][ald] in honour of [the woman][adal] who many people regard to be the first computer programmer. In 1843 she wrote a program to compute Bernoulli numbers for Charles Babbage's yet-to-be-built [Analytical Engine][ae]. The day is intended to be "an international day of blogging to draw attention to women excelling in technology." To do my bit, I thought I would highlight some women in machine learning who I believe fit the description.
 
 [ald]: http://findingada.com/
 [adal]: http://en.wikipedia.org/wiki/Ada_Lovelace
