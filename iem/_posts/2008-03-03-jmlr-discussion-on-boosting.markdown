@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: iem-post
 title: JMLR Discussion On Boosting
 location: Canberra, Australia
 
@@ -7,6 +7,7 @@ excerpt: A summary of a sequence of papers in JMLR that discusses an interpretat
 
 wordpress_id: 27
 wordpress_url: http://conflate.net/inductio/theory/jmlr-discussion-on-boosting/
+
 ---
 The upcoming [Volume 9][v9] of the [Journal of Machine Learning Research][jmlr] is dedicated a chunk of its pages to a paper entitled "[Evidence Contrary to the Statistical View of Boosting][mease08a]" by David Mease and Abraham Wyner. Following this is a number of responses by heavyweights including [boosting][]'s earliest proponents, Freund and Schapire, as well as Mease and Wyner's [rejoinder][mease08b] to the responses. The whole conversation is also available in a [single PDF][].
 

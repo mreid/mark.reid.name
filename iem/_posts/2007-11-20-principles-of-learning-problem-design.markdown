@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: iem-post
 title: Principles of Learning Problem Design
 location: Canberra, Australia
 
@@ -7,6 +7,7 @@ excerpt: A plug for the workshop talk I'll be giving at NIPS 2007.
 
 wordpress_id: 20
 wordpress_url: http://conflate.net/inductio/theory/principles-of-learning-problem-design/
+
 ---
 Things have been a little quite around here of late, mainly because I've been working on a submission for the NIPS 2007 Workshop on [Principles of Learning Problem Design][nipsws] in early December.
 

@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: iem-post
 title: Staying Organised with CiteULike and BibDesk
 location: Canberra, Australia
 
@@ -7,6 +7,7 @@ excerpt: An overview of how I use the free Mac application BibDesk along with th
 
 wordpress_id: 24
 wordpress_url: http://conflate.net/inductio/reading/staying-organised-with-citeulike-and-bibdesk/
+
 ---
 I recently started using [CiteULike][] to keep track of papers I read. For those not familiar with it, it deems itself to be "a free online service to organise your academic papers". In contrast to my offline bibliography organising tool, [BibDesk][], a service like this has at least three main advantages:
 

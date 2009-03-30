@@ -3,6 +3,8 @@ title: Women in Machine Learning
 
 excerpt: Ada Lovelace day aims to “draw attention to women excelling in technology”. Here I highlight a few women in machine learning whose work I admire.
 
+location: Canberra, Australia
+
 layout: post
 
 ---

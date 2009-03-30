@@ -1,18 +1,55 @@
 ---
-title: Setting Up Clojure
+title: Setting Up Clojure for Mac OS X Leopard
 
 excerpt: I have recently been experimenting with Clojure and here I document how I have set up my work environment.
 
 location: Canberra, Australia
-layout: post
+layout: sap-post
 
 ---
 
-Put the Clojure jar, JReadLine jars and clojure.contrib libraries in `~/Library/Frameworks/Clojure`.
+[Clojure][] is a fairly new [Lisp-like][], [functional language][] that is [built on top of the JVM][jvm]. It features great Java interoperability and is built from the ground up with [concurrency][] in mind.
+
+[clojure]: http://clojure.org/
+[jvm]: http://clojure.org/jvm_hosted
+[lisp-like]: http://clojure.org/lisp
+[functional language]: http://clojure.org/functional_programming
+[concurrency]: http://clojure.org/state
+
+Below is a brief description of how to get Clojure up an running on Mac OS X Leopard. I also describe a small shell script that invokes Clojure and sets its classpath using a simple, project-specific configuration file.
+
+Getting Clojure
+---------------
+
+Put the Clojure jar, JReadLine jars and clojure.contrib libraries in `~/Library/Clojure/lib`.
 
 Created a bash script called `clj` in `~/Library/Frameworks/Clojure` that sets up the classpath. If it is present, this script adds the contents of a `.clojure` to the classpath before executing Clojure.
 
-(**How do I set up clojure.contrib?**)
+(Part of these instructions were inspired by this [tutorial][])
+
+[tutorial]: http://lifeofaprogrammergeek.blogspot.com/2009/03/learning-clojure-and-emacs.html
+
+Building clojure-contrib
+------------------------
+This step is optional. You only need to do it if you wish to use some of the extra, community-contributed Clojure libraries. 
+
+This step also requires [git][] which is not a standard part of OS X Leopard but a simple [OS X installer][] is available.
+
+[git]: http://git-scm.com/
+[os x installer]: http://code.google.com/p/git-osx-installer/
+
+Once you have git installed, you can get the current version of the contributed libraries like so:
+
+	$ git clone git://github.com/kevinoneill/clojure-contrib.git
+
+Now build the jar file using `ant` and copy it to the Clojure directory:
+
+    $ cd clojure-contrib
+	$ ant -Dclojure.jar=$HOME/Library/Clojure/lib/clojure.jar
+	$ cp clojure-contrib.jar ~/Library/Clojure/lib/
+
+Invoking Clojure
+----------------
 
 {% highlight bash %}
 JAVA=/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/bin/java 

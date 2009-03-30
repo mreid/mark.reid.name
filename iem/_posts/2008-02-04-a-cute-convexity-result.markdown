@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: iem-post
 title: A Cute Convexity Result
 location: Canberra, Australia
 
@@ -7,6 +7,7 @@ excerpt: A quick post on the use of determinants to define convex functions.
 
 wordpress_id: 23
 wordpress_url: http://conflate.net/inductio/theory/a-cute-convexity-result/
+
 ---
 Just when I thought I was starting to get my head around the multitudinous uses of convexity in statistics I was thrown by the following definition:
 

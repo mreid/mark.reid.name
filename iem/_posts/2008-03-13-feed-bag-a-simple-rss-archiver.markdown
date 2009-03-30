@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: iem-post
 title: "Feed Bag: A Simple RSS Archiver"
 location: Canberra, Australia
 
@@ -7,6 +7,7 @@ excerpt: A brief overview of an RSS archiving tool I whipped up in ruby.
 
 wordpress_id: 28
 wordpress_url: http://conflate.net/inductio/application/feed-bag-a-simple-rss-archiver/
+
 ---
 One thing my [recent survey of freely available data sets][data] did not uncover was a collection of archived RSS feeds. This surprised me a little since I would imagine aggregators like [Bloglines](http://bloglines.com/), [Google Reader](http://google.com/reader) and [AideRSS](http://aiderss.com/) must have large databases of hundreds of thousands of RSS feeds.
 

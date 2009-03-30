@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: iem-post
 title: A Crash Course in Convex Analysis
 location: Canberra, Australia
 
@@ -7,6 +7,7 @@ excerpt: An overview of convex analysis and the Legendre-Fenchel transform by Hu
 
 wordpress_id: 21
 wordpress_url: http://conflate.net/inductio/theory/a-crash-course-in-convex-analysis/
+
 ---
 I've been attempting to read an interesting [NIPS 2007][nips2007] paper entitled [Estimating divergence functionals and the likelihood ratio by convex risk minimzation][Nguyen] and realised my knowledge of convex analysis was sketchy at best.
 

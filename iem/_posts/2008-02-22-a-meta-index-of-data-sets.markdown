@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: iem-post
 title: A Meta-index of Data Sets
 location: Canberra, Australia
 
@@ -7,6 +7,7 @@ excerpt: A collection of sites around the web that catalogue a wide variety of d
 
 wordpress_id: 26
 wordpress_url: http://conflate.net/inductio/application/a-meta-index-of-data-sets/
+
 ---
 I had to go hunting around for some data to try some new ideas on recently.
 As [handy][google] as Google is, there's still a fair bit of 

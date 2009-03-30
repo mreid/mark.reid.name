@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: iem-post
 title: Clarity and Mathematics
 location: Canberra, Australia
 
@@ -7,7 +7,9 @@ excerpt: A follow-up to John Langford's discussion on how mathematics can be mis
 
 wordpress_id: 25
 wordpress_url: http://conflate.net/inductio/general/clarity-and-mathematics/
+
 ---
+
 John Langford has diagnosed a [complexity illness][ci] that afflicts research in academia. One of its symptoms is what he calls "Math++": the use of unnecessary and obfuscatory mathematics to improve the author's chance of publication. 
 
 Having recently ploughed through a large number of math-heavy articles during the preparation of a [COLT][] paper I have started to worry whether the illness is contagious. At present there is a rash of awkward notation breaking out in some sections of my draft. While I don't think I can completely get rid of it I'm hoping that I can at least tidy it up and turn it into something presentable.

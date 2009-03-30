@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: iem-post
 title: Anti-Learning
 location: Canberra, Australia
 
@@ -7,7 +7,9 @@ excerpt: A summary of an interesting talk by Justin Bedo which shows that learni
 
 wordpress_id: 15
 wordpress_url: http://conflate.net/inductio/general/anti-learning/
+
 ---
+
 Last week I saw an interesting PhD monitoring [presentation][] by [Justin Bedo][] on the
 counter-intuitive phenomenon of "anti-learning". For certain datasets, learning a classifier from a small number of samples and inverting its predictions performs much better than the original classifier. Most of the theoretical results Justin mentioned about are discussed in a recent [paper][] and [video lecture][] by [Adam Kowalczyk][]. These build on [earlier work][] presented at ALT 2005. As John notes in his [blog post][] from a couple of years ago, the strangeness of anti-learning is due to our assumption that proximity implies similarity.
 

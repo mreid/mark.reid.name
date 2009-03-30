@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: iem-post
 title: Antihubrisines
 location: Canberra, Australia
 
@@ -7,7 +7,9 @@ excerpt: Some great advice from the statistician John Tukey.
 
 wordpress_id: 16
 wordpress_url: http://conflate.net/inductio/philosophy/antihubrisines/
+
 ---
+
 In keeping with the "Anti-" theme from my [last post][] I thought I'd share something I found in the treasure trove of [rants][] that [J. Michael Steele][]'s has put on the web for our edification.
 
 Antihubrisines, according to John W. Tukey in his 1986 paper, [Sunset Salvo][], are little pearls of wisdom to keep in mind if you suspect you are being afflicted by hubris. They are to "suffering philosophy" what antihistamines are to suffering sinuses:

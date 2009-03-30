@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: iem-post
 title: The Mathematical Grue
 location: Canberra, Australia
 
@@ -7,7 +7,9 @@ excerpt: Doing mathematics sometimes feels like playing a piece of interactive f
 
 wordpress_id: 18
 wordpress_url: http://conflate.net/inductio/general/the-mathematical-grue/
+
 ---
+
 A [discussion over at God Plays Dice][discussion] had me nodding in agreement: proving a theorem is like playing an adventure game. As Isabel puts it
 
 > You are in a maze of twisty little equations, all alike

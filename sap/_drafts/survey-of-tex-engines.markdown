@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: sap-post
 
 ---
 

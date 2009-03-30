@@ -302,9 +302,10 @@ p.excerpt { margin: 0; }
 
 /* @group Code */
 pre {
+	font-size: 0.9em; /* Hack to make code look same size as body font */  
 	line-height: 1.5em;	
 	color: #111;
-	background: white;
+	background: whitesmoke;
 	border: 2px solid silver;
 	border-right: none;
 	border-left: none;

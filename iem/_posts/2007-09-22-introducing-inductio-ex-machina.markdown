@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: iem-post
 title: "Introducing <i>Inductio Ex Machina</i>  "
 location: Canberra, Australia
 
@@ -7,7 +7,9 @@ excerpt: A short post describing what I intend for my new research blog.
 
 wordpress_id: 12
 wordpress_url: http://conflate.net/inductio/general/introducing-inductio-ex-machina/
+
 ---
+
 Welcome to my machine learning research blog.
 
 I'm a newly minted Ph.D. graduate who has taken up a post-doctoral research fellow with the
