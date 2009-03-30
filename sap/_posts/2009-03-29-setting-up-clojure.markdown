@@ -21,6 +21,24 @@ Below is a brief description of how to get Clojure up an running on Mac OS X Leo
 Getting Clojure
 ---------------
 
+1. Download [clojure 20081217][].
+
+2. Copy `clojure.jar` to the `vendor` directory:    
+`$ cp ~/Downloads/clojure/clojure.jar vendor`
+
+[clojure]: http://clojure.org/
+[clojure 20081217]: http://clojure.googlecode.com/files/clojure_20081217.zip
+
+### [JLine][] ###
+
+1. Download [jline-0.9.94.zip][].
+
+2. Copy to the `vendor` directory:    
+`$ cp ~/Downloads/jline-0.9.94/jline-0.9.94.jar vendor/jline.jar`
+
+[jline]: http://jline.sourceforge.net/
+[jline-0.9.94.zip]: http://downloads.sourceforge.net/jline/jline-0.9.94.zip
+
 Put the Clojure jar, JReadLine jars and clojure.contrib libraries in `~/Library/Clojure/lib`.
 
 Created a bash script called `clj` in `~/Library/Frameworks/Clojure` that sets up the classpath. If it is present, this script adds the contents of a `.clojure` to the classpath before executing Clojure.
