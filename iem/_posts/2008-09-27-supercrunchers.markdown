@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: iem-post
 title: Super Crunchers
 location: Canberra, Australia
 excerpt: "A review of the book \"Super Crunchers: Why Thinking-By-Numbers is the New Way To Be Smart\" by Ian Ayers."

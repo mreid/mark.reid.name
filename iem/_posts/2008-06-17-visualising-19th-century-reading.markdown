@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: iem-post
 title: Visualising 19th Century Reading in Australia
 location: Canberra, Australia
 excerpt: A description of a visualisation of some 19th century Australian borrowing records from the Australian Common Readers Project.

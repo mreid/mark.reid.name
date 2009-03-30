@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: iem-post
 
 title: "Probability Estimation: Bayes Risk"
 

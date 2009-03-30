@@ -6,7 +6,7 @@ excerpt: "This strangely named principle from Binmore's book, &ldquo;Rational De
 
 location: Canberra, Australia
 
-layout: post
+layout: iem-post
 
 ---
 

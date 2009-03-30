@@ -3,7 +3,7 @@ title: COLT 2008 Highlights
 excerpt: A quick summary of some of the best talks and papers at COLT 2008 in Helsinki, Finland.
 location: Canberra, Australia
 
-layout: post
+layout: iem-post
 
 wordpress_url: http://conflate.net/inductio/?p=46
 wordpress_id: 46

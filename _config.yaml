@@ -2,7 +2,7 @@
 destination : /Users/mreid/Sites/mark.reid.name
 auto        : true
 lsi         : false
-pygments    : false
+pygments    : true
 permalink   : none
 markdown    : maruku
 

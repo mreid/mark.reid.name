@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: iem-post
 
 title: Information, Divergence and Risk for Binary Experiments
 excerpt: A summary of a recent paper Bob and I posted to arXiv.

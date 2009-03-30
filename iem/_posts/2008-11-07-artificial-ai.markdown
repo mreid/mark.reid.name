@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: iem-post
 title: Artificial AI
 location: Canberra, Australia
 

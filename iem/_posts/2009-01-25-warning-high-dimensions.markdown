@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: iem-post
 
 title: Warning! High Dimensions Ahead
 excerpt: A very counter-intuitive result that highlights the danger of reasoning about higher dimensional space by analogy with lower dimensional ones.  

@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: iem-post
 wordpress_id: 111
 title: A Year of Research Blogging
 excerpt: Looking back on a year of research blogging about machine learning.

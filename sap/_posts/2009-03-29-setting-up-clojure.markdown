@@ -18,37 +18,92 @@ layout: sap-post
 
 Below is a brief description of how to get Clojure up an running on Mac OS X Leopard. I also describe a small shell script that invokes Clojure and sets its classpath using a simple, project-specific configuration file.
 
+The first step is to create a Clojure directory in your Library folder that contains the subfolder `lib`. Do this at your Terminal:
+
+	$ mkdir -p ~/Library/Clojure/lib
+	$ cd ~/Library/Clojure
+
 Getting Clojure
 ---------------
 
-1. Download [clojure 20081217][].
+The latest stable version of Clojure can be found [here][dlclj]. At the time of writing the latest stable version is the zip file for [Clojure release 20090320][clj20090320].
 
-2. Copy `clojure.jar` to the `vendor` directory:    
-`$ cp ~/Downloads/clojure/clojure.jar vendor`
+Once you've downloaded it, copy `clojure.jar` to the `~/Library/Clojure` directory:
+
+	$ cp ~/Downloads/clojure/clojure.jar ~/Library/Clojure/lib/
 
 [clojure]: http://clojure.org/
-[clojure 20081217]: http://clojure.googlecode.com/files/clojure_20081217.zip
+[dlclj]: http://code.google.com/p/clojure/downloads/list
+[clj20090320]: http://clojure.googlecode.com/files/clojure_20090320.zip
 
-### [JLine][] ###
+To make Clojure's interactive mode easier to you, you should grab the JLine library and install it as well. 
 
-1. Download [jline-0.9.94.zip][].
+First download [jline-0.9.94.zip][] from the [jline project site][jline] and then:
 
-2. Copy to the `vendor` directory:    
-`$ cp ~/Downloads/jline-0.9.94/jline-0.9.94.jar vendor/jline.jar`
+	$ cp ~/Downloads/jline-0.9.94/jline-0.9.94.jar ~Library/Clojure/lib/jline.jar
 
 [jline]: http://jline.sourceforge.net/
 [jline-0.9.94.zip]: http://downloads.sourceforge.net/jline/jline-0.9.94.zip
 
-Put the Clojure jar, JReadLine jars and clojure.contrib libraries in `~/Library/Clojure/lib`.
+Startup Script
+--------------
 
-Created a bash script called `clj` in `~/Library/Frameworks/Clojure` that sets up the classpath. If it is present, this script adds the contents of a `.clojure` to the classpath before executing Clojure.
+I've created a bash script called `clj` that I put in `~/Library/Frameworks/Clojure` and symbolically link to from somewhere in my path. 
 
-(Part of these instructions were inspired by this [tutorial][])
+This script sets up the Clojure classpath and, if it is present, also adds the contents of a `.clojure` file to the classpath before executing Clojure. It also adds the current directory to the classpath for ease of use.
 
-[tutorial]: http://lifeofaprogrammergeek.blogspot.com/2009/03/learning-clojure-and-emacs.html
+You can [download the script][clj] from my [GitHub repository][github]. Once you've got it, copy it to the Clojure directory and make it executable:
 
-Building clojure-contrib
-------------------------
+	$ cp ~/Downloads/clj ~/Library/Clojure/
+	$ chmod u+x ~/Library/Clojure/clj
+
+Now you will want to symbolically link to it from a directory in your `$PATH` Type `echo $PATH` at the Terminal to see a list of options. I have a directory `~/bin/` where I keep such things.
+
+To make the link use, for example:
+
+	$ ln -s ~/Library/Clojure/clj ~/bin/clj
+
+Now I can type `clj` from any directory and see:
+
+	$ clj
+	Clojure
+	user=> (= (* 6 8) 42)
+	false
+	user=>
+
+I can also run Clojure programs. For example, suppose I have the following file called `test.clj` in the current directory:
+
+{% highlight clojure %}
+(println "Hello, world!")
+{% endhighlight %}
+
+Then, when I run the following, I see:
+
+	$ clj test.clj
+	Hello, world!
+	
+[clj]: http://github.com/mreid/clojure-framework/blob/e1c80cc650f448713243be8272dba1fa3c1a7cea/clj
+[github]: http://github.com/mreid/clojure-framework/tree
+
+Extending the Classpath
+-----------------------
+If you need any project-specific jar files added to the classpath when running Clojure, this can be done by putting a `.clojure` file in the same directory you will be running the project from.
+
+For example, suppose I have a program `~/code/cafe/macchiato.clj` that requires class from the Java libraries `grinder.jar` and `frother.jar` in the `~/code/cafe/lib/` directory. 
+
+I can easily create a file `.clojure` that specifies where Clojure can find these extra libraries:
+
+	$ cd ~/code/cafe
+	$ echo "lib/grinder.jar:lib/frother.jar" > .clojure
+
+Then when I run:
+
+	$ clj macchiato.clj
+
+from the `~/code/cafe` directory, the earlier `clj` script will pick up the extra jar files from the `.clojure` file and add them to the classpath before invoking Clojure.
+
+Installing and Using clojure-contrib
+------------------------------------
 This step is optional. You only need to do it if you wish to use some of the extra, community-contributed Clojure libraries. 
 
 This step also requires [git][] which is not a standard part of OS X Leopard but a simple [OS X installer][] is available.
@@ -66,28 +121,35 @@ Now build the jar file using `ant` and copy it to the Clojure directory:
 	$ ant -Dclojure.jar=$HOME/Library/Clojure/lib/clojure.jar
 	$ cp clojure-contrib.jar ~/Library/Clojure/lib/
 
-Invoking Clojure
-----------------
+Now you should be able to use things like Stuart Sierra's library. For example, suppose I was writing a simple vector library called `vec.clj` and wanted to put the following tests in `test.clj` in the same directory:
 
-{% highlight bash %}
-JAVA=/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/bin/java 
-CLJ_DIR=$(dirname $0)
-CLOJURE=$CLJ_DIR/clojure.jar
-JLINE=$CLJ_DIR/jline.jar
-CP=$CLOJURE:$JLINE
-
-# Add extra jars as specified by `.clojure` file
-if [ -f .clojure ]
-then
-	CP=$CP:`cat .clojure`
-fi
-
-if [ -z "$1" ]; then 
-	$JAVA -server -cp $CP \
-	    jline.ConsoleRunner clojure.lang.Repl    
-else
-	scriptname=$1
-	$JAVA -server -cp $CP clojure.lang.Script $scriptname -- $*
-fi
+{% highlight clojure %}
+(ns test 
+	(:require vec)
+	(:use clojure.contrib.test-is))
+	
+(deftest test-cross-product
+	(is (= [-3 6 -3] (vec/cross [1 2 3] [4 5 6])))
+	(is (= [0 0 1]   (vec/cross [1 0 0] [0 1 0]))))
+	
+(run-tests)
 {% endhighlight %}
 
+Then, because the `clojure-contrib.jar` is on the classpath, I can run and see the following:
+
+	$ clj test.clj
+	
+	Testing test
+
+	Ran 1 tests containing 2 assertions.
+	0 failures, 0 errors.
+
+Success!
+
+In Closing
+----------
+I wrote these notes mainly to document the sometimes frustrating processes of getting a flexible, easy-to-use Clojure environment set up. The "[Getting Started][]" page at the main [Clojure][] site are great for getting a REPL up and running but didn't help me at all when it came to using other jars and clojure-contrib. Of course, if I'm doing something here that is patently stupid, please let me know in the comments. 
+
+Hopefully, this short introduction will make it easier for others to get up and running with this great new language.
+
+[getting started]: http://clojure.org/getting_started

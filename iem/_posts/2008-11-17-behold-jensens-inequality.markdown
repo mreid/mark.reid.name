@@ -6,7 +6,7 @@ location: Canberra, Australia
 wordpress_id: 143
 wordpress_url: http://conflate.net/inductio/?p=143
 
-layout: post
+layout: iem-post
 ---
 I have been making quite some use of Jensen's inequality recently. It states that the expected value of a convex transformation of a random variable is at least the value of the convex function at the mean of the random variable. More formally, if ƒ is a real-valued convex function over some finite dimensional convex set <i>X</i> and <i>x</i> is an <i>X</i>-valued random variable then we can define the _Jensen gap_
 \[

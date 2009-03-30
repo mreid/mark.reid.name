@@ -5,7 +5,7 @@ excerpt: Probability estimation is an important class of problem in machine lear
 
 location: Canberra, Australia
 
-layout: post
+layout: iem-post
 
 ---
 

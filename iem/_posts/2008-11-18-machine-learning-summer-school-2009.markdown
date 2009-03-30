@@ -6,7 +6,7 @@ location: Canberra, Australia
 wordpress_id: 164
 wordpress_url: http://conflate.net/inductio/?p=164
 
-layout: post
+layout: iem-post
 ---
 The annual [Machine Learning Summer School][mlss] is being held in Canberra at the [Australian National University][anu] in January next year. It will be part of the joint [Summer Schools in Logic and Learning][ssll]. 
 

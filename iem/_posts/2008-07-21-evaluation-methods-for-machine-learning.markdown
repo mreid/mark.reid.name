@@ -6,7 +6,7 @@ location: Canberra, Australia
 wordpress_url: http://conflate.net/inductio/?p=45
 wordpress_id: 45
 
-layout: post
+layout: iem-post
 ---
 Although I wasn't able to attend the talks at [ICML 2008][] I was able to participate in the [Workshop on Evaluation Methods for Machine Learning][emml] run by William Klement, [Chris Drummond][], and [Nathalie Japkowicz][].
 

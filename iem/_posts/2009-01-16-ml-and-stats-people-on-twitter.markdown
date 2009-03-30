@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: iem-post
 
 title: ML and Stats People on Twitter
 excerpt: Wherein I compile a list of interesting people who use Twitter to discuss machine learning and statistics. 

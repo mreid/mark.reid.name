@@ -6,7 +6,7 @@ location: Canberra, Australia
 wordpress_url: http://conflate.net/inductio/?p=33
 wordpress_id: 33
 
-layout: post
+layout: iem-post
 ---
 I love finding old essays on statistics. The philosophical and methodological wars that rage within that discipline make for fun reading. Particularly enjoyable are those essays - inevitably written by older, well-respected researchers - who make a strong point with beautiful rhetorical flourish and no small amount of barbed humour.
 

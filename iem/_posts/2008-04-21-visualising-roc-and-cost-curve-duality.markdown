@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: iem-post
 title: Visualising ROC and Cost Curve Duality
 location: Canberra, Australia
 

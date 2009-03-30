@@ -6,7 +6,7 @@ location: Canberra, Australia
 wordpress_url: http://conflate.net/inductio/?p=134
 wordpress_id: 134
 
-layout: post
+layout: iem-post
 ---
 Ben Allen over at [PLEKTIX][] highlighted (highlit?) a paper in Nature last year that compiled and analysis some hard data regarding the evolution of the English language. Entitled [Quantifying the evolutionary dynamics of language][paper], the paper by Lieberman and colleagues looked at the shift from irregular to regular English verbs over the last 1200 years. 
 

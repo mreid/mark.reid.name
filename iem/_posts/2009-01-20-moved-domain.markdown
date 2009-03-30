@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: iem-post
 
 title: Moved Domain
 excerpt: A notice that I've moved this blog to a new domain. Please update your feed readers. 

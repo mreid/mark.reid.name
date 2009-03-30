@@ -4,7 +4,7 @@ title: The WoBloMo Challenge
 excerpt: March is the World Blogging Month. I plan to take up the challenge and write a blog post here every other day in March.
 location: Canberra, Australia
 
-layout: post
+layout: iem-post
 
 ---
 

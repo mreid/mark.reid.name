@@ -5,7 +5,7 @@ excerpt: Ada Lovelace day aims to “draw attention to women excelling in techno
 
 location: Canberra, Australia
 
-layout: post
+layout: iem-post
 
 ---
 

@@ -3,7 +3,7 @@ wordpress_id: 38
 title: Research-Changing Books
 excerpt: In response to a post by Peter Turney, I list the books I feel shaped my research career.
 wordpress_url: http://conflate.net/inductio/?p=38
-layout: post
+layout: iem-post
 ---
 A [recent post by Peter Turney][turney] lists the books that have influenced his research. As well as compiling a great list of books that are now on my mental "must read one day" list, he makes a crucial point for compiling such a list:
 > If a reader cannot point to some tangible outcome from reading a book, 

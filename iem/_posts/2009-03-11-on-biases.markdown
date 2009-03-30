@@ -5,7 +5,7 @@ excerpt: In machine learning, bias is what allows for generalisation beyond obse
 
 location: Canberra, Australia
 
-layout: post
+layout: iem-post
 
 ---
 

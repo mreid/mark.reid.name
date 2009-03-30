@@ -6,7 +6,7 @@ location: Canberra, Australia
 wordpress_url: http://conflate.net/inductio/?p=44
 wordpress_id: 44
 
-layout: post
+layout: iem-post
 ---
 A little while ago, John Langford [suggested][jl1] that a discussion site be set up for ICML that allows attendees and others to talk about the accepted papers.
 

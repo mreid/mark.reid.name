@@ -4,7 +4,7 @@ excerpt: Some Friday afternoon philosophising on the place of machine learning w
 
 location: Canberra, Australia
 
-layout: post
+layout: iem-post
 
 ---
 

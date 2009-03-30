@@ -22,11 +22,10 @@ the Australian National University's Research School of Information Sciences and
 Engineering.
 =--
 
-
 +-- {.section}
-Blog
-====
-I keep a research blog 	called _[inductio ex machina](/iem)_ on 
+Blogs
+=====
+I keep a research blog called _[Inductio ex Machina](/iem)_ on 
 machine learning and statistics.
 Recent posts include:
 {% for post in site.categories.iem limit:3 %}
@@ -38,6 +37,10 @@ Recent posts include:
 </li>
 </ul>
 {% endfor %}
+=--
+
++--{.section}
+I have also just started a programming blog called _[Structure & Process](/sap)_.
 =--
 
 +-- {.section}
