@@ -1,8 +1,10 @@
 ---
 layout: sap
-
 title: Home
+section: Home
 
+feed: atom.xml
+keywords: Blog, Programming, Clojure
 ---
 
 Programming Lab Notes

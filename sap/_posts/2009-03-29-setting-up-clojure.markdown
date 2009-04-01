@@ -146,10 +146,28 @@ Then, because the `clojure-contrib.jar` is on the classpath, I can run and see t
 
 Success!
 
+Editing
+-------
+I use [TextMate][] as my Clojure editor along with the [Clojure bundle][] created by [nullstyle][]. 
+
+It's probably overkill for what I need since that bundle includes a working installation of Clojure (_i.e._, it doesn't call the `clj` I discuss here). I edit in TextMate and then run sessions and scripts from the Terminal. All I'm really taking advantage of is the syntax-highlighting, auto-formatting and the online help (`^H`).
+
+There are other options around such as Clojure modes for Vim and Emacs but I haven't tried them.
+
+[textmate]: http://macromates.com/
+[clojure bundle]: http://github.com/stephenroller/clojure-tmbundle/tree/master
+[nullstyle]: http://nullstyle.com/
+
 In Closing
 ----------
 I wrote these notes mainly to document the sometimes frustrating processes of getting a flexible, easy-to-use Clojure environment set up. The "[Getting Started][]" page at the main [Clojure][] site are great for getting a REPL up and running but didn't help me at all when it came to using other jars and clojure-contrib. Of course, if I'm doing something here that is patently stupid, please let me know in the comments. 
 
+I keep a shorter version of these notes with more concise step-by-step instructions at the [GitHub repository][github] for this set up.
+
 Hopefully, this short introduction will make it easier for others to get up and running with this great new language.
 
 [getting started]: http://clojure.org/getting_started
+
+Updates
+-------
+* _1 April 2009_: Added notes about the editor I use and link to my Github repository.
