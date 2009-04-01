@@ -41,6 +41,15 @@ Recent posts include:
 
 +--{.section}
 I have also just started a programming blog called _[Structure & Process](/sap)_.
+{% for sappost in site.categories.sap limit:3 %}
+<ul class="compact">
+<li>
+	<span class="date">{{ sappost.date | date_to_string }}</span> 
+	&nbsp;&mdash;&nbsp;
+	<a href="{{ sappost.url }}" title="{{ sappost.excerpt }}">{{ sappost.title }}</a>
+</li>
+</ul>
+{% endfor %}
 =--
 
 +-- {.section}
