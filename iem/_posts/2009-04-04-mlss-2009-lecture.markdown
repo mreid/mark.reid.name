@@ -1,0 +1,26 @@
+---
+layout: iem-post
+
+title: My MLSS 2009 Lecture
+excerpt: The lectures I gave at MLSS 2009 in Canberra are now up at videolectures.net.
+
+location: Canberra, Australia
+
+---
+
+In late January I gave a lecture at the [2009 Machine Learning Summer School][mlss2009] in Canberra. A recording of all three hours(!) of it is now available online thanks to [videolectures.net][vl]:
+
+ * [MLSS 2009 Lecture][recording] 
+
+The material in the lecture was taken from the recent work Bob and I have been doing on [information, divergence and risk][idr]. As the summer school is aimed at new PhD students, I tried to pitch the material at a suitable level. Upon reflection, I think I probably aimed the level of the material a little too high. For example, I could have spent more time explaining what a Bayes risk was and why it is so important. I also feel as though I rushed over some of the later material, partly because I realised that I had incorrectly assumed the audience's background knowledge and partly because I was running out of steam at the end of three hours.
+
+It seems that the slides for my talk are not currently available from the videolectures.net site. For those interested, I've made a PDF copy available here to make it easier to follow my discussion in the video:
+
+ * [MLSS 2009 Slides](http://cecs.anu.edu.au/~mreid/files/slides/MLSS2009Refs.pdf) (14Mb PDF file)
+
+There is a fairly comprehensive list of references at the end with links to the key papers that I talk about.
+
+[mlss2009]: http://mark.reid.name/iem/machine-learning-summer-school-2009.html
+[idr]: http://mark.reid.name/iem/information-divergence-and-risk.html
+[recording]: http://videolectures.net/ssll09_reid_leth/
+[vl]: http://videolectures.net/

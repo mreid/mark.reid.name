@@ -46,9 +46,23 @@ inference called _[inductio ex machina](/iem/)_.
 Code
 ====
 I enjoy programming, both for research and as a hobby, and have made some of
-my [code][] available. More about me and my interests can be found
-in the [personal][] section of this site. 
+my [code][] available. 
 </div>
+
++-- {.section}
+Activities
+==========
+As well as reviewing for journals ([JMLR][] and [PAMI][]) and conferences ([NIPS][], [ICML][], [COLT][], and [UAI][]), I have also set up a [discussion site][icmldisc] for ICML 2008 and [presented][mlss2009] at the 2009 Machine Learning Summer School.
+=--
+
+[icmldisc]: http://www.conflate.net/icml/
+[mlss2009]: http://mark.reid.name/iem/mlss-2009-lecture.html
+[jmlr]: http://jmlr.csail.mit.edu/
+[nips]: http://nips.cc/
+[icml]: http://www.machinelearning.org/
+[pami]: http://www.computer.org/tpami/
+[colt]: http://www.learningtheory.org/
+[uai]: http://www.auai.org/
 
 [research]: /work/
 [published]: /work/pubs
