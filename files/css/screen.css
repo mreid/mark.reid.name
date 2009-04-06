@@ -1,3 +1,5 @@
+/* @override http://mark.reid.dev/files/css/screen.css */
+
 /* screen.css
  *
  * A clean, simple stylesheet that aims for
@@ -62,13 +64,14 @@ sup { line-height: 1ex; }
 
 #page, #disqus_thread {
 	background: white;
+/*	background-image: url(grid.png); */
 	padding: 3em 3em 1.5em 3em;
 	border: 1px solid #ccc;
 }
 
 /* More experimental CSS3 features */
 #page, #disqus_thread {
-	box-shadow: 3px 3px 10px #888;
+	box-shadow: 2px 2px 8px #aaa;
 	-webkit-box-shadow: 2px 2px 8px #aaa;
 	-moz-box-shadow: 2px 2px 8px #aaa;	
 }
@@ -302,23 +305,25 @@ p.excerpt { margin: 0; }
 
 /* @group Code */
 pre {
-	font-size: 0.9em; /* Hack to make code look same size as body font */  
-	line-height: 1.5em;	
+	margin: 1.5em 0 1.49em 0;
+	font-size: 0.75em; /* Hack to make code look same size as body font */  
+	line-height: 2em;	
 	color: #111;
-	background: whitesmoke;
-	border: 2px solid silver;
-	border-right: none;
-	border-left: none;
-	margin: 1.5em 0 1.5em 0;
+	background: #fffff0;
+	border: 1px solid #ddc;
 	padding: 0 0 0 1em;
 	overflow: hidden;
+
+	/* Experimental CSS3 stuff */
+	box-shadow: 1px 1px 6px #ccc;
+	-webkit-box-shadow: 1px 1px 6px #ccc;
+	-moz-box-shadow: 1px 1px 6px #ccc;
 }
 pre:hover {
 	border-right: none;
 	overflow: visible;
 }
 code {
-	font-size: 0.9em; /* Hack to make code look same size as body font */  
 	line-height: 1.5em;
 }
 /* @end */
