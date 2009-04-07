@@ -305,13 +305,13 @@ p.excerpt { margin: 0; }
 
 /* @group Code */
 pre {
-	margin: 1.5em 0 1.49em 0;
+	margin: 1em 0 1.5em 0;
 	font-size: 0.75em; /* Hack to make code look same size as body font */  
-	line-height: 2em;	
+	line-height: 1.5em;	
 	color: #111;
 	background: #fffff0;
 	border: 1px solid #ddc;
-	padding: 0 0 0 1em;
+	padding: 0.5em 1em;
 	overflow: hidden;
 
 	/* Experimental CSS3 stuff */
@@ -324,7 +324,12 @@ pre:hover {
 	overflow: visible;
 }
 code {
-	line-height: 1.5em;
+	font-size: 1em;
+	background-color: #f7f7ff;
+	line-height: 1.4em;
+}
+pre > code {
+	background-color: transparent;
 }
 /* @end */
 
