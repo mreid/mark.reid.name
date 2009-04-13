@@ -3,6 +3,7 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RedirectMatch 301 /iem/visualising-reading.html /iem/visualising-19th-century-reading.html
+RedirectMatch 301 /iem/general/the-mathematical-grue/ /iem/the-mathematical-grue.html
 RewriteRule ^/iem/(.*)/(.*)/(.*)/(.*)$ http://mark.reid.name/iem/$4.html [R=301,L]
 RewriteRule ^/iem/(.*)/(.*)/(.*)$ http://mark.reid.name/iem/$3.html [R=301,L]
 </IfModule>
