@@ -78,6 +78,16 @@ sup { line-height: 1ex; }
 
 #disqus_thread { padding-top: 0; }
 
+/* TODO
+#page { counter-reset: section; }
+#page h2:before {
+	margin-left: -3.5ex;
+	color: silver;
+	content: "§" counter(section) ". ";
+	counter-increment: section 2;
+}
+*/
+
 /* @group FancyFirst */
 .emphnext + p:first-letter, p.emphfirst:first-letter {
 	font-size: 48px;
