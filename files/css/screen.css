@@ -1,4 +1,7 @@
-/* @override http://mark.reid.dev/files/css/screen.css */
+/* @override 
+	http://mark.reid.dev/files/css/screen.css
+	http://mark.reid.name/files/css/screen.css
+*/
 
 /* screen.css
  *
@@ -373,7 +376,6 @@ pre > code {
 	margin-left: 0 !important;
 }
 .dsq-comment-footer { 
-	text-align: right; 
 	font-size: 75% !important; 
 	margin-top: 1px !important;
 }
