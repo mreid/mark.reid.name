@@ -1,0 +1,3 @@
+<blahtex>
+<error><id>UnmatchedCloseBrace</id><message>Encountered close brace "}" without matching open brace "{"</message></error>
+</blahtex>
