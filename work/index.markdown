@@ -26,6 +26,16 @@ Divergence and Risk for Binary Experiments][infodiv]".
 [bob]: http://axiom.anu.edu.au/~williams/
 [infodiv]: http://arxiv.org/abs/0901.0356
 
++-- {.section}
+News
+====
+_10 Apr 2009_:
+"[Surrogate Regret Bounds for Proper Losses][icml09]" was accepted at [ICML 2009][icmlconf].
+=--
+
+[icml09]: /files/pubs/icml09.pdf
+[icmlconf]: http://www.cs.mcgill.ca/~icml2009/
+
 <div class="section" markdown="1">
 Publications
 ============

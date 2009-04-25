@@ -9,16 +9,6 @@ Below are some of the papers I have had published. Clicking on the title will
 download a PDF copy of the paper.
 
 <div class="section" markdown="1">
-Thesis
-======
-[DEFT Guessing: Using Inductive Transfer to Improve Rule Evaluation from Limited Data][unsw07]{:.pdf .wiki:}. 
-Mark D. Reid. 
-_School of Computer Science and Engineering, The University of New South Wales_, 
-Sydney, Australia. 
-**2007**  
-</div>
-
-<div class="section" markdown="1">
 Journal Articles
 ================
 [Cross-training and its Application to Skill-Mining][isj01]{:.pdf .wiki:}.
@@ -30,6 +20,11 @@ _IBM Systems Journal_ (Vol. 41, No. 3), pp. 449-460,
 <div class="section" markdown="1">
 Conference Papers
 =================
+[Surrogate Regret Bounds for Proper Losses][icml09]{:.pdf }.
+Mark D. Reid
+_Proc. of the 26th International Conference on Machine Learning_, (to appear),
+**2009**
+
 [Improving Rule Evaluation Using Multitask Learning][ilp04]{:.pdf .wiki:}.
 Mark D. Reid.
 _Proc. of the 14th International Conference on ILP_, pp. 252-269,
@@ -52,12 +47,13 @@ _Discovery Science_, pp. 252-263,
 </div>
 
 <div class="section" markdown="1">
-Patent Applications
-===================
-[Determining Page Complexity][pat06]
-Barry James Drake and Mark Darren Reid.
-_Australian Application Number: 2006252174_,
-**2006**
+Thesis
+======
+[DEFT Guessing: Using Inductive Transfer to Improve Rule Evaluation from Limited Data][unsw07]{:.pdf .wiki:}. 
+Mark D. Reid. 
+_School of Computer Science and Engineering, The University of New South Wales_, 
+Sydney, Australia. 
+**2007**  
 </div>
 
 <div class="section" markdown="1">
@@ -69,6 +65,16 @@ _arXiv:0901.0356v1 \[stat.ML\]_,
 **2009**
 </div>
 
+<div class="section" markdown="1">
+Patent Applications
+===================
+[Determining Page Complexity][pat06]
+Barry James Drake and Mark Darren Reid.
+_Australian Application Number: 2006252174_,
+**2006**
+</div>
+
+[icml09]: /files/pubs/icml09.pdf
 [unsw07]: /files/pubs/unsw07.pdf
 [isj01]: /files/pubs/isj02.pdf
 [ilp04]: /files/pubs/ilp04.pdf
