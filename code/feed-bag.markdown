@@ -56,12 +56,15 @@ I am currently using version 3.4.0 for Mac OS X.
 
 Installing
 ==========
-Once you have all of the above dependencies, download the [feedbag.zip][] file
-and unpack it. 
+Once you have all of the above dependencies, you can do one of two things:
+
+* Download the [feedbag.zip][] file and unpack it. 
+* Check it from my [GitHub Feedbag repository][github].
 
 [feedbag.zip]: /files/code/feedbag.zip
+[github]: http://github.com/mreid/feed-bag/tree/master
 
-Inside you will find three files:
+Either way, you will get these three files:
 
 *	`feedbag.rb`: 	The main script.
 *	`models.rb`:	Used to define the database schema and operations.
