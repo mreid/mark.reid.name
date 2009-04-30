@@ -31,10 +31,13 @@ News
 ====
 _10 Apr 2009_:
 "[Surrogate Regret Bounds for Proper Losses][icml09]" was accepted at [ICML 2009][icmlconf].
+
+_4 Apr 2009_: The lectures I gave at the machine learning summer school are [available on videolectures.net][mlsslectures].
 =--
 
 [icml09]: /files/pubs/icml09.pdf
 [icmlconf]: http://www.cs.mcgill.ca/~icml2009/
+[mlsslectures]: /iem/mlss-2009-lecture.html
 
 <div class="section" markdown="1">
 Publications
