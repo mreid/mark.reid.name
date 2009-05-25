@@ -20,8 +20,13 @@ _IBM Systems Journal_ (Vol. 41, No. 3), pp. 449-460,
 <div class="section" markdown="1">
 Conference Papers
 =================
+[Generalised Pinsker Inequalities][colt09]{:.pdf }.
+Mark D. Reid and Robert C. Williamson
+_Proc. of the 22nd Annual Conference on Learning Theory_, (to appear),
+**2009**
+
 [Surrogate Regret Bounds for Proper Losses][icml09]{:.pdf }.
-Mark D. Reid
+Mark D. Reid and Robert C. Williamson
 _Proc. of the 26th International Conference on Machine Learning_, (to appear),
 **2009**
 
@@ -74,6 +79,7 @@ _Australian Application Number: 2006252174_,
 **2006**
 </div>
 
+[colt09]: /files/pubs/colt09.pdf
 [icml09]: /files/pubs/icml09.pdf
 [unsw07]: /files/pubs/unsw07.pdf
 [isj01]: /files/pubs/isj02.pdf

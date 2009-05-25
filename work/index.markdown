@@ -29,14 +29,24 @@ Divergence and Risk for Binary Experiments][infodiv]".
 +-- {.section}
 News
 ====
+_25 May 2009_:
+With the help of the organisers, I have set up a [discussion site][icmldisc] for [ICML 2009][icmlconf].
+
+_2 May 2009_:
+"[Generalised Pinsker Inequalities][colt09]" was accepted at [COLT 2009][coltconf].
+
 _10 Apr 2009_:
 "[Surrogate Regret Bounds for Proper Losses][icml09]" was accepted at [ICML 2009][icmlconf].
 
 _4 Apr 2009_: The lectures I gave at the machine learning summer school are [available on videolectures.net][mlsslectures].
 =--
 
+[colt09]: /files/pubs/colt09.pdf
+[coltconf]: http://www.cs.mcgill.ca/~colt2009/
+
 [icml09]: /files/pubs/icml09.pdf
 [icmlconf]: http://www.cs.mcgill.ca/~icml2009/
+
 [mlsslectures]: /iem/mlss-2009-lecture.html
 
 <div class="section" markdown="1">
@@ -65,7 +75,7 @@ my [code][] available.
 +-- {.section}
 Activities
 ==========
-As well as reviewing for journals ([JMLR][] and [PAMI][]) and conferences ([NIPS][], [ICML][], [COLT][], and [UAI][]), I have also set up a [discussion site][icmldisc] for ICML 2008 and [presented][mlss2009] at the 2009 Machine Learning Summer School.
+As well as reviewing for journals ([JMLR][] and [PAMI][]) and conferences ([NIPS][], [ICML][], [COLT][], and [UAI][]), I have also set up a [discussion site][icmldisc] for ICML 2008 and 2009 and [presented][mlss2009] at the 2009 Machine Learning Summer School.
 =--
 
 [icmldisc]: http://www.conflate.net/icml/
