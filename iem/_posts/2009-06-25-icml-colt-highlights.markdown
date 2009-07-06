@@ -9,6 +9,11 @@ layout: iem-post
 
 ---
 
+John and Hal have already given their highlights.
+
+[john]: http://hunch.net/?p=813
+[hal]: http://nlpers.blogspot.com/2009/06/icmlcoltuai-2009-retrospective.html
+
 ICML
 ----
 
