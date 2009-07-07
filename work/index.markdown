@@ -29,11 +29,14 @@ Divergence and Risk for Binary Experiments][infodiv]".
 +-- {.section}
 News
 ====
+_7 Jul 2009_:
+Made PDF slides of my [COLT 2009][colt09slides] and [ICML 2009][icml09slides] presentations available.
+
 _25 May 2009_:
-With the help of the organisers, I have set up a [discussion site][icmldisc] for [ICML 2009][icmlconf].
+With the help of the organisers, I have set up a [discussion site][icmldisc] for [ICML 2009][icmlconf]. ([Slides][icml09slides])
 
 _2 May 2009_:
-"[Generalised Pinsker Inequalities][colt09]" was accepted at [COLT 2009][coltconf].
+"[Generalised Pinsker Inequalities][colt09]" was accepted at [COLT 2009][coltconf]. ([Slides][colt09slides])
 
 _10 Apr 2009_:
 "[Surrogate Regret Bounds for Proper Losses][icml09]" was accepted at [ICML 2009][icmlconf].
@@ -43,9 +46,11 @@ _4 Apr 2009_: The lectures I gave at the machine learning summer school are [ava
 
 [colt09]: /files/pubs/colt09.pdf
 [coltconf]: http://www.cs.mcgill.ca/~colt2009/
+[colt09slides]: http://users.rsise.anu.edu.au/~mreid/files/slides/COLT2009.pdf
 
 [icml09]: /files/pubs/icml09.pdf
 [icmlconf]: http://www.cs.mcgill.ca/~icml2009/
+[icml09slides]: http://users.rsise.anu.edu.au/~mreid/files/slides/ICML2009.pdf
 
 [mlsslectures]: /iem/mlss-2009-lecture.html
 
