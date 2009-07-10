@@ -11,7 +11,7 @@ Welcome
 =======
 
 I'm Mark Reid, a 30-something Australian, academic, husband, programmer, father, 
-snowboarder, and web-nerd---amongst other things. You can find out more about 
+snowboarder, and web-nerd -- amongst other things. You can find out more about 
 be by poking around the links above and below.
 
 +--	{.section}
@@ -53,17 +53,17 @@ I have also just started a programming blog called _[Structure & Process](/sap)_
 =--
 
 +-- {.section}
-[Reading](http://librarything.com/home/mdreid)
-==============================================
-
-<script type="text/javascript" src="http://www.librarything.com/jswidget.php?reporton=mdreid&show=recent&header=&num=8&covers=small&text=title&tag=show&css=0&style=2&version=1" ></script>
-=--
-
-+-- {.section}
 [Twitter](http://twitter.com/mdreid)
 ====================================
 
 Contacting Twitter... 
 {:#twitter_update_list }
 
+=--
+
++-- {.section}
+[Reading](http://librarything.com/home/mdreid)
+==============================================
+
+<script type="text/javascript" src="http://www.librarything.com/jswidget.php?reporton=mdreid&show=recent&header=&num=8&covers=small&text=title&tag=show&css=0&style=2&version=1"> </script>
 =--
