@@ -115,7 +115,11 @@ sup { line-height: 1ex; }
 }
 .right.inset { margin-right: 0 !important; }
 .left.inset { margin-left: 0 !important; }
-
+.quiet {
+	color: grey;
+	font-size: 0.875em;
+	line-height: 1.714em;
+}
 blockquote {
 	padding: 0 2.8em;
 	margin: 1.714em 0;
