@@ -174,7 +174,18 @@ dt { font-weight: bold;}
 dd { margin: 0 0 1.5em 0; text-align: justify; }
 
 ul.compact { margin: 0; padding: 0;}
-ul.compact li { list-style: none; }
+ul.compact li { list-style: ;
+	list-style-type: square;
+	list-style-position: inside;
+}
+ul.compact li span.date {	
+	display: none;
+	color: grey;
+	width: 20%;
+}
+ul.compact li a {
+	width: 70%;
+}
 /* @end */
 
 /* @group Header */

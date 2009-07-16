@@ -13,7 +13,14 @@ Programming Lab Notes
 Programming is all about _structure_ and _process_ and this blog is all about
 [Mark Reid](/)'s adventures in programming. Enjoy!
 
-My most recent post are:
+[![Feed icon](/files/css/feed-icon-14x14.png){:title="Atom feed of recent posts" .right}][feed]
+A [feed][] of the most recent posts is available.
+
+[feed]: /sap/atom.xml
+
+Recent Posts
+------------
+
 {% for post in site.categories.sap limit:5 %}
 <div class="section list">
   <h1>{{ post.date | date_to_string }}</h1>

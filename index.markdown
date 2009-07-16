@@ -29,11 +29,10 @@ I keep a research blog called _[Inductio ex Machina](/iem)_ on
 machine learning and statistics.
 Recent posts include:
 {% for post in site.categories.iem limit:3 %}
-<ul class="compact">
+<ul class="compact recent">
 <li>
-	<span class="date">{{ post.date | date_to_string }}</span> 
-	&nbsp;&mdash;&nbsp;
 	<a href="{{ post.url }}" title="{{ post.excerpt }}">{{ post.title }}</a>
+	<span class="date">{{ post.date | date_to_string }}</span> 
 </li>
 </ul>
 {% endfor %}
@@ -42,11 +41,10 @@ Recent posts include:
 +--{.section}
 I have also just started a programming blog called _[Structure & Process](/sap)_.
 {% for sappost in site.categories.sap limit:3 %}
-<ul class="compact">
+<ul class="compact recent">
 <li>
-	<span class="date">{{ sappost.date | date_to_string }}</span> 
-	&nbsp;&mdash;&nbsp;
 	<a href="{{ sappost.url }}" title="{{ sappost.excerpt }}">{{ sappost.title }}</a>
+	<span class="date">{{ sappost.date | date_to_string }}</span> 
 </li>
 </ul>
 {% endfor %}
