@@ -1,0 +1,27 @@
+---
+layout: default
+top: Notes &larr; Mark Reid
+section: Work
+feed: atom.xml
+---
+
+<div id="header">
+	{% include nav-note.html %}
+</div>
+
+<div id="page">
+	
+  <h1 class="emphnext">{{ page.title }}</h1>
+
+{{ content }}
+
+  <address class="signature">
+    <a class="author" href="http://mark.reid.name">Mark Reid</a> 
+    <span class="date">
+		{{ page.date | date_to_long_string }} 
+		{% if page.update %} 
+			&#8212; {{ page.update | date_to_long_string }}
+		{% endif %}
+	</span>
+  </address>
+</div><!-- End Page -->
