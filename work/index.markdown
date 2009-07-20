@@ -80,12 +80,13 @@ my [code][] available.
 +-- {.section}
 Activities
 ==========
-As well as reviewing for journals ([JMLR][] and [PAMI][]) and conferences ([NIPS][], [ICML][], [COLT][], and [UAI][]), I have also set up a [discussion site][icmldisc] for ICML 2008 and 2009 and [presented][mlss2009] at the 2009 Machine Learning Summer School.
+As well as reviewing for journals ([JMLR][], [PAMI][] and [Trans. on Info. Theory][infotheory]) and conferences ([NIPS][], [ICML][], [COLT][], and [UAI][]), I have also set up a [discussion site][icmldisc] for ICML 2008 and 2009 and [presented][mlss2009] at the 2009 Machine Learning Summer School.
 =--
 
 [icmldisc]: http://www.conflate.net/icml/
 [mlss2009]: http://mark.reid.name/iem/mlss-2009-lecture.html
 [jmlr]: http://jmlr.csail.mit.edu/
+[infotheory]: http://en.wikipedia.org/wiki/IEEE_Transactions_on_Information_Theory
 [nips]: http://nips.cc/
 [icml]: http://www.machinelearning.org/
 [pami]: http://www.computer.org/tpami/

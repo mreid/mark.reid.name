@@ -9,25 +9,6 @@ Eventually this page will contain links to most of the research and non-research
 related programming I've done.
 
 <div class="section" markdown="1">
-Research Code
-=============
-DEFT - (Soon)
-:	Short for _D_escription-based _E_valuation _F_unction _T_ransfer, DEFT is a
-	system I wrote as part of my PhD research. It is built on top of a modified 
-	version of the inductive logic programming workbench [Aleph][]. It is able 
-	to transfer evaluation bias from one rule learning task to another. When the 
-	tasks are related and training examples are limited this can improve 
-	learning performance.
-
-Aleph - (Soon)
-:	While building DEFT I made several modifications to the original 
-	[Aleph][] version 4 codebase. As well as modularising it I added several
-	new features including built-in cross validation and predicate invention.
-
-[Aleph]: http://web.comlab.ox.ac.uk/oucl/research/areas/machlearn/Aleph/
-</div>
-
-<div class="section" markdown="1">
 Tools
 =====
 [Feed Bag](/code/feed-bag.html)
@@ -38,7 +19,7 @@ Tools
 <div class="section" markdown="1">
 Other Hacking
 =====================
-[Plain Text Wiki](/code/plain-text-wiki)
+[Plain Text Wiki](/code/plain-text-wiki.html)
 :	I extended Matt Webb's original [Plain Text Wiki][] with a few 
 	modifications of my own. I use it to manage the content on this
 	site.
