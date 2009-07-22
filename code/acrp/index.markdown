@@ -19,3 +19,5 @@ The application itself can be opened by clicking on the following link or the sc
 :	**Figure 1**: A screenshot of the Australian Common Readership Project visualisation tool and its controls: _A_) Selected book; _B_) Book details; _C_) Search by Title; _D_) Search by Author; _E_) Borrower threshold; _F_) Similarity threshold; _G_) Libraries.
 
 {: .figure }
+
+More details about some of the algorithms used to lay out the visualisation are discussed in a [companion blog post](/iem/visualising-19th-century-reading.html).

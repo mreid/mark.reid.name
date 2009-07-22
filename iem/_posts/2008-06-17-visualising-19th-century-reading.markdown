@@ -11,6 +11,9 @@ I've recently spent a bit of time collaborating with my wife on a research proje
 
 The rest of this post describes the intersection of our interests --- data from the Australian Common Reader Project --- and the visualisation tool I wrote to explore it. The tool itself is based on a simple application of linear Principal Component Analysis (PCA). I'll attempt to explain it here in such a way that readers who have not studied this technique might still be able to make use of the tool.
 
+**Note**: The visualisation applet discussed in this post has been superseded. The most up-to-date version can be found here: <http://mark.reid.name/code/acrp/>
+{:.note }
+
 [j]: http://cass.anu.edu.au/humanities/school_sites/staff.php
 [csl]: http://csl.cecs.anu.edu.au/
 
@@ -154,6 +157,8 @@ Access to the data that the code acts upon is not mine to give, so the code is p
 Updates
 -------
 * _9 December 2008_: Julieanne and I presented a much improved version of this visualisation at the [Resourceful Reading][] conference held at the University of Sydney on the 5th of December. Those looking for the application I presented there: stay tuned, I will post the updated version here shortly.
+
+* _22 July 2009_: Added a note at the top of this post with a [link](/code/acrp) to the latest version of the visualisation applet.
 
 [Resourceful Reading]: http://conferences.arts.usyd.edu.au/index.php?cf=20
 
