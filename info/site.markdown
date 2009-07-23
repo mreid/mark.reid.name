@@ -26,7 +26,7 @@ When designing this site I knew I wanted to emulate the many beautifully
 constructed, minimalist web sites I'd encountered over the years. 
 In the front of my mind were those by: 
 [Jon Tan][jt], [Dean Allen][textism], [Dario Taraborelli][dt], 
-[Ryan Tomatko][rt], and [Alex Payne][al3x].
+[Ryan Tomayko][rt], and [Alex Payne][al3x].
 
 As text is the focus, I had to learn a few things about good typography.
 Two resources that helped immensely were
@@ -56,14 +56,23 @@ Roman and the default sans serif fonts are substituted.
 The Mechanics
 -------------
 
-Jekyll, Markdown (Maruku), blahtex, TextMate, OmniGraffle, Processing.
+The content of this site begins life as a directory full of text files on my [iMac](http://www.apple.com/imac/) written using the editor [TextMate](http://macromates.com/) in a format called  [Markdown](http://daringfireball.net/projects/markdown/). 
 
-Hostingrails, rsync, git, Transmit, CSS Edit.
+The stylesheet I use for the site was built with the help of [CSSEdit](http://macrabbit.com/cssedit/). When I do create diagrams for my posts these are invariably made with [OmniGraffle](http://www.omnigroup.com/applications/OmniGraffle/). I push all of these out to my [GitHub repository](http://github.com/mreid/mark.reid.name/tree/master) using the version control system [git](http://code.google.com/p/git-osx-installer/).
 
-iMac
+To update the site, the text files are first transformed into HTML by [Maruku](http://maruku.rubyforge.org/) with [blahtex](http://gva.noekeon.org/blahtexml/) helping by rendering LaTeX equations into images. [Jekyll](http://jekyllrb.com) orchestrates the whole process, adding headers, navigation bars and the like, creating a directory full of static HTML ready to be served.  
+
+Finally, I then [rsync](http://www.samba.org/rsync/) the newly created site to my shared server run by the good folk at [HostingRails](http://www.hostingrails.com/).
 
 Licence
 -------
 
 Unless specified otherwise, all design and content within this site is 
 licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License</a>.
+
+What this means is you are free to use my design and content non-commercially provided you don't try to pass it off as your own. A simple link back to [my site](/) with an attribution is enough, like what these fine people have done:
+
+* [Brian McCallister](http://skife.org/about.html)
+* [Dumitru Erhan](http://www-etud.iro.umontreal.ca/)
+
+If you also use some of my stuff [let me know](mailto:mark@reid.name) and I'll add you to this list.
