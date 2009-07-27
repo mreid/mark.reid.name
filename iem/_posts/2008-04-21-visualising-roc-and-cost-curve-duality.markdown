@@ -27,7 +27,7 @@ The left plot, entitled "Cost Space" shows the (cost,loss) duals of both the bla
 
 ![Screenshot of Cost/ROC Curve Duality](/images/figures/siroc-screenshot.png){: width=650 }
 :	**Figure 1**: Screenshot of the cost/ROC visualisation applet. Click 
-	[here](http://github.com/mreid/siroc/raw/ffa914ae474f007f05e673222c4252f95008399b/applet/index.html) to open the applet and interact with it.
+	[here](/files/code/siroc/) to open the applet and interact with it.
 
 {:.figure :}
 
@@ -43,5 +43,7 @@ Updates
 -------
 * _30 January 2009_: Replaced inline applet with a screenshot and link to page
   hosted on GitHub.
+
+* _28 July 2009_: Link to applet is now hosted locally, not on GitHub.
 
 [^1]: My description here differs slightly from Drummond and Holte's in that I am keeping priors and costs separate and not normalising the loss. 
