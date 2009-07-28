@@ -102,7 +102,7 @@ class PlotView {
   
    void drawBounds() {
      noFill();
-     stroke(200);
+     stroke(grey);
      rect(vxStart,vyStart,viewWidth(),viewHeight());
 
      fill(0);
@@ -145,14 +145,14 @@ class PlotView {
        stroke(v.col);
        viewCurve(v.curve);
      }
-     
+
      // Points
      for(int i = 0 ; i < points.size() ; i++) {
        PointView v = (PointView) points.get(i);
        stroke(v.col);
        viewPoint(v.point);
      }
-     
+
      // Lines
      for(int i = 0 ; i < lines.size() ; i++) {
        LineView v = (LineView) lines.get(i);
@@ -179,7 +179,9 @@ class PlotView {
      c.addPoint(curvex0, curvey0);
      for(int i = 0 ; i < curve.size() ; i++) {
        GPoint p = curve.getPoint(i);
-       c.addPoint(p.getX(), p.getY()); 
+       if(! p.isPAI()) {
+         c.addPoint(p.getX(), p.getY()); 
+       }
      }
      c.addPoint(curvex1, curvey1);     
      c.draw(g);
