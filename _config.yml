@@ -1,6 +1,6 @@
 ---
 destination : /Users/mreid/Sites/mark.reid.name
-auto        : true
+auto        : false
 lsi         : false
 pygments    : true
 permalink   : none

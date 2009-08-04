@@ -40,7 +40,7 @@ To make Clojure's interactive mode easier to you, you should grab the JLine libr
 
 First download [jline-0.9.94.zip][] from the [jline project site][jline] and then:
 
-	$ cp ~/Downloads/jline-0.9.94/jline-0.9.94.jar ~Library/Clojure/lib/jline.jar
+	$ cp ~/Downloads/jline-0.9.94/jline-0.9.94.jar ~/Library/Clojure/lib/jline.jar
 
 [jline]: http://jline.sourceforge.net/
 [jline-0.9.94.zip]: http://downloads.sourceforge.net/jline/jline-0.9.94.zip
@@ -48,7 +48,7 @@ First download [jline-0.9.94.zip][] from the [jline project site][jline] and the
 Startup Script
 --------------
 
-I've created a bash script called `clj` that I put in `~/Library/Frameworks/Clojure` and symbolically link to from somewhere in my path. 
+I've created a bash script called `clj` that I put in `~/Library/Clojure` and symbolically link to from somewhere in my path. 
 
 This script sets up the Clojure classpath and, if it is present, also adds the contents of a `.clojure` file to the classpath before executing Clojure. It also adds the current directory to the classpath for ease of use.
 
@@ -171,3 +171,5 @@ Hopefully, this short introduction will make it easier for others to get up and 
 Updates
 -------
 * _1 April 2009_: Added notes about the editor I use and link to my Github repository.
+
+* _4 August 2009_: Fixed some incorrect paths in the instructions.
