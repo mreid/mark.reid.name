@@ -74,5 +74,7 @@ What this means is you are free to use my design and content non-commercially pr
 
 * [Brian McCallister](http://skife.org/about.html)
 * [Dumitru Erhan](http://www-etud.iro.umontreal.ca/)
+* [Sam Kleinman](http://www.tychoish.com/)
+* [Nick Mariette](http://www.soundsorange.net/)
 
 If you also use some of my stuff [let me know](mailto:mark@reid.name) and I'll add you to this list.
