@@ -1,0 +1,20 @@
+{ 
+  'wiki-url':"http://simile.mit.edu/shelf/", 
+  'wiki-section':"Simile JFK Timeline", 
+  'dateTimeFormat': 'Gregorian',
+  'events': [
+    {
+       'start':"Sat May 20 1961 00:00:00 GMT-0600",
+       'title':"'Bay of Pigs' Invasion",
+       'durationEvent':false // Notes: not "false". And no trailing comma.
+     }, {
+       'start':"Wed May 01 1963 00:00:00 GMT-0600" ,
+       'end':"Sat Jun 01 1963 00:00:00 GMT-0600" ,
+       'durationEvent':true,
+       'title':"Oswald moves to New Orleans",
+       'description':"Oswald moves to New Orleans, and finds employment at the
+William B. Riley Coffee Company. <i>ref. Treachery in Dallas, p 320</i>"
+     }, {
+      ...
+     } ]    // Note: Do NOT include a trailing comma! (Breaks on IE)
+}
