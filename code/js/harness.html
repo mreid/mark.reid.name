@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>untitled</title>
+	<meta name="generator" content="TextMate http://macromates.com/">
+	<meta name="author" content="Mark Reid">
+	<!-- Date: 2009-09-02 -->
+
+<script type="application/x-javascript">
+function drawBowtie(ctx, fillStyle) {
+
+  ctx.fillStyle = "rgba(200,200,200,0.3)";
+  ctx.fillRect(-30, -30, 60, 60);
+
+  ctx.fillStyle = fillStyle;
+  ctx.globalAlpha = 1.0;
+  ctx.beginPath();
+  ctx.moveTo(25, 25);
+  ctx.lineTo(-25, -25);
+  ctx.lineTo(25, -25);
+  ctx.lineTo(-25, 25);
+  ctx.closePath();
+  ctx.fill();
+}
+
+function dot(ctx) {
+  ctx.save();
+  ctx.fillStyle = "black";
+  ctx.fillRect(-2, -2, 4, 4);
+  ctx.restore();
+}
+
+var angle = 45;
+function draw() {
+  var canvas = document.getElementById("canvas");
+  var ctx = canvas.getContext("2d");
+  ctx.clearRect(0,0,300,300);
+
+  // note that all other translates are relative to this
+  // one
+  ctx.save();
+  ctx.translate(45, 45);
+
+  ctx.save();
+  //ctx.translate(0, 0); // unnecessary
+  drawBowtie(ctx, "red");
+  dot(ctx);
+  ctx.restore();
+
+  ctx.save();
+  ctx.translate(85, 0);
+  ctx.rotate(angle * Math.PI / 180);
+  drawBowtie(ctx, "green");
+  dot(ctx);
+  ctx.restore();
+
+  ctx.save();
+  ctx.translate(0, 85);
+  ctx.rotate(135 * Math.PI / 180);
+  drawBowtie(ctx, "blue");
+  dot(ctx);
+  ctx.restore();
+
+  ctx.save();
+  ctx.translate(85, 85);
+  ctx.rotate(90 * Math.PI / 180);
+  drawBowtie(ctx, "yellow");
+  dot(ctx);
+  ctx.restore();
+
+  ctx.restore();
+}
+
+function mainLoop()
+{
+	draw();
+	angle += 1;
+	setTimeout('mainLoop()', 40);
+}
+</script>
+</head>
+<body onload="mainLoop()">
+
+<h1>A Simple Test Harness for Playing with JavaScript and Canvas</h1>
+
+<canvas id="canvas" width="300" height="300"></canvas>
+
+
+</body>
+</html>
