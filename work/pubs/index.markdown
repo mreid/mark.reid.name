@@ -11,52 +11,64 @@ download a PDF copy of the paper.
 <div class="section" markdown="1">
 Journal Articles
 ================
-[Cross-training and its Application to Skill-Mining][isj01]{:.pdf .wiki:}.
+_[Cross-training and its Application to Skill-Mining][isj01]{:.pdf :}_.
 Daniel Oblinger, Mark Reid, Mark Brodie, and Rodrigo de Salvo Braz.
-_IBM Systems Journal_ (Vol. 41, No. 3), pp. 449-460, 
+IBM Systems Journal (Vol. 41, No. 3), pp. 449-460, 
 **2002**
 </div>
 
 <div class="section" markdown="1">
 Conference Papers
 =================
-[Generalised Pinsker Inequalities][colt09]{:.pdf }. ([Slides][colt09slides])
-Mark D. Reid and Robert C. Williamson
-_Proc. of the 22nd Annual Conference on Learning Theory_,
+_Kernel Conditional Quantile Estimation via Reduction Revisited_. [Novi Quadrianto][novi], [Kristian Kersting][kristian], Mark Reid, [Tiberio Caetano][tiberio], and [Wray Buntine][wray]
+To appear in [Proc. of the IEEE International Conference on Data Mining][procicdm],
 **2009**
 
-[Surrogate Regret Bounds for Proper Losses][icml09]{:.pdf }. ([Slides][icml09slides])
-Mark D. Reid and Robert C. Williamson
-_Proc. of the 26th International Conference on Machine Learning_,
+_[Generalised Pinsker Inequalities][colt09]{:.pdf }_. ([Slides][colt09slides])
+Mark D. Reid and [Robert C. Williamson][bob]
+Proc. of the 22nd Annual Conference on Learning Theory,
 **2009**
 
-[Improving Rule Evaluation Using Multitask Learning][ilp04]{:.pdf .wiki:}.
+_[Surrogate Regret Bounds for Proper Losses][icml09]{:.pdf }_. ([Slides][icml09slides])
+Mark D. Reid and [Robert C. Williamson][bob]
+Proc. of the 26th International Conference on Machine Learning,
+**2009**
+
+_[Improving Rule Evaluation Using Multitask Learning][ilp04]{:.pdf :}_.
 Mark D. Reid.
-_Proc. of the 14th International Conference on ILP_, pp. 252-269,
+Proc. of the 14th International Conference on ILP, pp. 252-269,
 **2004**
 
-[Using ILP to Improve Planning in Hierarchical Reinforcement Learning][ilp00]{:.pdf .wiki:}.
-Mark Reid and Malcolm Ryan.
-_Proc. of the 10th International Conference on ILP_, pp. 174-190,
+_[Using ILP to Improve Planning in Hierarchical Reinforcement Learning][ilp00]{:.pdf :}_.
+Mark Reid and [Malcolm Ryan][mal].
+Proc. of the 10th International Conference on ILP, pp. 174-190,
 **2000**
 
-[Learning to Fly: An Application of Hierarchical Reinforcement Learning][icml00]{:.pdf .wiki:}.
-Malcolm Ryan and Mark Reid.
-_Proc. of the 17th International Conference on Machine Learning_, pp. 807-814,
+_[Learning to Fly: An Application of Hierarchical Reinforcement Learning][icml00]{:.pdf :}_.
+[Malcolm Ryan][mal] and Mark Reid.
+Proc. of the 17th International Conference on Machine Learning, pp. 807-814,
 **2000**
 
-[NRMIS: A Noise Resistant Model Inference System][ds99]{:.pdf .wiki:}.
-Eric McCreath and Mark Reid.
-_Discovery Science_, pp. 252-263,
+_[NRMIS: A Noise Resistant Model Inference System][ds99]{:.pdf :}_.
+[Eric McCreath][eric] and Mark Reid.
+Discovery Science, pp. 252-263,
 **1999**
 </div>
+
+[eric]: http://cs.anu.edu.au/~Eric.McCreath/
+[bob]: http://axiom.anu.edu.au/~williams/
+[novi]: http://users.rsise.anu.edu.au/~nquadrianto/
+[mal]: http://www.cse.unsw.edu.au/~malcolmr/
+[wray]: http://nicta.com.au/people/buntinew
+[tiberio]: http://www.tiberiocaetano.com/
+[kristian]: http://www-kd.iai.uni-bonn.de/index.php?page=people_details&id=21
 
 <div class="section" markdown="1">
 Thesis
 ======
-[DEFT Guessing: Using Inductive Transfer to Improve Rule Evaluation from Limited Data][unsw07]{:.pdf .wiki:}. 
+_[DEFT Guessing: Using Inductive Transfer to Improve Rule Evaluation from Limited Data][unsw07]{:.pdf :}_. 
 Mark D. Reid. 
-_School of Computer Science and Engineering, The University of New South Wales_, 
+School of Computer Science and Engineering, The University of New South Wales, 
 Sydney, Australia. 
 **2007**  
 </div>
@@ -64,20 +76,22 @@ Sydney, Australia.
 <div class="section" markdown="1">
 Non-refereed Reports
 ====================
-[Information, Divergence and Risk for Binary Experiments][arxiv09]
+_[Information, Divergence and Risk for Binary Experiments][arxiv09]_.
 Mark D. Reid and Robert C. Williamson.
-_arXiv:0901.0356v1 \[stat.ML\]_,
+arXiv:0901.0356v1 \[stat.ML\],
 **2009**
 </div>
 
 <div class="section" markdown="1">
 Patent Applications
 ===================
-[Determining Page Complexity][pat06]
+_[Determining Page Complexity][pat06]_.
 Barry James Drake and Mark Darren Reid.
-_Australian Application Number: 2006252174_,
+Australian Application Number: 2006252174,
 **2006**
 </div>
+
+[procicdm]: http://www.cs.umbc.edu/ICDM09/program.html
 
 [colt09]: /files/pubs/colt09.pdf
 [colt09slides]: http://users.rsise.anu.edu.au/~mreid/files/slides/COLT2009.pdf

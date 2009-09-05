@@ -9,6 +9,9 @@
 	<meta name="author" content="Mark Reid">
 	<!-- Date: 2009-09-02 -->
 
+    <!--[if IE]><script type="text/javascript" src="../excanvas.js"></script><![endif]-->
+    <script type="text/javascript" src="http://canvas-text.googlecode.com/svn/trunk/canvas.text.js"></script>
+    <script type="text/javascript" src="http://canvas-text.googlecode.com/svn/trunk/faces/optimer-normal-normal.js"></script>
 <script type="application/x-javascript">
 function drawBowtie(ctx, fillStyle) {
 
@@ -37,8 +40,8 @@ var angle = 45;
 function draw() {
   var canvas = document.getElementById("canvas");
   var ctx = canvas.getContext("2d");
-  ctx.clearRect(0,0,300,300);
-
+  ctx.clearRect(0,0,300,300); 
+  ctx.fillText("Testing", 10, 50);
   // note that all other translates are relative to this
   // one
   ctx.save();
