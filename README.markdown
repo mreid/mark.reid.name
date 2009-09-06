@@ -1,21 +1,12 @@
-This is the data for my personal website
-========================================
+Mark.Reid.name
+==============
 
-It is automatically transformed by [Jekyll](http://github.com/mreid/jekyll) 
-(a fork of mojombo's original version)
-into a static site whenever I push this repository to GitHub.
+This repository contains the source for my personal site at <http://mark.reid.name>.
 
 License
 =======
 
-The following directories and their contents are Copyright Mark Reid. 
-You may not reuse anything therein without my permission:
-
-* _posts/
-* images/
-
-All other directories and files are MIT Licensed. 
-Feel free to use the HTML and CSS as you please. If you do use them, a link back to <http://mark.reid.name> would be appreciated.
+Unless otherwise attributed, all of the content in this repository is released under a Creative Commons ([Attribution-Noncommercial-Share Alike 3.0 Unported](http://creativecommons.org/licenses/by-nc-sa/3.0/) licence.
 
 Usage
 =====
