@@ -20,7 +20,7 @@ IBM Systems Journal (Vol. 41, No. 3), pp. 449-460,
 <div class="section" markdown="1">
 Conference Papers
 =================
-_Kernel Conditional Quantile Estimation via Reduction Revisited_. [Novi Quadrianto][novi], [Kristian Kersting][kristian], Mark Reid, [Tiberio Caetano][tiberio], and [Wray Buntine][wray]
+_[Kernel Conditional Quantile Estimation via Reduction Revisited][icdm09]_. [Novi Quadrianto][novi], [Kristian Kersting][kristian], Mark Reid, [Tiberio Caetano][tiberio], and [Wray Buntine][wray]
 To appear in [Proc. of the IEEE International Conference on Data Mining][procicdm],
 **2009**
 
@@ -91,6 +91,7 @@ Australian Application Number: 2006252174,
 **2006**
 </div>
 
+[icdm09]: /files/pubs/icdm09.pdf
 [procicdm]: http://www.cs.umbc.edu/ICDM09/program.html
 
 [colt09]: /files/pubs/colt09.pdf
