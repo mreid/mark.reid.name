@@ -29,6 +29,9 @@ Divergence and Risk for Binary Experiments][infodiv]".
 +-- {.section}
 News
 ====
+_5 Sep 2009_:
+"Kernel Conditional Quantile Estimation via Reduction Revisited" was accepted as a short paper to [ICDM 2009][icdmconf].
+
 _7 Jul 2009_:
 Made PDF slides of my [COLT 2009][colt09slides] and [ICML 2009][icml09slides] presentations available.
 
@@ -43,6 +46,8 @@ _10 Apr 2009_:
 
 _4 Apr 2009_: The lectures I gave at the machine learning summer school are [available on videolectures.net][mlsslectures].
 =--
+
+[icdmconf]: http://www.cs.umbc.edu/ICDM09/program.html
 
 [colt09]: /files/pubs/colt09.pdf
 [coltconf]: http://www.cs.mcgill.ca/~colt2009/

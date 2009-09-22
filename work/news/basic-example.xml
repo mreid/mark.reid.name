@@ -1,0 +1,33 @@
+<data>
+ <event
+  start="Sep 9 2006 09:00:00 GMT"
+  end="Sep 14 2006 09:00:00 GMT"
+  isDuration="true"
+  title="Visit the Vierzehnheiligen"
+  image="vierzehnheiligen-thumb.jpg"
+ >
+ Visit this impressive church in Germany. More
+ information can be found at its
+ &lt;a href=
+ "http://en.wikipedia.org/wiki/Vierzehnheiligen"
+ &gt;Wikipedia page&lt;/a&gt;.
+ </event>
+
+ <event
+  start="Sep 16 2006 00:00:00 GMT"
+  end="Sep 26 2006 00:00:00 GMT"
+  title="A visit to Versailles?"
+  image="versailles-thumb.jpg"
+  link="http://www.chateauversailles.fr/en/"
+ >
+ Sometime in this window I should
+ get out to Versailles.
+ </event>
+
+ <event
+  start="Sep 30 2006 00:00:00 GMT"
+  title="Flight back home :("
+ >
+  The joy has to end sometime :(
+ </event>
+</data>
