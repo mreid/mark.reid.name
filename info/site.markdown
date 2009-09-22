@@ -76,5 +76,6 @@ What this means is you are free to use my design and content non-commercially pr
 * [Dumitru Erhan](http://www-etud.iro.umontreal.ca/)
 * [Sam Kleinman](http://www.tychoish.com/)
 * [Nick Mariette](http://www.soundsorange.net/)
+* [Vinod Kurup](http://kurup.org/)
 
 If you also use some of my stuff [let me know](mailto:mark@reid.name) and I'll add you to this list.
