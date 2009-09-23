@@ -4,47 +4,58 @@ title: Research
 section: Work
 ---
 
+<img class='inset right' src='/images/mark_reid.jpg' title='Mark Reid' alt='Photo of Mark Reid drinking a coffee' width='120px' />
+
 Research
 ========
 I'm a post-doctoral Research Fellow in the 
 [Research School of Information Sciences and Engineering][rsise] 
 at the [Australian National University][anu] in Canberra, Australia. 
 I work with other members of the [Statistical Machine Learning][sml] 
-group in the [Computer Sciences Lab][csl]. 
+group in the [Computer Sciences Lab][csl]. As of July 2009, I also work part-time with [NICTA][]'s research groups.
 
 [rsise]: http://rsise.anu.edu.au/
 [anu]: http://anu.edu.au/
 [sml]: http://sml.rsise.anu.edu.au/
 [csl]: http://csl.rsise.anu.edu.au/
 
++-- {.section}
+[Publications](/work/pubs/)
+============
+I have [published][] papers on topics in learning theory, transfer learning, and inductive logic programming (ILP).
+A summary of my recent work can be found in _[Information, Divergence and Risk for Binary Experiments](http://arxiv.org/abs/0901.0356)_.
+=--
 
-My current [research][] is into representations of — and relationships between 
-— machine learning problems with [Bob Williamson][bob]. The most complete 
-summary of this work so far can be found in our technical report "[Information, 
-Divergence and Risk for Binary Experiments][infodiv]".
++-- {.section}
+[Blog](/iem/)
+====
+Since September 2007 I have kept a blog on machine learning and statistical 
+inference called _[inductio ex machina](/iem/)_. 
+=--
 
-[bob]: http://axiom.anu.edu.au/~williams/
-[infodiv]: http://arxiv.org/abs/0901.0356
++-- {.section}
+Contact 
+=======
+I can be reached at work by phone on (+61) 2 6267 6297, 
+by email at [mark.reid@anu.edu.au](mailto:mark.reid@anu.edu.au).
+My office is on the 3rd floor of the [NICTA][] Canberra Research Lab ([Map][]).
+=--
+
+[nicta]: http://nicta.com.au
+[map]: http://maps.google.com/maps/ms?msa=0&msid=104436549534345141124.00043edbbdf29a2e18167&ie=UTF8&z=17
+
 
 +-- {.section}
 News
 ====
 _5 Sep 2009_:
-"Kernel Conditional Quantile Estimation via Reduction Revisited" was accepted as a short paper to [ICDM 2009][icdmconf].
-
-_7 Jul 2009_:
-Made PDF slides of my [COLT 2009][colt09slides] and [ICML 2009][icml09slides] presentations available.
+_[Kernel Conditional Quantile Estimation via Reduction Revisited](/files/pubs/icdm09.pdf)_ was accepted as a short paper to [ICDM 2009][icdmconf].
 
 _25 May 2009_:
-With the help of the organisers, I have set up a [discussion site][icmldisc] for [ICML 2009][icmlconf]. ([Slides][icml09slides])
+With the help of the organisers, I have set up a [discussion site][icmldisc] for [ICML 2009][icmlconf].
 
 _2 May 2009_:
 "[Generalised Pinsker Inequalities][colt09]" was accepted at [COLT 2009][coltconf]. ([Slides][colt09slides])
-
-_10 Apr 2009_:
-"[Surrogate Regret Bounds for Proper Losses][icml09]" was accepted at [ICML 2009][icmlconf].
-
-_4 Apr 2009_: The lectures I gave at the machine learning summer school are [available on videolectures.net][mlsslectures].
 =--
 
 [icdmconf]: http://www.cs.umbc.edu/ICDM09/program.html
@@ -53,34 +64,7 @@ _4 Apr 2009_: The lectures I gave at the machine learning summer school are [ava
 [coltconf]: http://www.cs.mcgill.ca/~colt2009/
 [colt09slides]: http://users.rsise.anu.edu.au/~mreid/files/slides/COLT2009.pdf
 
-[icml09]: /files/pubs/icml09.pdf
 [icmlconf]: http://www.cs.mcgill.ca/~icml2009/
-[icml09slides]: http://users.rsise.anu.edu.au/~mreid/files/slides/ICML2009.pdf
-
-[mlsslectures]: /iem/mlss-2009-lecture.html
-
-<div class="section" markdown="1">
-Publications
-============
-I have [published][] papers on topics
-such as transfer learning, inductive logic programming (ILP), text mining, and
-feature extraction.
-</div>
-
-
-<div class="section" markdown="1">
-Blog
-====
-Since September 2007 I have kept a blog on machine learning and statistical 
-inference called _[inductio ex machina](/iem/)_. 
-</div>
-
-<div class="section" markdown="1">
-Code
-====
-I enjoy programming, both for research and as a hobby, and have made some of
-my [code][] available. 
-</div>
 
 +-- {.section}
 Activities
@@ -109,13 +93,3 @@ As well as reviewing for journals ([JMLR][], [PAMI][] and [Trans. on Info. Theor
 [workshop]: http://hunch.net/~learning-problem-design/
 [slides]: http://users.rsise.anu.edu.au/~mreid/files/slides/NIPS2007_Slides.pdf
 [nictaseminar]: http://users.rsise.anu.edu.au/~mreid/files/slides/NICTA_Seminar_May2008.pdf
-
-<div class="section" markdown="1">
-Contact 
-=======
-I can be reached at work by phone on (+61) 2 6267 6297, 
-by email at [mark.reid@anu.edu.au](mailto:mark.reid@anu.edu.au),
-or you could drop by [my building][map].
-</div>
-
-[map]: http://maps.google.com/maps?f=q&hl=en&geocode=&time=&date=&ttype=&q=RSISE+ANU+Canberra&ie=UTF8&t=h&mrt=kmlkmz&ll=-35.273758,149.120092&spn=0.033354,0.025535&z=15&om=1

@@ -8,11 +8,11 @@ top: Mark Reid
 
 ---
 
-Info
-====
+<img class='inset right' src='/images/mark_reid.jpg' title='Mark Reid' alt='Photo of Mark Reid drinking a coffee' width='120px' />
 
 About Me
---------
+========
+
 I was born and bred in Darwin, at the “top-end” of Australia, where I finished 
 high-school before moving to Sydney to complete an honours degree in pure 
 mathematics and computer science at the University of New South Wales in 1996.
@@ -37,6 +37,6 @@ as a post-doc in 2007 as part of the Statistical Machine Learning group at the
 Australian National University in Canberra.
 
 About This Site
----------------
-More about the content, design and mechanics of this site can be found in the 
-[Colophon](/info/site.html).
+===============
+
+I bought the domain [mark.reid.name](/) in early 2007 with the intention of making it the one-stop-shop for all of my personal and professional information.  More about the content, design and mechanics of this site can be found in the site's [Colophon](/info/site.html).
