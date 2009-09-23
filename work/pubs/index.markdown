@@ -18,6 +18,15 @@ IBM Systems Journal (Vol. 41, No. 3), pp. 449-460,
 </div>
 
 <div class="section" markdown="1">
+Book Chapters
+=============
+_Squinting at a Sea of Dots: Visualising
+Australian Readerships using Statistical Machine Learning_. [Julieanne Lamond][julieanne] and Mark D. Reid. 
+Resourceful Reading: The New Empiricism, eResearch and Australian Literary Culture. 
+Forthcoming in January **2010**.
+</div>
+
+<div class="section" markdown="1">
 Conference Papers
 =================
 _[Kernel Conditional Quantile Estimation via Reduction Revisited][icdm09]_. [Novi Quadrianto][novi], [Kristian Kersting][kristian], Mark Reid, [Tiberio Caetano][tiberio], and [Wray Buntine][wray]
@@ -55,6 +64,7 @@ Discovery Science, pp. 252-263,
 **1999**
 </div>
 
+[julieanne]: http://cass.anu.edu.au/humanities/school_sites/staffmod.php
 [eric]: http://cs.anu.edu.au/~Eric.McCreath/
 [bob]: http://axiom.anu.edu.au/~williams/
 [novi]: http://users.rsise.anu.edu.au/~nquadrianto/
