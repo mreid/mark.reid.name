@@ -4,7 +4,7 @@ title: Research
 section: Work
 ---
 
-<img class='inset right' src='/images/mark_reid.jpg' title='Mark Reid' alt='Photo of Mark Reid drinking a coffee' width='120px' />
+<img class='inset right' src='/images/mark_reid2.jpg' title='Mark Reid' alt='Photo of Mark Reid at work' width='120px' />
 
 Research
 ========
