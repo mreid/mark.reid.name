@@ -1,3 +1,5 @@
+/* @override http://mark.reid.dev/files/css/screen.css */
+
 /* @override 
 	http://mark.reid.dev/files/css/screen.css
 	http://mark.reid.name/files/css/screen.css
@@ -34,6 +36,9 @@ p { margin: 0 0 1.5em 0; text-align: justify; }
 
 a { text-decoration: none; color: #339; }
 a:hover { text-decoration: underline; color: #33f; }
+a.pdf:before { 
+	margin-right: 1em;
+	content: url(/files/css/icon_pdf.gif); }
 
 h1,h2,h3,h4 { 
 	line-height:1em; 
