@@ -38,6 +38,9 @@ on a semi-regular basis:
 *  Shane Legg's [vetta project](http://www.vetta.org/)
 *  Neal Richter's [aicoder](http://aicoder.blogspot.com/) blog
 *  Fernando Pereira's [Earning My Turns](http://earningmyturns.blogspot.com/)
+*  Mikio Braun's [Marginally Interesting](http://blog.mikiobraun.de/)
+*  Yisong Yue's [Random Ponderings](http://yyue.blogspot.com/)
+*  Bob Carpenter's [LingPipe Blog](http://lingpipe-blog.com/)
 
 Papers
 ------
