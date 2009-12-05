@@ -48,6 +48,9 @@ My office is on the 3rd floor of the [NICTA][] Canberra Research Lab ([Map][]).
 +-- {.section}
 News
 ====
+_18 Nov 2009:_
+Spoke about Spam filtering to Year 10 students at Yass High School as part of the [Mathematicians in Schools](http://www.mathematiciansinschools.edu.au/) project. 
+
 _5 Sep 2009_:
 _[Kernel Conditional Quantile Estimation via Reduction Revisited](/files/pubs/icdm09.pdf)_ was accepted as a short paper to [ICDM 2009][icdmconf].
 
