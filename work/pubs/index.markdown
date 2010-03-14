@@ -22,40 +22,43 @@ Book Chapters
 =============
 _Squinting at a Sea of Dots: Visualising
 Australian Readerships using Statistical Machine Learning_. [Julieanne Lamond][julieanne] and Mark D. Reid. 
-Resourceful Reading: The New Empiricism, eResearch and Australian Literary Culture. 
-Forthcoming in January **2010**.
+Resourceful Reading: The New Empiricism, eResearch and Australian Literary Culture, January **2010**.
 </div>
 
 <div class="section" markdown="1">
 Conference Papers
 =================
-_[Kernel Conditional Quantile Estimation via Reduction Revisited][icdm09]_. [Novi Quadrianto][novi], [Kristian Kersting][kristian], Mark Reid, [Tiberio Caetano][tiberio], and [Wray Buntine][wray]
-To appear in [Proc. of the IEEE International Conference on Data Mining][procicdm],
+_Convexity of Proper Composite Binary Losses_. Mark D. Reid and [Robert C. Williamson][bob].
+To appear in [Proc. of the Thirteenth International Conference on Artificial Intelligence and Statistics (AISTATS 2010)][aistats2010],
+**2010**
+
+_[Kernel Conditional Quantile Estimation via Reduction Revisited][icdm09]_. [Novi Quadrianto][novi], [Kristian Kersting][kristian], Mark Reid, [Tiberio Caetano][tiberio], and [Wray Buntine][wray]. In the
+[Proc. of the IEEE International Conference on Data Mining (ICDM 2009)][procicdm],
 **2009**
 
 _[Generalised Pinsker Inequalities][colt09]{:.pdf }_. ([Slides][colt09slides])
-Mark D. Reid and [Robert C. Williamson][bob]
-Proc. of the 22nd Annual Conference on Learning Theory,
+Mark D. Reid and [Robert C. Williamson][bob].
+In the [Proc. of the 22nd Annual Conference on Learning Theory (COLT 2009)][proccolt09],
 **2009**
 
 _[Surrogate Regret Bounds for Proper Losses][icml09]{:.pdf }_. ([Slides][icml09slides])
-Mark D. Reid and [Robert C. Williamson][bob]
-Proc. of the 26th International Conference on Machine Learning,
+Mark D. Reid and [Robert C. Williamson][bob].
+In the [Proc. of the 26th International Conference on Machine Learning (ICML 2009)][procicml09],
 **2009**
 
 _[Improving Rule Evaluation Using Multitask Learning][ilp04]{:.pdf :}_.
 Mark D. Reid.
-Proc. of the 14th International Conference on ILP, pp. 252-269,
+In the Proc. of the 14th International Conference on ILP, pp. 252-269,
 **2004**
 
 _[Using ILP to Improve Planning in Hierarchical Reinforcement Learning][ilp00]{:.pdf :}_.
 Mark Reid and [Malcolm Ryan][mal].
-Proc. of the 10th International Conference on ILP, pp. 174-190,
+In the Proc. of the 10th International Conference on ILP, pp. 174-190,
 **2000**
 
 _[Learning to Fly: An Application of Hierarchical Reinforcement Learning][icml00]{:.pdf :}_.
 [Malcolm Ryan][mal] and Mark Reid.
-Proc. of the 17th International Conference on Machine Learning, pp. 807-814,
+In the Proc. of the 17th International Conference on Machine Learning, pp. 807-814,
 **2000**
 
 _[NRMIS: A Noise Resistant Model Inference System][ds99]{:.pdf :}_.
@@ -101,14 +104,18 @@ Australian Application Number: 2006252174,
 **2006**
 </div>
 
+[aistats2010]: http://aistats.org/
+
 [icdm09]: /files/pubs/icdm09.pdf
 [procicdm]: http://www.cs.umbc.edu/ICDM09/program.html
 
 [colt09]: /files/pubs/colt09.pdf
 [colt09slides]: http://users.rsise.anu.edu.au/~mreid/files/slides/COLT2009.pdf
+[proccolt09]: http://www.cs.mcgill.ca/~colt2009/proceedings.html
 
 [icml09]: /files/pubs/icml09.pdf
 [icml09slides]: http://users.rsise.anu.edu.au/~mreid/files/slides/ICML2009.pdf
+[procicml09]: http://www.cs.mcgill.ca/~icml2009/abstracts.html
 
 [unsw07]: /files/pubs/unsw07.pdf
 [isj01]: /files/pubs/isj02.pdf

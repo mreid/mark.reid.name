@@ -11,12 +11,14 @@ Research
 I'm a post-doctoral Research Fellow in the 
 [Research School of Information Sciences and Engineering][rsise] 
 at the [Australian National University][anu] in Canberra, Australia. 
-I work with other members of the [Statistical Machine Learning][sml] 
-group in the [Computer Sciences Lab][csl]. As of July 2009, I also work part-time with [NICTA][]'s research groups.
+I work with other members of the [Artificial Intelligence][ai] 
+group. As of July 2009, I also work part-time with [NICTA][]'s 
+[Statistical Machine Learning][sml] research group.
 
 [rsise]: http://rsise.anu.edu.au/
 [anu]: http://anu.edu.au/
-[sml]: http://sml.rsise.anu.edu.au/
+[ai]: http://ai.cecs.anu.edu.au/
+[sml]: http://sml.nicta.com.au/
 [csl]: http://csl.rsise.anu.edu.au/
 
 +-- {.section}
@@ -48,17 +50,14 @@ My office is on the 3rd floor of the [NICTA][] Canberra Research Lab ([Map][]).
 +-- {.section}
 News
 ====
+_16 February 2010:_
+My paper with Bob Williamson on _Convexity of Proper Composite Binary Losses_ was accepted to [AISTATS 2010](http://aistats.org).
+
 _18 Nov 2009:_
 Spoke about Spam filtering to Year 10 students at Yass High School as part of the [Mathematicians in Schools](http://www.mathematiciansinschools.edu.au/) project. 
 
 _5 Sep 2009_:
 _[Kernel Conditional Quantile Estimation via Reduction Revisited](/files/pubs/icdm09.pdf)_ was accepted as a short paper to [ICDM 2009][icdmconf].
-
-_25 May 2009_:
-With the help of the organisers, I have set up a [discussion site][icmldisc] for [ICML 2009][icmlconf].
-
-_2 May 2009_:
-"[Generalised Pinsker Inequalities][colt09]" was accepted at [COLT 2009][coltconf]. ([Slides][colt09slides])
 =--
 
 [icdmconf]: http://www.cs.umbc.edu/ICDM09/program.html

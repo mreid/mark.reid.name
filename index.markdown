@@ -11,7 +11,7 @@ Welcome
 =======
 
 I'm Mark Reid, a 30-something Australian, academic, husband, programmer, father, 
-snowboarder, and web-nerd -- amongst other things. You can find out more about 
+snowboarder, and web-nerd---amongst other things. You can find out more about 
 be by poking around the links above and below.
 
 +--	{.section}
