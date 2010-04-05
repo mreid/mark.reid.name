@@ -20,11 +20,15 @@ my [GitHub](http://github.com/mreid/Bandits/) repository, along with the source 
     </tr>
     <tr>
         <td style="vertical-align: top; width: 40%;">
-            <ol id="bandit"></ol>
+            <ol id="bandit">
+                
+            </ol>
         </td>
 
         <td style="vertical-align: top; width: 40%;">
-            <ol id="agent"></ol>
+            <ol id="agent">
+                
+            </ol>
         </td>
         <td style="vertical-align: top;">
             Run game for
@@ -54,11 +58,12 @@ The results are plotted below the UI. Rewards for bandits are drawn in light
 grey, agents are in colour and are listed in the plot's legend. (The "Averages"
 check box determines whether running totals or averages are displayed).
 
-<script src="js/lib/jquery.js" type="text/javascript"></script>
-<script src="js/lib/jquery.flot.min.js" type="text/javascript"></script>
-<script src="js/bandits.js" type="text/javascript"></script>
-<script src="js/agents.js" type="text/javascript"></script>
-<script src="js/ui.js" type="text/javascript"></script>
+<div>
+<script src="js/lib/jQuery.js" type="text/javascript"> </script>
+<script src="js/lib/jquery.flot.min.js" type="text/javascript"> </script>
+<script src="js/bandits.js" type="text/javascript"> </script>
+<script src="js/agents.js" type="text/javascript"> </script>
+<script src="js/ui.js" type="text/javascript"> </script>
 
 <script type="text/javascript">
 $(document).ready(function(){        
@@ -67,3 +72,4 @@ $(document).ready(function(){
     $("#run").click(runGame);
 });
 </script>
+</div>
