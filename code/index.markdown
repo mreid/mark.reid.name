@@ -12,6 +12,14 @@ Eventually this page will contain links to most of the research and non-research
 related programming I've done.
 
 <div class="section" markdown="1">
+Demos
+=====
+[Mutli-armed Bandits](/code/bandits/)
+:	This JavaScript demo allows you to configure and run a multi-armed bandit game
+    and plot the resulting rewards for a variety of agents.
+</div>
+
+<div class="section" markdown="1">
 Tools
 =====
 [Feed Bag](/code/feed-bag.html)

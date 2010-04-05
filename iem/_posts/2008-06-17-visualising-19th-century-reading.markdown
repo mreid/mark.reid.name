@@ -33,7 +33,7 @@ After an initial inspection, my first thought was to try to visualise the simila
 The full database contains 99,692 loans of 7,078 different books from 11 libraries by one of the 2,642 people. To make this more manageable, I focused on books that had at least 20 different borrowers and only considered people who had borrowed one of these books.
 This distilled the database down to a simple table with each row representing one of 1,616 books and each column representing one of 2,473 people. 
 
-<table>
+<table class="neat">
 <caption>Table 1: A portion of the book and borrower table. A 1 indicates that the borrower (column)
 borrowed the book (row) at least once. A 0 indicates that the borrower never borrowed the book.
 </caption>
@@ -75,7 +75,7 @@ A standard technique for doing this is [Principal Component Analysis][pca]. Intu
 
 [pca]: http://en.wikipedia.org/wiki/Principal_components_analysis
 
-<table>
+<table class="neat">
 <caption>Table 2: A portion of the book table after PCA. The values in the two new columns (PCA IDs) can be used to plot the books.
 </caption>
 <tr><th rowspan="2" class="title">Book<br/>ID</th><th colspan="2" class="title">PCA ID</th></tr>

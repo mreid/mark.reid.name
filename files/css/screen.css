@@ -140,16 +140,16 @@ blockquote {
 	border-bottom: 1px solid silver;
 }
 /* @group Table */
-table {
+table.neat {
 	width: 80%;
 	margin: 1.5em auto 1.5em auto;
 	table-layout: fixed;
 	border-spacing: 0;
 }
-table tr { text-align: center; }
-table th { font-weight: normal; background-color: #eeeeee; }
-table td { background-color: white; }
-table th.title { border-bottom: 1px solid gray; border-top: 1px solid gray; vertical-align: bottom; background-color: lightgrey; }
+table.neat tr { text-align: center; }
+table.neat th { font-weight: normal; background-color: #eeeeee; }
+table.neat td { background-color: white; }
+table.neat th.title { border-bottom: 1px solid gray; border-top: 1px solid gray; vertical-align: bottom; background-color: lightgrey; }
 caption { 
 	color: #333;
 	font-size: 0.875em;
