@@ -149,7 +149,7 @@ function makeSelector(kind) {
     var li = $("<li/>").addClass(kind.name);
     var select = $("<select/>");
     for(type in kind.types) {
-        var option = $('<option/>').attr('label', type);
+        var option = $('<option/>').val(type).text(type);
         select.append(option);
         select.change(function(event) {
             var value = $(this).val();
