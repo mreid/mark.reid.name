@@ -13,9 +13,14 @@ Be especially careful with some of the dynamic content and javascript I use on m
 
 * Google analytics - My personal Google analytics code is hard-coded into the `_layouts/default.html` template which every page inherits from. If you do not remove or change the Javascript at the bottom of this template all your site's traffic will be counted as mine. You don't want that.
 
-* Twitter, LibraryThing and Delicious feeds - The front page pulls in my tweets and recent reads. The "Links" page for my IEM blog pulls in my bookmarks. You will want to change these or remove them for your won site.
+* Twitter, LibraryThing and Delicious feeds - The front page pulls in my tweets and recent reads. The "Links" page for my IEM blog pulls in my bookmarks. You will want to change these or remove them for your own site.
 
-Basically, the rule is this: _if you don't understand it or didn't write it then remove it_. Thanks.
+Basically, the rules are these: 
+
+* _If you don't understand it or didn't write it then remove it_. 
+* _Test your site on a local machine before you upload your site_. 
+
+Thanks.
 
 License
 =======
