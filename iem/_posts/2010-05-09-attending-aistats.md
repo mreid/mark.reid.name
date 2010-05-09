@@ -23,7 +23,9 @@ Some of the posters and talks I'm looking forward to include:
 
 * _[Structured Prediction Cascades][taskar]_ by Weiss and Taskar
 
-I'll be standing by a poster on Friday explaining [Bob Williamson][bob] and my [work][mine] on some characterisations of the convexity of a natural class of losses for binary class [probability estimation][probest]. Please drop by and say hello if you are also going to be at AISTATS.
+I'll be standing by a poster on Friday explaining [Bob Williamson][bob] and my [work][mine] on some characterisations of the convexity of a natural class of losses for binary class [probability estimation][probest]. 
+
+Please drop by and say hello if you are also going to be at AISTATS.
 
 [bob]: http://axiom.anu.edu.au/~williams/
 [aistats]: http://www.aistats.org/
