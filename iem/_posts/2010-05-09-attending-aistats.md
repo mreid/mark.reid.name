@@ -3,7 +3,7 @@ title: Attending AISTATS
 
 excerpt: I will be attending AISTATS 2010 and presenting a poster on a characterisation of the convexity of composite binary losses.
 
-location: Cambridge, United Kingdon
+location: Cambridge, United Kingdom
 
 layout: iem-post
 
