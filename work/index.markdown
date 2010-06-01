@@ -50,6 +50,9 @@ My office is on the 3rd floor of the [NICTA][] Canberra Research Lab ([Map][]).
 +-- {.section}
 News
 ====
+_31 May 2010:_
+I have made available a pre-print of my article on _[Generalization Bounds](http://dl.dropbox.com/u/38668/Papers/Generalization_Bounds.pdf)_ from the forthcoming [Encyclopedia of Machine Learning](http://www.springer.com/computer/ai/book/978-0-387-30768-8).
+
 _16 February 2010:_
 My paper with Bob Williamson on _Convexity of Proper Composite Binary Losses_ was accepted to [AISTATS 2010](http://aistats.org).
 

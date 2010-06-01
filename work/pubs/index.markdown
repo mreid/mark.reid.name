@@ -9,20 +9,24 @@ Below are some of the papers I have had published. Clicking on the title will
 download a PDF copy of the paper.
 
 <div class="section" markdown="1">
+Book Chapters
+=============
+_[Generalization Bounds][bounds]_. Mark D. Reid. 
+Pre-print. To appear in the [Encyclopedia of Machine Learning](http://www.springer.com/computer/ai/book/978-0-387-30768-8), 
+September **2010**.
+
+_Squinting at a Sea of Dots: Visualising
+Australian Readerships using Statistical Machine Learning_. [Julieanne Lamond][julieanne] and Mark D. Reid. 
+Resourceful Reading: The New Empiricism, eResearch and Australian Literary Culture, January **2010**.
+</div>
+
+<div class="section" markdown="1">
 Journal Articles
 ================
 _[Cross-training and its Application to Skill-Mining][isj01]{:.pdf :}_.
 Daniel Oblinger, Mark Reid, Mark Brodie, and Rodrigo de Salvo Braz.
 IBM Systems Journal (Vol. 41, No. 3), pp. 449-460, 
 **2002**
-</div>
-
-<div class="section" markdown="1">
-Book Chapters
-=============
-_Squinting at a Sea of Dots: Visualising
-Australian Readerships using Statistical Machine Learning_. [Julieanne Lamond][julieanne] and Mark D. Reid. 
-Resourceful Reading: The New Empiricism, eResearch and Australian Literary Culture, January **2010**.
 </div>
 
 <div class="section" markdown="1">
@@ -104,6 +108,7 @@ Australian Application Number: 2006252174,
 **2006**
 </div>
 
+[bounds]: http://dl.dropbox.com/u/38668/Papers/Generalization_Bounds.pdf
 [aistats2010]: http://aistats.org/
 
 [icdm09]: /files/pubs/icdm09.pdf
