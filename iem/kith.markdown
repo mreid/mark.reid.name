@@ -27,6 +27,7 @@ exhaustive. They represent those I find most interesting and which are updated
 on a semi-regular basis:
 
 *  John Langford's [Machine Learning (Theory)](http://hunch.net)
+*  Jake Abernethy et al.'s [Inherent Uncertainty](http://inherentuncertainty.org/)
 *  Peter Turney's [Apperceptual](http://apperceptual.wordpress.com)
 *  William Cohen's [Cranial Darwinism](http://wcohen.blogspot.com)
 *  Brendan O'Connor's [AI and Social Science](http://anyall.org/blog/) blog

@@ -50,6 +50,10 @@ My office is on the 3rd floor of the [NICTA][] Canberra Research Lab ([Map][]).
 +-- {.section}
 News
 ====
+_14 June 2010:_ Launched a new [discussion site](http://mldiscuss.appspot.com) for [ICML 2010](http://www.icml2010.org).
+
+_9 June 2010:_ Gave two more talks at Yass High School as part of the [Mathematicians in Schools](http://www.mathematiciansinschools.edu.au/) project.
+
 _31 May 2010:_
 I have made available a pre-print of my article on _[Generalization Bounds](http://dl.dropbox.com/u/38668/Papers/Generalization_Bounds.pdf)_ from the forthcoming [Encyclopedia of Machine Learning](http://www.springer.com/computer/ai/book/978-0-387-30768-8).
 
@@ -74,7 +78,9 @@ _[Kernel Conditional Quantile Estimation via Reduction Revisited](/files/pubs/ic
 +-- {.section}
 Activities
 ==========
-As well as reviewing for journals ([JMLR][], [PAMI][] and [Trans. on Info. Theory][infotheory]) and conferences ([NIPS][], [ICML][], [COLT][], and [UAI][]), I have also set up a [discussion site][icmldisc] for ICML 2008 and 2009 and [presented][mlss2009] at the 2009 Machine Learning Summer School.
+Currently I am local organiser for the upcoming [ALT 2010](http://www-alg.ist.hokudai.ac.jp/~thomas/ALT10/alt10.jhtml) as well as a member of its [Program Committee](http://www-alg.ist.hokudai.ac.jp/~thomas/ALT10/pc.html).
+I have reviewed for journals ([JMLR][], [PAMI][] and [Trans. on Info. Theory][infotheory]), conferences ([NIPS][], [ICML][], [COLT][], and [UAI][]),
+and have also set up a [discussion site][icmldisc] for ICML 2008, 2009 and 2010 and [presented][mlss2009] at the 2009 Machine Learning Summer School.
 =--
 
 [icmldisc]: http://www.conflate.net/icml/
