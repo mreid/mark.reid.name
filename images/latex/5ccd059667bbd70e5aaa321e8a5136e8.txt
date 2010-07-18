@@ -1,0 +1,3 @@
+<blahtex>
+<error><id>UnrecognisedCommand</id><arg>\]</arg><message>Unrecognised command "\]"</message></error>
+</blahtex>
