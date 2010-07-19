@@ -23,6 +23,10 @@ Resourceful Reading: The New Empiricism, eResearch and Australian Literary Cultu
 <div class="section" markdown="1">
 Journal Articles
 ================
+_Composite Binary Losses_. Mark D. Reid and [Robert C. Williamson][bob].
+To appear in JMLR. ([arXiv Preprint](http://arxiv.org/abs/0912.3301))
+**2010**
+
 _[Cross-training and its Application to Skill-Mining][isj01]{:.pdf :}_.
 Daniel Oblinger, Mark Reid, Mark Brodie, and Rodrigo de Salvo Braz.
 IBM Systems Journal (Vol. 41, No. 3), pp. 449-460, 
@@ -32,8 +36,8 @@ IBM Systems Journal (Vol. 41, No. 3), pp. 449-460,
 <div class="section" markdown="1">
 Conference Papers
 =================
-_Convexity of Proper Composite Binary Losses_. Mark D. Reid and [Robert C. Williamson][bob].
-To appear in [Proc. of the Thirteenth International Conference on Artificial Intelligence and Statistics (AISTATS 2010)][aistats2010],
+_[Convexity of Proper Composite Binary Losses][aistats10]_. Mark D. Reid and [Robert C. Williamson][bob].
+[Proc. of the Thirteenth International Conference on Artificial Intelligence and Statistics (AISTATS 2010)][aistats2010],
 **2010**
 
 _[Kernel Conditional Quantile Estimation via Reduction Revisited][icdm09]_. [Novi Quadrianto][novi], [Kristian Kersting][kristian], Mark Reid, [Tiberio Caetano][tiberio], and [Wray Buntine][wray]. In the
@@ -110,6 +114,7 @@ Australian Application Number: 2006252174,
 
 [bounds]: http://dl.dropbox.com/u/38668/Papers/Generalization_Bounds.pdf
 [aistats2010]: http://aistats.org/
+[aistats10]: http://jmlr.csail.mit.edu/proceedings/papers/v9/reid10a/reid10a.pdf
 
 [icdm09]: /files/pubs/icdm09.pdf
 [procicdm]: http://www.cs.umbc.edu/ICDM09/program.html
