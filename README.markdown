@@ -1,7 +1,11 @@
 Mark.Reid.name
 ==============
 
-This repository contains the source for my personal site at <http://mark.reid.name>.
+This repository **contained** the source for my personal site at <http://mark.reid.name> up until early 2013. After then I [switched from Jekyll to Hakyll][switch].
+
+My site's new repository is now here: https://github.com/mreid/markreidname-hakyll
+
+[switch]: http://mark.reid.name/blog/switching-to-hakyll.html
 
 IMPORTANT!
 ===========
